@@ -13,7 +13,7 @@ Hi 👋 I'm a Computer Science student passionate about building Ai Based projec
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=TheVoidJulius&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=TheVoidJulius&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
+[![trophy](https://github-profile-trophy.vercel.app/?username=TheVoidJulius)](https://github.com/TheVoidJulius/github-profile-trophy)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
