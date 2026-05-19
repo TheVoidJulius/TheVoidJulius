@@ -24,7 +24,7 @@
 
 ```
   ⚡ Name        :  Ren  [ TheVoidJulius ]
-  🚀 Role        :  Full Stack Developer  +  ML / AI Explorer
+  🚀 Role        :  Founder @OctaraX  +  ML / AI Explorer
   🌍 Based in    :  India 🇮🇳
   🎓 Learning    :  Deep Learning  |  System Design  |  Cloud Architecture
   🌑 Philosophy  :  Code is a universe — build it with intention
@@ -47,7 +47,7 @@
 |---|---|---|
 | **VoidOS** — Personal dev dashboard | React + Node.js + MongoDB | 🟡 In Progress |
 | **NeuralVoid** — ML model playground | Python + PyTorch + FastAPI | 🟢 Active |
-| **CelestialAPI** — Collab with [@TheVoidCelestia](https://github.com/TheVoidCelestia) | Node.js + Express | 🔵 Planning |
+| **CelestialAPI** — Collab with [@TheVoidCelestia](https://github.com/TheVoidCelestia) | Yet To Reveal | 🔵 Planning |
 
 ---
 
@@ -66,8 +66,6 @@
 **🔧 Backend**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 **🤖 ML / AI**
@@ -81,7 +79,6 @@
 **🗄️ Databases & DevOps**
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -122,7 +119,6 @@
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheVoidJulius&bg_color=0D0D1A&color=9B5DE5&line=00BBF9&point=F15BB5&area=true&hide_border=false&border_color=9B5DE5" width="100%"/>
 
-![snake animation](https://github.com/TheVoidJulius/TheVoidJulius/blob/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
@@ -150,9 +146,7 @@
 ### 🌠 Find Me in the Cosmos
 
 [![GitHub](https://img.shields.io/badge/GitHub-TheVoidJulius-9B5DE5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheVoidJulius)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![Twitter](https://img.shields.io/badge/Twitter-@TheVoidJulius-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9B5DE5?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/TheVoidJulius)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/pushkar-panwar-1b7690381)
 
 <br/>
 
