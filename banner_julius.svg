@@ -1,0 +1,165 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0535"/>
+      <stop offset="50%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#050510"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9B5DE5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#9B5DE5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00BBF9" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00BBF9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="2.5"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .s1 { animation: twinkle1 2.8s ease-in-out infinite alternate; }
+      .s2 { animation: twinkle2 3.5s ease-in-out infinite alternate; }
+      .s3 { animation: twinkle3 2.1s ease-in-out infinite alternate; }
+      .s4 { animation: twinkle4 4.2s ease-in-out infinite alternate; }
+      .s5 { animation: twinkle5 1.9s ease-in-out infinite alternate; }
+      @keyframes twinkle1 { 0%{opacity:0.15} 100%{opacity:1} }
+      @keyframes twinkle2 { 0%{opacity:0.8} 100%{opacity:0.1} }
+      @keyframes twinkle3 { 0%{opacity:0.4} 100%{opacity:0.95} }
+      @keyframes twinkle4 { 0%{opacity:0.9} 100%{opacity:0.2} }
+      @keyframes twinkle5 { 0%{opacity:0.2} 100%{opacity:0.7} }
+      .shoot { animation: shooting 6s linear infinite; opacity: 0; }
+      .shoot2 { animation: shooting 9s linear 3s infinite; opacity: 0; }
+      @keyframes shooting {
+        0%   { opacity:0; transform:translate(0,0); }
+        5%   { opacity:1; }
+        30%  { opacity:0; transform:translate(120px,40px); }
+        100% { opacity:0; transform:translate(120px,40px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bgGrad)"/>
+
+  <!-- Glow orbs -->
+  <ellipse cx="200" cy="110" rx="180" ry="100" fill="url(#glowPurple)"/>
+  <ellipse cx="700" cy="110" rx="160" ry="90" fill="url(#glowCyan)"/>
+  <ellipse cx="450" cy="80" rx="120" ry="60" fill="url(#glowPurple)" opacity="0.5"/>
+
+  <!-- Wave bottom -->
+  <path d="M0,185 Q150,165 300,180 Q450,195 600,175 Q750,155 900,178 L900,220 L0,220 Z" fill="#0d0d1a" opacity="0.7"/>
+  <path d="M0,195 Q200,178 400,192 Q600,206 900,190 L900,220 L0,220 Z" fill="#050510" opacity="0.9"/>
+
+  <!-- Stars - tiny dots layer 1 (very small, many) -->
+  <g fill="white">
+    <circle class="s1" cx="23"  cy="14"  r="0.7" opacity="0.5"/>
+    <circle class="s3" cx="67"  cy="38"  r="0.5" opacity="0.6"/>
+    <circle class="s2" cx="112" cy="9"   r="0.8" opacity="0.4"/>
+    <circle class="s4" cx="145" cy="52"  r="0.6" opacity="0.7"/>
+    <circle class="s5" cx="189" cy="21"  r="0.7" opacity="0.5"/>
+    <circle class="s1" cx="234" cy="44"  r="0.5" opacity="0.6"/>
+    <circle class="s3" cx="278" cy="11"  r="0.8" opacity="0.3"/>
+    <circle class="s2" cx="312" cy="63"  r="0.6" opacity="0.8"/>
+    <circle class="s4" cx="356" cy="28"  r="0.7" opacity="0.4"/>
+    <circle class="s5" cx="398" cy="48"  r="0.5" opacity="0.6"/>
+    <circle class="s1" cx="445" cy="18"  r="0.8" opacity="0.5"/>
+    <circle class="s3" cx="489" cy="55"  r="0.6" opacity="0.7"/>
+    <circle class="s2" cx="523" cy="33"  r="0.7" opacity="0.4"/>
+    <circle class="s4" cx="578" cy="8"   r="0.5" opacity="0.8"/>
+    <circle class="s5" cx="612" cy="47"  r="0.8" opacity="0.3"/>
+    <circle class="s1" cx="656" cy="22"  r="0.6" opacity="0.6"/>
+    <circle class="s3" cx="701" cy="59"  r="0.7" opacity="0.5"/>
+    <circle class="s2" cx="745" cy="13"  r="0.5" opacity="0.7"/>
+    <circle class="s4" cx="789" cy="41"  r="0.8" opacity="0.4"/>
+    <circle class="s5" cx="834" cy="17"  r="0.6" opacity="0.6"/>
+    <circle class="s1" cx="867" cy="55"  r="0.7" opacity="0.5"/>
+    <circle class="s3" cx="45"  cy="71"  r="0.5" opacity="0.6"/>
+    <circle class="s2" cx="89"  cy="88"  r="0.8" opacity="0.3"/>
+    <circle class="s4" cx="167" cy="79"  r="0.6" opacity="0.7"/>
+    <circle class="s5" cx="215" cy="93"  r="0.7" opacity="0.4"/>
+    <circle class="s1" cx="260" cy="75"  r="0.5" opacity="0.6"/>
+    <circle class="s3" cx="335" cy="96"  r="0.8" opacity="0.5"/>
+    <circle class="s2" cx="382" cy="81"  r="0.6" opacity="0.7"/>
+    <circle class="s4" cx="420" cy="97"  r="0.7" opacity="0.3"/>
+    <circle class="s5" cx="466" cy="74"  r="0.5" opacity="0.8"/>
+    <circle class="s1" cx="544" cy="89"  r="0.8" opacity="0.4"/>
+    <circle class="s3" cx="590" cy="72"  r="0.6" opacity="0.6"/>
+    <circle class="s2" cx="635" cy="91"  r="0.7" opacity="0.5"/>
+    <circle class="s4" cx="678" cy="77"  r="0.5" opacity="0.7"/>
+    <circle class="s5" cx="724" cy="95"  r="0.8" opacity="0.3"/>
+    <circle class="s1" cx="768" cy="82"  r="0.6" opacity="0.6"/>
+    <circle class="s3" cx="812" cy="68"  r="0.7" opacity="0.5"/>
+    <circle class="s2" cx="856" cy="90"  r="0.5" opacity="0.7"/>
+    <circle class="s1" cx="34"  cy="155" r="0.6" opacity="0.3"/>
+    <circle class="s3" cx="78"  cy="138" r="0.7" opacity="0.5"/>
+    <circle class="s4" cx="120" cy="162" r="0.5" opacity="0.4"/>
+    <circle class="s2" cx="780" cy="145" r="0.7" opacity="0.3"/>
+    <circle class="s5" cx="830" cy="158" r="0.6" opacity="0.5"/>
+    <circle class="s1" cx="870" cy="140" r="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Stars - medium glowing -->
+  <g filter="url(#blur1)">
+    <circle class="s2" cx="55"  cy="25"  r="1.5" fill="#ffffff" opacity="0.8"/>
+    <circle class="s4" cx="180" cy="60"  r="1.8" fill="#c0a0ff" opacity="0.7"/>
+    <circle class="s1" cx="290" cy="35"  r="1.5" fill="#ffffff" opacity="0.9"/>
+    <circle class="s3" cx="370" cy="55"  r="1.8" fill="#a0d0ff" opacity="0.6"/>
+    <circle class="s5" cx="500" cy="25"  r="1.5" fill="#ffffff" opacity="0.8"/>
+    <circle class="s2" cx="620" cy="45"  r="1.8" fill="#c0a0ff" opacity="0.7"/>
+    <circle class="s4" cx="730" cy="30"  r="1.5" fill="#ffffff" opacity="0.9"/>
+    <circle class="s1" cx="840" cy="50"  r="1.8" fill="#a0d0ff" opacity="0.6"/>
+    <circle class="s3" cx="130" cy="85"  r="1.5" fill="#ffffff" opacity="0.7"/>
+    <circle class="s5" cx="460" cy="90"  r="1.8" fill="#c0a0ff" opacity="0.8"/>
+    <circle class="s2" cx="800" cy="75"  r="1.5" fill="#ffffff" opacity="0.7"/>
+  </g>
+
+  <!-- Stars - big bright ones -->
+  <g filter="url(#blur2)">
+    <circle class="s1" cx="88"  cy="42"  r="3" fill="#9B5DE5" opacity="0.9"/>
+    <circle class="s3" cx="320" cy="20"  r="2.5" fill="#00BBF9" opacity="0.8"/>
+    <circle class="s5" cx="580" cy="55"  r="3" fill="#9B5DE5" opacity="0.9"/>
+    <circle class="s2" cx="860" cy="28"  r="2.5" fill="#00BBF9" opacity="0.8"/>
+    <circle class="s4" cx="450" cy="85"  r="2.5" fill="#F15BB5" opacity="0.6"/>
+  </g>
+
+  <!-- Shooting star 1 -->
+  <g class="shoot" transform="translate(50,20)">
+    <line x1="0" y1="0" x2="-40" y2="-13" stroke="white" stroke-width="1.2" opacity="0.9"/>
+    <circle cx="0" cy="0" r="1.5" fill="white"/>
+  </g>
+
+  <!-- Shooting star 2 -->
+  <g class="shoot2" transform="translate(700,15)">
+    <line x1="0" y1="0" x2="-50" y2="-17" stroke="#c0a0ff" stroke-width="1" opacity="0.8"/>
+    <circle cx="0" cy="0" r="1.2" fill="#c0a0ff"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="450" y="105" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="48" font-weight="700" fill="white" filter="url(#textGlow)" letter-spacing="3">
+    TheVoidJulius
+  </text>
+
+  <!-- Purple underline accent -->
+  <rect x="270" y="115" width="360" height="2.5" rx="1.5" fill="#9B5DE5" opacity="0.9"/>
+  <rect x="350" y="115" width="200" height="2.5" rx="1.5" fill="#00BBF9" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="450" y="148" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="15" fill="#c0a0ff" opacity="0.85" letter-spacing="1.5">
+    Ren  ·  Traversing the Void, one commit at a time
+  </text>
+
+  <!-- Small bottom tag -->
+  <text x="450" y="172" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif"
+        font-size="11" fill="#9B5DE5" opacity="0.55" letter-spacing="4">
+    FULL STACK  ·  ML / AI  ·  OPEN SOURCE
+  </text>
+</svg>
