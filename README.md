@@ -1,31 +1,104 @@
-# 💫 About Me:
-Hi 👋 I'm a Computer Science student passionate about building Ai Based projects and learning new technologies. I enjoy solving problems and continuously improving my development skills.<br><br>🔭 I’m currently working on:<br>An Attendance Shortage Calculator that helps students track attendance and avoid shortages.<br><br>👯 I’m looking to collaborate on:<br>Beginner-friendly web development and software projects.<br><br>🤝 I’m looking for help with:<br>Backend development and improving project structure.<br><br>🌱 I’m currently learning:<br>Java, Python, Web Development, Git and GitHub.<br><br>💬 Ask me about:<br>Java basics, Python, HTML, CSS, and beginner-level projects.<br><br>⚡ Fun fact:<br>I believe consistency beats talent when learning to code.<br>
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/zeus.arc) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pushkar-panwar/) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://www.pinterest.com/pushkarpanwar0001) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Vengeance022006) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pushkarpanwar0001@gmail.com) 
-
-
 <div align="center">
-  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D1A,50:1a0535,100:0a1f40&height=220&section=header&text=TheVoidJulius&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Ren%20%7C%20Traversing%20the%20Void%2C%20one%20commit%20at%20a%20time&descAlignY=58&descSize=17&animation=fadeIn" width="100%"/>
+<br/>
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=9B5DE5&center=true&vCenter=true&width=550&lines=Full+Stack+Developer+%F0%9F%9A%80;ML+%2F+AI+Explorer+%F0%9F%A4%96;Open+Source+Contributor+%F0%9F%8C%9F;Void+Wanderer+%F0%9F%8C%91;Building+in+the+dark+between+stars+%E2%9C%A8)
+<br/>
+<a href="https://github.com/TheVoidCelestia">
+  <img src="https://img.shields.io/badge/✨ Orbiting with-TheVoidCelestia-F15BB5?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=TheVoidJulius&label=Profile+Views&color=9B5DE5&style=for-the-badge"/>
 </div>
-
-
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=flat&logo=netlify&logoColor=#00C7B7) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat&logo=anaconda&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=flat&logo=flask&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=flat&logo=opencv&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=flat&logo=streamlit&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=flat&logo=Adobe%20After%20Effects&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat&logo=Arduino&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TheVoidJulius&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=TheVoidJulius&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TheVoidJulius&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=TheVoidJulius)](https://github.com/TheVoidJulius/github-profile-trophy)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
-
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/https://buymeacoffee.com/void_maximus) 
-
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+<div align="center">
+🌌 Who Am I?
+```
+  ⚡ Name        :  Ren  [ TheVoidJulius ]
+  🚀 Role        :  Full Stack Developer  +  ML / AI Explorer
+  🌍 Based in    :  India 🇮🇳
+  🎓 Learning    :  Deep Learning  |  System Design  |  Cloud Architecture
+  🌑 Philosophy  :  Code is a universe — build it with intention
+  💫 Co-pilot    :  TheVoidCelestia [ Rei ] 🌸
+  📡 Status      :  Open to collabs, internships & OSS contributions
+  📬 Contact     :  Available via GitHub or LinkedIn
+```
+</div>
+---
+<div align="center">
+🔭 Currently Building
+</div>
+🚀 Project	🛠️ Stack	📌 Status
+VoidOS — Personal dev dashboard	React + Node.js + MongoDB	🟡 In Progress
+NeuralVoid — ML model playground	Python + PyTorch + FastAPI	🟢 Active
+CelestialAPI — Collab with @TheVoidCelestia	Node.js + Express	🔵 Planning
+---
+<div align="center">
+🛸 Tech Arsenal
+⚡ Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+🔧 Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+🤖 ML / AI
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+🗄️ Databases & DevOps
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+</div>
+---
+<div align="center">
+📊 Void Metrics
+<img src="https://github-readme-stats.vercel.app/api?username=TheVoidJulius&show_icons=true&count_private=true&theme=tokyonight&border_color=9B5DE5&bg_color=0D0D1A&title_color=9B5DE5&icon_color=00BBF9&text_color=ffffff&rank_icon=github" height="170"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheVoidJulius&layout=compact&theme=tokyonight&border_color=9B5DE5&bg_color=0D0D1A&title_color=9B5DE5&text_color=ffffff&langs_count=8" height="170"/>
+<br/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=TheVoidJulius&theme=tokyonight&border=9B5DE5&background=0D0D1A&ring=9B5DE5&fire=F15BB5&currStreakLabel=00BBF9&sideLabels=9B5DE5" width="500"/>
+</div>
+---
+<div align="center">
+🏆 Trophies from the Void
+<img src="https://github-profile-trophy.vercel.app/?username=TheVoidJulius&theme=tokyonight&no-frame=true&column=7&margin-w=4&margin-h=4" width="100%"/>
+</div>
+---
+<div align="center">
+📈 Contribution Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TheVoidJulius&bg_color=0D0D1A&color=9B5DE5&line=00BBF9&point=F15BB5&area=true&hide_border=false&border_color=9B5DE5" width="100%"/>
+![snake animation](https://github.com/TheVoidJulius/TheVoidJulius/blob/output/github-contribution-grid-snake-dark.svg)
+</div>
+---
+<div align="center">
+✨ Fun Facts from the Void
+```
+🎮  Currently playing    :  anything with lore deeper than the ocean
+🎵  Coding playlist      :  lo-fi beats + anime OSTs on loop
+📚  Reading              :  system design blogs & deep learning papers
+🌙  Peak coding hours    :  midnight → 3am  [ the void hours ]
+☕  Fuel                 :  coffee  ×  n   where  n → ∞
+🤝  Dream collab         :  building something epic with Rei  🌸
+```
+</div>
+---
+<div align="center">
+🌠 Find Me in the Cosmos
+![GitHub](https://img.shields.io/badge/GitHub-TheVoidJulius-9B5DE5?style=for-the-badge&logo=github&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+![Twitter](https://img.shields.io/badge/Twitter-@TheVoidJulius-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
+![Portfolio](https://img.shields.io/badge/Portfolio-Visit-9B5DE5?style=for-the-badge&logo=vercel&logoColor=white)
+<br/>
+"Two voids. One orbit. Building the universe together." 🌌
+<br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1f40,50:1a0535,100:0D0D1A&height=120&section=footer" width="100%"/>
+</div>
