@@ -23,7 +23,7 @@
 ### 🌌 Who Am I?
 
 ```
-  ⚡ Name        :  Ren  [ TheVoidJulius ]
+  ⚡ Name        :  Pushkar Panwar  [ TheVoidJulius ]
   🚀 Role        :  Founder @OctaraX  +  ML / AI Explorer
   🌍 Based in    :  India 🇮🇳
   🎓 Learning    :  Deep Learning  |  System Design  |  Cloud Architecture
