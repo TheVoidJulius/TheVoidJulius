@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/✨ Orbiting with-TheVoidCelestia-F15BB5?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=TheVoidJulius&label=Profile+Views&color=9B5DE5&style=for-the-badge"/>
+
 
 </div>
 
