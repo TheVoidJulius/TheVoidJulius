@@ -8,10 +8,7 @@
 
 <br/>
 
-<a href="https://github.com/TheVoidCelestia">
-  <img src="https://img.shields.io/badge/✨ Orbiting with-TheVoidCelestia-F15BB5?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-&nbsp;
+
 
 
 </div>
@@ -47,7 +44,7 @@
 |---|---|---|
 | **VoidOS** — Personal dev dashboard | React + Node.js + MongoDB | 🟡 In Progress |
 | **NeuralVoid** — ML model playground | Python + PyTorch + FastAPI | 🟢 Active |
-| **CelestialAPI** — Collab with [@TheVoidCelestia](https://github.com/TheVoidCelestia) | Yet To Reveal | 🔵 Planning |
+| **CelestialAPI** — | Yet To Reveal | 🔵 Planning |
 
 ---
 
@@ -150,7 +147,7 @@
 
 <br/>
 
-*"Two voids. One orbit. Building the universe together."* 🌌
+
 
 <br/>
 
