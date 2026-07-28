@@ -36,17 +36,7 @@
 
 <div align="center">
 
-### 🔭 Currently Building
 
-</div>
-
-| 🚀 Project | 🛠️ Stack | 📌 Status |
-|---|---|---|
-| **VoidOS** — Personal dev dashboard | React + Node.js + MongoDB | 🟡 In Progress |
-| **NeuralVoid** — ML model playground | Python + PyTorch + FastAPI | 🟢 Active |
-| **CelestialAPI** — | Yet To Reveal | 🔵 Planning |
-
----
 
 <div align="center">
 
@@ -123,16 +113,7 @@
 
 <div align="center">
 
-### ✨ Fun Facts from the Void
 
-```
-🎮  Currently playing    :  anything with lore deeper than the ocean
-🎵  Coding playlist      :  lo-fi beats + anime OSTs on loop
-📚  Reading              :  system design blogs & deep learning papers
-🌙  Peak coding hours    :  midnight → 3am  [ the void hours ]
-☕  Fuel                 :  coffee  ×  n   where  n → ∞
-🤝  Dream collab         :  building something epic with Rei  🌸
-```
 
 </div>
 
