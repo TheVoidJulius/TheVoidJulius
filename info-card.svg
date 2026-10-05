@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 262" width="490" height="262">
+<style>text{font-family:"SFMono-Regular",Menlo,Consolas,monospace;font-size:13px}.k{fill:#58a6ff;font-weight:bold}.v{fill:#c9d1d9}.t{fill:#8b949e}.g{fill:#3fb950}.l{opacity:0;animation:in .5s ease-out forwards}@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}</style>
+<rect x="0.5" y="0.5" width="489" height="261" rx="8" fill="#0d1117" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="489" height="30" rx="8" fill="#161b22"/>
+<circle cx="18" cy="15" r="5" fill="#ff5f56"/><circle cx="36" cy="15" r="5" fill="#ffbd2e"/><circle cx="54" cy="15" r="5" fill="#27c93f"/>
+<text x="245.0" y="19" text-anchor="middle" class="t" style="font-size:12px">thevoidjulius@github: ~</text>
+<g class="l" style="animation-delay:0.00s"><text x="20" y="50" class="g">$ neofetch</text></g>
+<g class="l" style="animation-delay:0.25s"><text x="20" y="74" class="k">Now</text><text x="130" y="74" class="v">OCTARAX (Hinglish AI captions)</text></g>
+<g class="l" style="animation-delay:0.50s"><text x="20" y="100" class="k">Building</text><text x="130" y="100" class="v">video caption editor, zero-cost stack</text></g>
+<g class="l" style="animation-delay:0.75s"><text x="20" y="126" class="k">Stack</text><text x="130" y="126" class="v">Python | MERN | SQL | AI | ML</text></g>
+<g class="l" style="animation-delay:1.00s"><text x="20" y="152" class="k">Highlights</text><text x="130" y="152" class="v">Google Gemini Ambassador</text></g>
+<g class="l" style="animation-delay:1.25s"><text x="130" y="178" class="v">GSSoC '26 contributor</text></g>
+<g class="l" style="animation-delay:1.50s"><text x="130" y="204" class="v">Microsoft Student Ambassador</text></g>
+<g class="l" style="animation-delay:1.75s"><text x="20" y="230" class="k">Member</text><text x="130" y="230" class="v">Tryst IIT Delhi, Mediaverse</text></g>
+</svg>
