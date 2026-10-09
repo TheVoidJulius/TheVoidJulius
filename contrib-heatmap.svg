@@ -369,7 +369,8 @@
 <rect class="c" x="814" y="49" width="12" height="12" rx="3" fill="#006d32" style="animation-delay:0.954s"/>
 <rect class="c" x="814" y="64" width="12" height="12" rx="3" fill="#0e4429" style="animation-delay:0.972s"/>
 <rect class="c" x="814" y="79" width="12" height="12" rx="3" fill="#0e4429" style="animation-delay:0.990s"/>
-<rect class="c" x="814" y="94" width="12" height="12" rx="3" fill="#161b22" style="animation-delay:1.008s"/>
+<rect class="c" x="814" y="94" width="12" height="12" rx="3" fill="#0e4429" style="animation-delay:1.008s"/>
+<rect class="c" x="814" y="109" width="12" height="12" rx="3" fill="#161b22" style="animation-delay:1.026s"/>
 <text x="34" y="24">Oct</text>
 <text x="94" y="24">Nov</text>
 <text x="169" y="24">Dec</text>
@@ -386,7 +387,7 @@
 <text x="4" y="59">Mon</text>
 <text x="4" y="89">Wed</text>
 <text x="4" y="119">Fri</text>
-<text x="34" y="161">517 contributions in the last year | streak 3d | longest 22d</text>
+<text x="34" y="161">518 contributions in the last year | streak 4d | longest 22d</text>
 <text x="669" y="161">Less</text>
 <rect x="701" y="151" width="12" height="12" rx="3" fill="#161b22"/>
 <rect x="716" y="151" width="12" height="12" rx="3" fill="#0e4429"/>
