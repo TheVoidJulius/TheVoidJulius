@@ -16,6 +16,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "contributions.json"
 SVG_FILE = ROOT / "contrib-heatmap.svg"
 STATS_FILE = ROOT / "assets" / "github-stats.svg"
+RECENT_DATA_FILE = ROOT / "data" / "recent-builds.json"
+RECENT_SVG_FILE = ROOT / "assets" / "recent-builds.svg"
+RECENT_LIMIT = 4
 LOGIN = os.environ.get("PROFILE_LOGIN", "TheVoidJulius")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -38,6 +41,174 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
   }
 }
 """
+
+RECENT_REPOSITORIES_QUERY = """
+query($login: String!) {
+  user(login: $login) {
+    repositories(
+      first: 100
+      affiliations: [OWNER]
+      privacy: PUBLIC
+      isFork: false
+      orderBy: { field: UPDATED_AT, direction: DESC }
+    ) {
+      nodes {
+        name
+        description
+        url
+        pushedAt
+        primaryLanguage { name color }
+        stargazerCount
+        forkCount
+        isArchived
+        isFork
+      }
+    }
+  }
+}
+"""
+
+
+def fetch_recent_repositories():
+    if not TOKEN:
+        raise RuntimeError("GITHUB_TOKEN is required to read public repositories")
+    body = json.dumps({
+        "query": RECENT_REPOSITORIES_QUERY,
+        "variables": {"login": LOGIN},
+    }).encode()
+    request = urllib.request.Request(
+        "https://api.github.com/graphql",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+            "User-Agent": f"{LOGIN}-profile-refresh",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            payload = json.load(response)
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", "replace")
+        raise RuntimeError(f"GitHub repository query failed ({exc.code}): {detail}") from exc
+    if payload.get("errors"):
+        raise RuntimeError("GitHub repository query error: " + json.dumps(payload["errors"]))
+    user = (payload.get("data") or {}).get("user")
+    if not user:
+        raise RuntimeError(f"GitHub user {LOGIN!r} was not returned")
+    nodes = user["repositories"]["nodes"]
+    repositories = [
+        node for node in nodes
+        if node.get("pushedAt")
+        and not node.get("isArchived")
+        and not node.get("isFork")
+        and node.get("name", "").casefold() != LOGIN.casefold()
+    ]
+    repositories.sort(key=lambda node: node["pushedAt"], reverse=True)
+    return repositories[:RECENT_LIMIT]
+
+
+def refresh_recent_builds(now):
+    repositories = fetch_recent_repositories()
+    records = [
+        {
+            "name": repo["name"],
+            "url": repo["url"],
+            "description": repo.get("description"),
+            "language": repo.get("primaryLanguage"),
+            "pushed_at": repo["pushedAt"],
+            "stars": repo.get("stargazerCount", 0),
+            "forks": repo.get("forkCount", 0),
+        }
+        for repo in repositories
+    ]
+    if not records:
+        raise RuntimeError("GitHub returned no public repositories with push activity")
+
+    previous = {}
+    if RECENT_DATA_FILE.exists():
+        try:
+            previous = json.loads(RECENT_DATA_FILE.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            previous = {}
+    if previous.get("repositories") == records:
+        print("No public repository activity changes.")
+        return False
+
+    record = {
+        "user": LOGIN,
+        "source": "GitHub GraphQL public repositories",
+        "generated_by": "commit-city refresh",
+        "updated_at_utc": now.isoformat(),
+        "repositories": records,
+    }
+    RECENT_DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    RECENT_SVG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    RECENT_DATA_FILE.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
+    RECENT_SVG_FILE.write_text(render_recent_builds_svg(now, records), encoding="utf-8")
+    print(f"Updated recent build stream with {len(records)} public repositories.")
+    return True
+
+
+def render_recent_builds_svg(now, repositories):
+    width = 1100
+    pad = 24
+    gap = 16
+    card_height = 112
+    row_gap = 12
+    rows = (len(repositories) + 1) // 2
+    height = 96 + rows * (card_height + row_gap) + 12
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        '<title id="title">TheVoidJulius live public build stream</title>',
+        '<desc id="desc">The four most recently pushed public, non-fork repositories, with source language, stars, forks, and exact push timestamps.</desc>',
+        '<defs><linearGradient id="stream-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1710"/><stop offset="1" stop-color="#07100B"/></linearGradient><linearGradient id="stream-accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63E6BE"/><stop offset="1" stop-color="#1F7850"/></linearGradient></defs>',
+        '<style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#63E6BE;font-size:10px;letter-spacing:2px}.headline{fill:#EAF4ED;font-size:20px;font-weight:700;letter-spacing:1px}.meta{fill:#91A79A;font-size:10px;letter-spacing:1px}.repo{fill:#ECF8F0;font-size:16px;font-weight:700}.detail{fill:#A5BCAF;font-size:11px}.rank{fill:#63E6BE;font-size:10px;letter-spacing:1px}</style>',
+        f'<rect x="2" y="2" width="{width - 4}" height="{height - 4}" rx="18" fill="url(#stream-bg)" stroke="#294734" stroke-width="2"/>',
+        '<text x="26" y="28" class="eyebrow">VOID / LIVE BUILD STREAM</text>',
+        '<text x="26" y="54" class="headline">RECENT REPOSITORY ACTIVITY</text>',
+        f'<text x="{width - 26}" y="28" class="meta" text-anchor="end">UPDATED {now:%Y-%m-%d %H:%M} UTC</text>',
+        '<text x="26" y="76" class="meta">PUBLIC · OWNER BUILDS · SORTED BY LATEST SOURCE PUSH · PROFILE REPO EXCLUDED</text>',
+        '<path d="M26 86h1048" stroke="#294734"/>',
+    ]
+    def short(value, limit):
+        value = str(value or "")
+        return value if len(value) <= limit else value[:limit - 1].rstrip() + "…"
+
+    for index, repo in enumerate(repositories):
+        row, column = divmod(index, 2)
+        full_last = len(repositories) % 2 == 1 and index == len(repositories) - 1
+        card_width = width - 2 * pad if full_last else (width - 2 * pad - gap) // 2
+        x = pad if full_last else pad + column * (card_width + gap)
+        y = 96 + row * (card_height + row_gap)
+        name_limit = 58 if card_width > 700 else 38
+        name = html.escape(short(repo["name"], name_limit))
+        url = html.escape(repo["url"], quote=True)
+        language = repo.get("language") or {}
+        language_name = language.get("name") or "LANGUAGE NOT SET"
+        description = repo.get("description")
+        detail = short(description, 76 if card_width > 700 else 42) if description else f"SOURCE / {language_name}"
+        detail = html.escape(detail)
+        pushed = datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00")).astimezone(timezone.utc)
+        pushed_label = pushed.strftime("%b %d · %H:%M UTC").upper()
+        stars = int(repo.get("stars") or 0)
+        forks = int(repo.get("forks") or 0)
+        out.extend([
+            f'<a href="{url}">',
+            f'<rect x="{x}" y="{y}" width="{card_width}" height="{card_height}" rx="12" fill="#0B1B12" stroke="#294734"/>',
+            f'<rect x="{x + 1}" y="{y + 14}" width="3" height="{card_height - 28}" rx="2" fill="url(#stream-accent)"/>',
+            f'<text x="{x + 18}" y="{y + 29}" class="repo">{name}</text>',
+            f'<text x="{x + card_width - 16}" y="{y + 28}" class="rank" text-anchor="end">BUILD {index + 1:02d}</text>',
+            f'<text x="{x + 18}" y="{y + 53}" class="detail">{detail}</text>',
+            f'<path d="M{x + 18} {y + 69}h{card_width - 36}" stroke="#203B2A"/>',
+            f'<text x="{x + 18}" y="{y + 91}" class="meta">PUSHED {pushed_label}</text>',
+            f'<text x="{x + card_width - 16}" y="{y + 91}" class="meta" text-anchor="end">STARS {stars}  /  FORKS {forks}</text>',
+            '</a>',
+        ])
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
+
 
 
 def fetch_calendar():
@@ -221,6 +392,9 @@ def render_stats_svg(now, total, days):
 
 
 def main():
+    if "--recent-only" in sys.argv[1:]:
+        refresh_recent_builds(datetime.now(timezone.utc))
+        return
     now, total, days = fetch_calendar()
     current, longest = streak_lengths(days)
     record = {
@@ -239,6 +413,10 @@ def main():
     DATA_FILE.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
     SVG_FILE.write_text(render_svg(now, total, days), encoding="utf-8")
     STATS_FILE.write_text(render_stats_svg(now, total, days), encoding="utf-8")
+    try:
+        refresh_recent_builds(now)
+    except Exception as error:
+        print(f"Recent build stream refresh skipped: {error}", file=sys.stderr)
     print(f"Updated real contribution data for {LOGIN}: {len(days)} days, {total} total.")
 
 

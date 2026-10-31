@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/commit-city.yml"
       - "scripts/update_city.py"
+      - "scripts/update_profile.py"
   schedule:
     - cron: "*/15 * * * *"
     - cron: "7 3 * * *"
@@ -41,7 +42,13 @@ jobs:
           CITY_FULL_REFRESH: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.schedule == '7 3 * * *' }}
         run: python scripts/update_city.py
 
-      - name: Commit city changes
+      - name: Refresh live public build stream
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: TheVoidJulius
+        run: python scripts/update_profile.py --recent-only
+
+      - name: Commit city and build stream changes
         env:
           GITHUB_AUTHOR_NAME: TheVoidJulius
           GITHUB_AUTHOR_EMAIL: 216037370+TheVoidJulius@users.noreply.github.com
@@ -50,10 +57,10 @@ jobs:
         run: |
           git config user.name "$GITHUB_AUTHOR_NAME"
           git config user.email "$GITHUB_AUTHOR_EMAIL"
-          git add assets/commit-city.svg data/commit-city.json
+          git add assets/commit-city.svg data/commit-city.json assets/recent-builds.svg data/recent-builds.json
           if git diff --cached --quiet; then
-            echo "No city changes."
+            echo "No city or build stream changes."
             exit 0
           fi
-          GIT_COMMITTER_NAME="$GITHUB_COMMITTER_NAME" GIT_COMMITTER_EMAIL="$GITHUB_COMMITTER_EMAIL" git commit -m "chore(profile): refresh commit city [skip ci]"
+          GIT_COMMITTER_NAME="$GITHUB_COMMITTER_NAME" GIT_COMMITTER_EMAIL="$GITHUB_COMMITTER_EMAIL" git commit -m "chore(profile): refresh city and build stream [skip ci]"
           git push origin HEAD:main

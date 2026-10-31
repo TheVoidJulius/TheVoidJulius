@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="356" viewBox="0 0 1100 356" role="img" aria-labelledby="title desc">
+<title id="title">TheVoidJulius live public build stream</title>
+<desc id="desc">The four most recently pushed public, non-fork repositories, with source language, stars, forks, and exact push timestamps.</desc>
+<defs><linearGradient id="stream-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1710"/><stop offset="1" stop-color="#07100B"/></linearGradient><linearGradient id="stream-accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63E6BE"/><stop offset="1" stop-color="#1F7850"/></linearGradient></defs>
+<style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#63E6BE;font-size:10px;letter-spacing:2px}.headline{fill:#EAF4ED;font-size:20px;font-weight:700;letter-spacing:1px}.meta{fill:#91A79A;font-size:10px;letter-spacing:1px}.repo{fill:#ECF8F0;font-size:16px;font-weight:700}.detail{fill:#A5BCAF;font-size:11px}.rank{fill:#63E6BE;font-size:10px;letter-spacing:1px}</style>
+<rect x="2" y="2" width="1096" height="352" rx="18" fill="url(#stream-bg)" stroke="#294734" stroke-width="2"/>
+<text x="26" y="28" class="eyebrow">VOID / LIVE BUILD STREAM</text>
+<text x="26" y="54" class="headline">RECENT REPOSITORY ACTIVITY</text>
+<text x="1074" y="28" class="meta" text-anchor="end">UPDATED 2026-10-31 18:22 UTC</text>
+<text x="26" y="76" class="meta">PUBLIC · OWNER BUILDS · SORTED BY LATEST SOURCE PUSH · PROFILE REPO EXCLUDED</text>
+<path d="M26 86h1048" stroke="#294734"/>
+<a href="https://github.com/TheVoidJulius/broke">
+<rect x="24" y="96" width="518" height="112" rx="12" fill="#0B1B12" stroke="#294734"/>
+<rect x="25" y="110" width="3" height="84" rx="2" fill="url(#stream-accent)"/>
+<text x="42" y="125" class="repo">broke</text>
+<text x="526" y="124" class="rank" text-anchor="end">BUILD 01</text>
+<text x="42" y="149" class="detail">SOURCE / LANGUAGE NOT SET</text>
+<path d="M42 165h482" stroke="#203B2A"/>
+<text x="42" y="187" class="meta">PUSHED OCT 31 · 18:06 UTC</text>
+<text x="526" y="187" class="meta" text-anchor="end">STARS 1  /  FORKS 0</text>
+</a>
+<a href="https://github.com/TheVoidJulius/theee">
+<rect x="558" y="96" width="518" height="112" rx="12" fill="#0B1B12" stroke="#294734"/>
+<rect x="559" y="110" width="3" height="84" rx="2" fill="url(#stream-accent)"/>
+<text x="576" y="125" class="repo">theee</text>
+<text x="1060" y="124" class="rank" text-anchor="end">BUILD 02</text>
+<text x="576" y="149" class="detail">SOURCE / LANGUAGE NOT SET</text>
+<path d="M576 165h482" stroke="#203B2A"/>
+<text x="576" y="187" class="meta">PUSHED OCT 31 · 14:38 UTC</text>
+<text x="1060" y="187" class="meta" text-anchor="end">STARS 3  /  FORKS 0</text>
+</a>
+<a href="https://github.com/TheVoidJulius/DBMS_Capstone_Project_S_P">
+<rect x="24" y="220" width="518" height="112" rx="12" fill="#0B1B12" stroke="#294734"/>
+<rect x="25" y="234" width="3" height="84" rx="2" fill="url(#stream-accent)"/>
+<text x="42" y="249" class="repo">DBMS_Capstone_Project_S_P</text>
+<text x="526" y="248" class="rank" text-anchor="end">BUILD 03</text>
+<text x="42" y="273" class="detail">SOURCE / LANGUAGE NOT SET</text>
+<path d="M42 289h482" stroke="#203B2A"/>
+<text x="42" y="311" class="meta">PUSHED OCT 20 · 13:02 UTC</text>
+<text x="526" y="311" class="meta" text-anchor="end">STARS 1  /  FORKS 0</text>
+</a>
+<a href="https://github.com/TheVoidJulius/webdev3-assignment">
+<rect x="558" y="220" width="518" height="112" rx="12" fill="#0B1B12" stroke="#294734"/>
+<rect x="559" y="234" width="3" height="84" rx="2" fill="url(#stream-accent)"/>
+<text x="576" y="249" class="repo">webdev3-assignment</text>
+<text x="1060" y="248" class="rank" text-anchor="end">BUILD 04</text>
+<text x="576" y="273" class="detail">SOURCE / JavaScript</text>
+<path d="M576 289h482" stroke="#203B2A"/>
+<text x="576" y="311" class="meta">PUSHED SEP 23 · 17:43 UTC</text>
+<text x="1060" y="311" class="meta" text-anchor="end">STARS 0  /  FORKS 0</text>
+</a>
+</svg>

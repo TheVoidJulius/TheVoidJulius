@@ -18,7 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=TheVoidJulius&style=for-the-badge&color=0B1510&label=04_PROFILE_SCANS" alt="Profile views" />
 </p>
 
-<p><a href="#projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#proof--communities">PROOF + COMMUNITIES</a> &nbsp; / &nbsp; <a href="#toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#commit-city">COMMIT CITY</a> &nbsp; / &nbsp; <a href="#live-github-telemetry">LIVE TELEMETRY</a></p>
+<p><a href="#projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#live-build-log">LIVE BUILD LOG</a> &nbsp; / &nbsp; <a href="#proof--communities">PROOF + COMMUNITIES</a> &nbsp; / &nbsp; <a href="#toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#commit-city">COMMIT CITY</a> &nbsp; / &nbsp; <a href="#live-github-telemetry">LIVE TELEMETRY</a></p>
 
 </div>
 
@@ -79,6 +79,18 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 </table>
 
 <p align="center"><a href="https://github.com/TheVoidJulius?tab=repositories">OPEN THE FULL PROJECT INDEX ↗</a></p>
+
+---
+
+## LIVE BUILD LOG
+
+<p><sub>PUBLIC REPOSITORIES &nbsp; / &nbsp; MOST RECENT SOURCE PUSHES &nbsp; / &nbsp; AUTO-REFRESHED EVERY 15 MINUTES</sub></p>
+
+<div align="center">
+<img width="100%" src="assets/recent-builds.svg" alt="Live stream of the four most recently pushed public repositories, showing each project, source language, push time, stars, and forks" />
+</div>
+
+The stream reads live repository metadata from GitHub. It skips forks, archived repositories, and this profile repo; refresh commits are made only when the listed repository data changes.
 
 ---
 
