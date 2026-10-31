@@ -107,13 +107,13 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 
 ## COMMIT CITY
 
-<p><sub>365 DAYS / ONE BUILDING PER DAY / BUILT FROM REAL COMMIT COUNTS</sub></p>
+<p><sub>JAN → DEC / CURRENT MONTH IN FOCUS / NEXT TWO MONTHS RESERVED AS FLAT LAND</sub></p>
 
 <div align="center">
-<img width="100%" src="assets/commit-city.svg" alt="Live isometric city: one building for each day, with building height scaled to daily commits and 50 commits reaching the skyline cap" />
+<img width="100%" src="assets/commit-city.svg" alt="Live isometric city for the full calendar year: current month highlighted, following two months left as flat land, and building height scaled to daily commits up to a 50-commit cap" />
 </div>
 
-Every project commit adds height to that day’s tower. **50 commits reaches the skyline cap**; hover over a building to see its date and exact count. The city polls GitHub about every 15 minutes and reconciles the full year nightly at 03:07 UTC. This profile repository is excluded, so its own scheduled refreshes do not inflate the city.
+The city runs from **January through December**, with the current month highlighted. The next two months stay as flat, reserved land until those dates arrive; past and current days grow a building from their real project commit count. **50 commits reaches the skyline cap**. Hover over a lot or tower for its date and exact count. GitHub is polled about every 15 minutes, with a full calendar-year reconciliation nightly at 03:07 UTC. This profile repository is excluded, so its own scheduled refreshes do not inflate the city.
 
 ---
 

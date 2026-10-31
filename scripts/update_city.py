@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render a 365-day isometric commit city from GitHub's daily commit contributions."""
+"""Render a full calendar-year isometric commit city from GitHub contributions."""
 
 from __future__ import annotations
 
@@ -19,8 +19,7 @@ LOGIN = os.environ.get("PROFILE_LOGIN", "TheVoidJulius")
 PROFILE_REPO = os.environ.get("PROFILE_REPO", f"{LOGIN}/{LOGIN}").lower()
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 CITY_CAP = 50
-RENDERER_VERSION = 2
-WINDOW_DAYS = 365
+RENDERER_VERSION = 3
 REPOSITORY_LIMIT = 100
 WINDOW_SIZE_DAYS = 30
 
@@ -78,20 +77,22 @@ def graphql(variables):
 
 
 def fetch_daily_commits(now, previous_daily=None, full_refresh=False):
-    """Fetch 30-day windows so each repository's per-day connection stays complete."""
-    end = now.date()
-    window_start = end - timedelta(days=WINDOW_DAYS - 1)
-    recent_start = max(window_start, end - timedelta(days=WINDOW_SIZE_DAYS - 1))
-    start = window_start if full_refresh or previous_daily is None else recent_start
+    """Fetch year-to-date commits, then leave the remaining calendar-year lots flat."""
+    year_start = date(now.year, 1, 1)
+    year_end = date(now.year, 12, 31)
+    as_of = min(now.date(), year_end)
+    recent_start = max(year_start, as_of - timedelta(days=WINDOW_SIZE_DAYS - 1))
+    fetch_start = year_start if full_refresh or previous_daily is None else recent_start
     counts = {
         item["date"]: item["commits"]
         for item in (previous_daily or [])
-        if window_start <= date.fromisoformat(item["date"]) < start
+        if year_start <= date.fromisoformat(item["date"]) < fetch_start
+        and date.fromisoformat(item["date"]) <= as_of
     }
-    cursor = start
+    cursor = fetch_start
 
-    while cursor <= end:
-        chunk_end = min(cursor + timedelta(days=WINDOW_SIZE_DAYS - 1), end)
+    while cursor <= as_of:
+        chunk_end = min(cursor + timedelta(days=WINDOW_SIZE_DAYS - 1), as_of)
         from_utc = datetime.combine(cursor, time.min, timezone.utc)
         to_utc = datetime.combine(chunk_end + timedelta(days=1), time.min, timezone.utc) - timedelta(seconds=1)
         collection = graphql({
@@ -107,17 +108,17 @@ def fetch_daily_commits(now, previous_daily=None, full_refresh=False):
                 contribution_date = datetime.fromisoformat(
                     contribution["occurredAt"].replace("Z", "+00:00")
                 ).date()
-                if start <= contribution_date <= end:
+                if fetch_start <= contribution_date <= as_of:
                     key = contribution_date.isoformat()
                     counts[key] = counts.get(key, 0) + contribution["commitCount"]
         cursor = chunk_end + timedelta(days=1)
 
     daily = [
-        {"date": (start + timedelta(days=offset)).isoformat(),
-         "commits": counts.get((start + timedelta(days=offset)).isoformat(), 0)}
-        for offset in range(WINDOW_DAYS)
+        {"date": (year_start + timedelta(days=offset)).isoformat(),
+         "commits": counts.get((year_start + timedelta(days=offset)).isoformat(), 0)}
+        for offset in range((year_end - year_start).days + 1)
     ]
-    return start, end, daily
+    return year_start, year_end, as_of, daily
 
 
 def building_colors(commits):
@@ -132,7 +133,8 @@ def building_colors(commits):
     return "#0A2015", "#0D281B", "#091D14", "#123323", "#8DE7BE", "#63E6BE"
 
 
-def render_city_svg(now, start, end, daily, synced=True):
+def render_city_svg(now, start, end, daily, as_of=None, synced=True):
+    as_of = as_of or now.date()
     by_date = {item["date"]: item["commits"] for item in daily}
     first_sunday = start - timedelta(days=(start.weekday() + 1) % 7)
     last_saturday = end + timedelta(days=(5 - end.weekday()) % 7)
@@ -163,7 +165,7 @@ def render_city_svg(now, start, end, daily, synced=True):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="city-title city-desc">',
         '<title id="city-title">TheVoidJulius commit city</title>',
-        '<desc id="city-desc">A tilted isometric city grid with one plot for each day in the last year. Building height scales with daily commits; 50 commits or more reaches the skyline cap.</desc>',
+        f'<desc id="city-desc">A tilted isometric city grid for January through December {start.year}. {now:%B} is highlighted; the next two months are reserved as flat land. Building height scales with daily commits through {as_of.isoformat()}, with 50 commits reaching the skyline cap.</desc>',
         '<defs><linearGradient id="city-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081711"/><stop offset=".52" stop-color="#06110C"/><stop offset="1" stop-color="#07130D"/></linearGradient><radialGradient id="city-halo"><stop stop-color="#1B9B70" stop-opacity=".2"/><stop offset="1" stop-color="#0A1710" stop-opacity="0"/></radialGradient><linearGradient id="plane-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#123B29"/><stop offset="1" stop-color="#07180F"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E2117"/><stop offset="1" stop-color="#09170F"/></linearGradient></defs>',
         '<rect x="2" y="2" width="1196" height="676" rx="20" fill="url(#city-bg)" stroke="#244A35" stroke-width="2"/>',
         '<ellipse cx="604" cy="404" rx="430" ry="240" fill="url(#city-halo)"/>',
@@ -175,6 +177,33 @@ def render_city_svg(now, start, end, daily, synced=True):
         f'<text x="1172" y="30" text-anchor="end" class="label">{start:%Y-%m-%d}  →  {end:%Y-%m-%d}</text>',
         f'<text x="1172" y="61" text-anchor="end" class="label">UPDATED {now:%Y-%m-%d %H:%M} UTC  ·  LIVE COMMIT DATA</text>',
     ]
+
+    month_names = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC")
+    current_month = as_of.month
+    focus_months = {current_month, min(12, current_month + 1), min(12, current_month + 2)}
+    month_slot = 95
+    for month in range(1, 13):
+        x = 28 + (month - 1) * month_slot
+        width_chip = 88
+        if month == current_month:
+            fill, stroke, title_color, status = "#123C2A", "#63E6BE", "#E7FFF2", "NOW"
+            opacity = "1"
+        elif month in focus_months and month > current_month:
+            fill, stroke, title_color, status = "#0B2116", "#28734E", "#86B99C", f"NEXT {month - current_month}"
+            opacity = ".9"
+        elif month < current_month:
+            fill, stroke, title_color, status = "#0A1B12", "#1D402D", "#9AB5A3", "BUILT"
+            opacity = ".82"
+        else:
+            fill, stroke, title_color, status = "#08150E", "#183223", "#678271", "AHEAD"
+            opacity = ".68"
+        dash = ' stroke-dasharray="3 3"' if month in focus_months and month > current_month else ""
+        out.append(
+            f'<g opacity="{opacity}"><rect x="{x}" y="104" width="{width_chip}" height="38" rx="8" fill="{fill}" stroke="{stroke}"{dash}/>'
+            f'<text x="{x + 9}" y="119" fill="{title_color}" font-family="Consolas,\'Courier New\',monospace" font-size="9" font-weight="700">{month_names[month - 1]}</text>'
+            f'<text x="{x + width_chip - 8}" y="119" text-anchor="end" fill="{title_color}" font-family="Consolas,\'Courier New\',monospace" font-size="7" letter-spacing=".5">{status}</text>'
+            f'<rect x="{x + 9}" y="127" width="{width_chip - 18}" height="3" rx="1.5" fill="{stroke}" opacity=".5"/></g>'
+        )
 
     out.extend([
         '<rect x="24" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>',
@@ -236,15 +265,35 @@ def render_city_svg(now, start, end, daily, synced=True):
         x, y = cell_center(week, row)
         commits = by_date.get(day.isoformat())
         tile, _, _, _, _, _ = building_colors(commits or 0)
-        tooltip = "outside the 365-day window" if commits is None else html.escape(
-            f"{day.isoformat()} · {commits} commit" + ("s" if commits != 1 else "")
-        )
-        opacity = ".42" if commits is None else "1"
-        out.append(f'<g><title>{tooltip}</title><path d="M{x:.1f} {y - half_height:.1f}l{half_width:.1f} {half_height:.1f}l-{half_width:.1f} {half_height:.1f}l-{half_width:.1f} -{half_height:.1f}Z" fill="{tile}" stroke="#1B4A32" stroke-width=".7" opacity="{opacity}"/></g>')
+        in_year = start <= day <= end
+        is_future = day > as_of
+        is_current_month = in_year and day.month == current_month
+        is_next_two = in_year and day.month in focus_months and day.month > current_month
+        if not in_year:
+            tooltip, opacity, stroke, stroke_width, dash = "outside the calendar year", ".14", "#10271A", ".5", ""
+        elif is_future:
+            tooltip = f"{day.isoformat()} · upcoming flat land · 0 commits"
+            opacity = ".48" if is_next_two else ".34"
+            stroke = "#3B9C71" if is_next_two else "#1D4B33"
+            stroke_width = "1.05" if is_current_month else ".75"
+            dash = ' stroke-dasharray="2 2"' if is_next_two else ""
+        else:
+            count = commits or 0
+            tooltip = f"{day.isoformat()} · {count} commit" + ("s" if count != 1 else "")
+            opacity = "1"
+            stroke = "#64E6B6" if is_current_month else "#1B4A32"
+            stroke_width = "1.2" if is_current_month else ".7"
+            dash = ""
+        if day == as_of:
+            stroke, stroke_width = "#FFE49A", "1.8"
+        path = f'M{x:.1f} {y - half_height:.1f}l{half_width:.1f} {half_height:.1f}l-{half_width:.1f} {half_height:.1f}l-{half_width:.1f} -{half_height:.1f}Z'
+        out.append(f'<g><title>{html.escape(tooltip)}</title><path d="{path}" fill="{tile}" stroke="{stroke}" stroke-width="{stroke_width}"{dash} opacity="{opacity}"/></g>')
+        if day == as_of:
+            out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.2" fill="#FFE49A"/>')
 
     for day, week, row in sorted(calendar_days, key=lambda item: (item[1] + item[2], item[1])):
         commits = by_date.get(day.isoformat())
-        if commits is None or commits <= 0:
+        if commits is None or commits <= 0 or day > as_of:
             continue
         x, y = cell_center(week, row)
         _, left_color, right_color, roof_color, window_color, cap_color = building_colors(commits)
@@ -279,8 +328,8 @@ def render_city_svg(now, start, end, daily, synced=True):
         message = "NO VISIBLE PROJECT COMMITS IN THIS WINDOW YET" if synced else "AWAITING FIRST GITHUB SYNC"
         out.append(f'<text x="600" y="415" text-anchor="middle" class="label">{message}</text>')
     out.extend([
-        '<text x="28" y="663" class="micro">365 DAYS / ONE LOT PER DAY / HOVER FOR THE EXACT COUNT</text>',
-        '<text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING</text>',
+        f'<text x="28" y="663" class="micro">JAN → DEC {start.year}  /  {now.strftime("%B").upper()} FOCUS  /  NEXT TWO MONTHS RESERVED AS FLAT LAND</text>',
+        '<text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING · HOVER FOR EXACT COUNTS</text>',
     ])
     out.append('</svg>')
     return "\n".join(out) + "\n"
@@ -294,8 +343,13 @@ def main():
     previous = {}
     if DATA_FILE.exists():
         previous = json.loads(DATA_FILE.read_text(encoding="utf-8"))
-    full_refresh = os.environ.get("CITY_FULL_REFRESH", "false").lower() == "true"
-    start, end, daily = fetch_daily_commits(
+    full_refresh = (
+        os.environ.get("CITY_FULL_REFRESH", "false").lower() == "true"
+        or previous.get("window_start") != date(now.year, 1, 1).isoformat()
+        or previous.get("renderer_version") != RENDERER_VERSION
+        or previous.get("full_refresh_required", False)
+    )
+    start, end, as_of, daily = fetch_daily_commits(
         now,
         previous_daily=previous.get("daily_commits"),
         full_refresh=full_refresh,
@@ -303,6 +357,8 @@ def main():
     same_days = (
         previous.get("daily_commits") == daily
         and previous.get("renderer_version") == RENDERER_VERSION
+        and previous.get("as_of_date") == as_of.isoformat()
+        and not previous.get("full_refresh_required", False)
     )
     if same_days and SVG_FILE.exists():
         print("Commit city is current; skipping file updates.")
@@ -315,13 +371,14 @@ def main():
         "renderer_version": RENDERER_VERSION,
         "refresh_mode": "full" if full_refresh or previous.get("daily_commits") is None else "recent-window",
         "updated_at_utc": now.isoformat(),
+        "as_of_date": as_of.isoformat(),
         "window_start": start.isoformat(),
         "window_end": end.isoformat(),
         "daily_commits": daily,
         "total_commits": sum(item["commits"] for item in daily),
         "peak_commits": max((item["commits"] for item in daily), default=0),
     }
-    SVG_FILE.write_text(render_city_svg(now, start, end, daily), encoding="utf-8")
+    SVG_FILE.write_text(render_city_svg(now, start, end, daily, as_of=as_of), encoding="utf-8")
     DATA_FILE.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
     print(
         f"Updated commit city for {LOGIN}: {record['total_commits']} commits "
