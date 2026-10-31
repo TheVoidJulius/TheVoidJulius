@@ -2,8 +2,20 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-10-31T18:26:21.357818+00:00",
+  "updated_at_utc": "2026-10-31T20:21:00.065822+00:00",
   "repositories": [
+    {
+      "name": "oveX",
+      "url": "https://github.com/TheVoidJulius/oveX",
+      "description": null,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "pushed_at": "2026-10-31T19:03:49Z",
+      "stars": 1,
+      "forks": 0
+    },
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
@@ -29,15 +41,6 @@
       "language": null,
       "pushed_at": "2026-10-25T05:43:15Z",
       "stars": 0,
-      "forks": 0
-    },
-    {
-      "name": "KhetKaaj",
-      "url": "https://github.com/Krishyangi-bit/KhetKaaj",
-      "description": null,
-      "language": null,
-      "pushed_at": "2026-10-24T20:40:06Z",
-      "stars": 1,
       "forks": 0
     }
   ]
