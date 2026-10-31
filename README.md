@@ -113,7 +113,7 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 <img width="100%" src="assets/commit-city.svg" alt="Live isometric city: one building for each day, with building height scaled to daily commits and 50 commits reaching the skyline cap" />
 </div>
 
-Every project commit adds height to that day’s tower. **50 commits reaches the skyline cap**; hover over a building to see its date and exact count. The city polls GitHub about every 15 minutes and redraws when the contribution data changes. This profile repository is excluded, so its own scheduled refreshes do not inflate the city.
+Every project commit adds height to that day’s tower. **50 commits reaches the skyline cap**; hover over a building to see its date and exact count. The city polls GitHub about every 15 minutes and reconciles the full year nightly at 03:07 UTC. This profile repository is excluded, so its own scheduled refreshes do not inflate the city.
 
 ---
 
@@ -134,7 +134,7 @@ Every project commit adds height to that day’s tower. **50 commits reaches the
   The daily profile pulse fetches the contribution calendar and refreshes the heatmap and stats card. A separate city pulse checks daily commit counts about every 15 minutes and only commits when the city data changes. Both updates are labeled as automated profile maintenance in the commit history.
 
   <br /><br />
-  Workflows: <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml">profile-pulse.yml</a> (daily at 17:42 UTC) · <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/commit-city.yml">commit-city.yml</a> (about every 15 minutes; GitHub may queue scheduled runs).
+  Workflows: <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml">profile-pulse.yml</a> (daily at 17:42 UTC) · <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/commit-city.yml">commit-city.yml</a> (about every 15 minutes plus a full-year sync at 03:07 UTC; GitHub may queue scheduled runs).
 
   The city uses commit contributions visible to GitHub. To include private-repository contribution counts, add a classic personal access token with `read:user` scope as the repository secret `PROFILE_STATS_TOKEN`; otherwise it uses the default repository token.
 </details>
