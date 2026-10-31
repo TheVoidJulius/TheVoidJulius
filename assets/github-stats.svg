@@ -5,9 +5,9 @@
 <rect x="2" y="2" width="1096" height="282" rx="18" fill="url(#stats-bg)" stroke="#294734" stroke-width="2"/>
 <style>text{font-family:Consolas,"Courier New",monospace}.label{fill:#8FA99A;font-size:11px;letter-spacing:1px}.metric{fill:#F0F7F2;font-size:28px;font-weight:700}.sub{fill:#63E6BE;font-size:11px;letter-spacing:1px}.month{fill:#849B8D;font-size:10px}</style>
 <text x="28" y="30" class="sub">GITHUB SIGNAL / 365-DAY READOUT</text>
-<text x="1070" y="30" class="label" text-anchor="end">UPDATED 2026-10-31 16:25 UTC</text>
+<text x="1070" y="30" class="label" text-anchor="end">UPDATED 2026-10-31 20:40 UTC</text>
 <rect x="28" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>
-<text x="46" y="82" class="metric">556</text>
+<text x="46" y="82" class="metric">573</text>
 <text x="46" y="108" class="label">CONTRIBUTIONS / YEAR</text>
 <rect x="374" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>
 <text x="392" y="82" class="metric">27d</text>
@@ -16,18 +16,30 @@
 <text x="738" y="82" class="metric">27d</text>
 <text x="738" y="108" class="label">LONGEST STREAK</text>
 <text x="28" y="160" class="sub">MONTHLY CONTRIBUTIONS / LAST 12 MONTHS</text>
-<rect x="258" y="221" width="34" height="28" rx="5" fill="url(#bar-fill)"/><text x="275" y="269" class="month" text-anchor="middle">Nov</text>
-<rect x="325" y="229" width="34" height="20" rx="5" fill="url(#bar-fill)"/><text x="342" y="269" class="month" text-anchor="middle">Dec</text>
-<rect x="392" y="194" width="34" height="55" rx="5" fill="url(#bar-fill)"/><text x="409" y="269" class="month" text-anchor="middle">Jan</text>
-<rect x="459" y="196" width="34" height="53" rx="5" fill="url(#bar-fill)"/><text x="476" y="269" class="month" text-anchor="middle">Feb</text>
-<rect x="526" y="224" width="34" height="25" rx="5" fill="url(#bar-fill)"/><text x="543" y="269" class="month" text-anchor="middle">Mar</text>
-<rect x="593" y="216" width="34" height="33" rx="5" fill="url(#bar-fill)"/><text x="610" y="269" class="month" text-anchor="middle">Apr</text>
-<rect x="660" y="204" width="34" height="45" rx="5" fill="url(#bar-fill)"/><text x="677" y="269" class="month" text-anchor="middle">May</text>
-<rect x="727" y="231" width="34" height="18" rx="5" fill="url(#bar-fill)"/><text x="744" y="269" class="month" text-anchor="middle">Jun</text>
-<rect x="794" y="235" width="34" height="14" rx="5" fill="url(#bar-fill)"/><text x="811" y="269" class="month" text-anchor="middle">Jul</text>
-<rect x="861" y="242" width="34" height="7" rx="5" fill="url(#bar-fill)"/><text x="878" y="269" class="month" text-anchor="middle">Aug</text>
-<rect x="928" y="237" width="34" height="12" rx="5" fill="url(#bar-fill)"/><text x="945" y="269" class="month" text-anchor="middle">Sep</text>
-<rect x="995" y="215" width="34" height="34" rx="5" fill="url(#bar-fill)"/><text x="1012" y="269" class="month" text-anchor="middle">Oct</text>
+<rect x="258" y="221" width="34" height="28" rx="5" fill="url(#bar-fill)"/>
+<text x="275.0" y="269" class="month" text-anchor="middle">Nov</text>
+<rect x="325" y="229" width="34" height="20" rx="5" fill="url(#bar-fill)"/>
+<text x="342.0" y="269" class="month" text-anchor="middle">Dec</text>
+<rect x="392" y="194" width="34" height="55" rx="5" fill="url(#bar-fill)"/>
+<text x="409.0" y="269" class="month" text-anchor="middle">Jan</text>
+<rect x="459" y="196" width="34" height="53" rx="5" fill="url(#bar-fill)"/>
+<text x="476.0" y="269" class="month" text-anchor="middle">Feb</text>
+<rect x="526" y="224" width="34" height="25" rx="5" fill="url(#bar-fill)"/>
+<text x="543.0" y="269" class="month" text-anchor="middle">Mar</text>
+<rect x="593" y="216" width="34" height="33" rx="5" fill="url(#bar-fill)"/>
+<text x="610.0" y="269" class="month" text-anchor="middle">Apr</text>
+<rect x="660" y="204" width="34" height="45" rx="5" fill="url(#bar-fill)"/>
+<text x="677.0" y="269" class="month" text-anchor="middle">May</text>
+<rect x="727" y="231" width="34" height="18" rx="5" fill="url(#bar-fill)"/>
+<text x="744.0" y="269" class="month" text-anchor="middle">Jun</text>
+<rect x="794" y="235" width="34" height="14" rx="5" fill="url(#bar-fill)"/>
+<text x="811.0" y="269" class="month" text-anchor="middle">Jul</text>
+<rect x="861" y="242" width="34" height="7" rx="5" fill="url(#bar-fill)"/>
+<text x="878.0" y="269" class="month" text-anchor="middle">Aug</text>
+<rect x="928" y="237" width="34" height="12" rx="5" fill="url(#bar-fill)"/>
+<text x="945.0" y="269" class="month" text-anchor="middle">Sep</text>
+<rect x="995" y="205" width="34" height="44" rx="5" fill="url(#bar-fill)"/>
+<text x="1012.0" y="269" class="month" text-anchor="middle">Oct</text>
 <path d="M251 250h784" stroke="#345342" stroke-width="1"/>
 <text x="1070" y="269" class="label" text-anchor="end">AUTOMATED / REAL GITHUB DATA</text>
 </svg>
