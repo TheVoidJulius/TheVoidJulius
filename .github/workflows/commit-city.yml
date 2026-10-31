@@ -38,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: TheVoidJulius
           PROFILE_REPO: TheVoidJulius/TheVoidJulius
-          CITY_FULL_REFRESH: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '7 3 * * *' }}
+          CITY_FULL_REFRESH: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event.schedule == '7 3 * * *' }}
         run: python scripts/update_city.py
 
       - name: Commit city changes
