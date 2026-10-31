@@ -1,6 +1,11 @@
 <div align="center">
 
-<img src="assets/void-hero.svg" width="100%" alt="TheVoidJulius: an original comic-inspired banner in forest green, cyan, gold, and ink black" />
+<table width="100%">
+<tr>
+<td width="24%" align="center" valign="middle"><img src="assets/profile-pfp.png" width="180" alt="TheVoidJulius profile picture, original image" /></td>
+<td width="76%"><img src="assets/void-hero.svg" width="100%" alt="Animated TheVoidJulius midnight signal banner" /></td>
+</tr>
+</table>
 
 <p>
 <a href="https://github.com/TheVoidJulius?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-SEE_THE_LAB-0C1A12?style=for-the-badge&logo=github&logoColor=63E6BE" alt="Explore repositories" /></a>
@@ -133,6 +138,11 @@ The refresh is automated, not a claim of daily hand-written coding. GitHub’s o
 Have a useful idea, an interesting problem, or a build that needs another brain? [Find me on GitHub](https://github.com/TheVoidJulius).
 
 <div align="center">
-<img src="assets/void-footer.svg" width="100%" alt="Animated emerald signal closing the transmission" />
+<table width="100%">
+<tr>
+<td width="90" align="center" valign="middle"><img src="assets/profile-pfp.png" width="72" alt="TheVoidJulius profile picture" /></td>
+<td><img src="assets/void-footer.svg" width="100%" alt="Animated emerald signal closing the transmission" /></td>
+</tr>
+</table>
 </div>
 
