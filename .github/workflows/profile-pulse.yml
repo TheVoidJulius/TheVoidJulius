@@ -1,0 +1,51 @@
+name: Profile contribution refresh
+
+on:
+  schedule:
+    - cron: "42 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contribution-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build heatmap from GitHub contribution data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: TheVoidJulius
+        run: python scripts/update_profile.py
+
+      - name: Commit refreshed profile data
+        env:
+          GITHUB_AUTHOR_NAME: TheVoidJulius
+          GITHUB_AUTHOR_EMAIL: 216037370+TheVoidJulius@users.noreply.github.com
+          GITHUB_COMMITTER_NAME: github-actions[bot]
+          GITHUB_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git config user.name "$GITHUB_AUTHOR_NAME"
+          git config user.email "$GITHUB_AUTHOR_EMAIL"
+          git add contrib-heatmap.svg data/contributions.json
+          if git diff --cached --quiet; then
+            echo "No profile data changes."
+            exit 0
+          fi
+          GIT_COMMITTER_NAME="$GITHUB_COMMITTER_NAME" GIT_COMMITTER_EMAIL="$GITHUB_COMMITTER_EMAIL" git commit -m "chore(profile): refresh contribution graph [skip ci]"
+          git push origin HEAD:main
+
