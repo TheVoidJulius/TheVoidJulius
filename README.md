@@ -18,7 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=TheVoidJulius&style=for-the-badge&color=0B1510&label=04_PROFILE_SCANS" alt="Profile views" />
 </p>
 
-<p><a href="#projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#proof--communities">PROOF + COMMUNITIES</a> &nbsp; / &nbsp; <a href="#toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#live-github-telemetry">LIVE TELEMETRY</a></p>
+<p><a href="#projects">PROJECTS</a> &nbsp; / &nbsp; <a href="#proof--communities">PROOF + COMMUNITIES</a> &nbsp; / &nbsp; <a href="#toolkit">TOOLKIT</a> &nbsp; / &nbsp; <a href="#commit-city">COMMIT CITY</a> &nbsp; / &nbsp; <a href="#live-github-telemetry">LIVE TELEMETRY</a></p>
 
 </div>
 
@@ -105,6 +105,18 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 
 ---
 
+## COMMIT CITY
+
+<p><sub>365 DAYS / ONE BUILDING PER DAY / BUILT FROM REAL COMMIT COUNTS</sub></p>
+
+<div align="center">
+<img width="100%" src="assets/commit-city.svg" alt="Live isometric city: one building for each day, with building height scaled to daily commits and 50 commits reaching the skyline cap" />
+</div>
+
+Every project commit adds height to that day’s tower. **50 commits reaches the skyline cap**; hover over a building to see its date and exact count. The city polls GitHub about every 15 minutes and redraws when the contribution data changes. This profile repository is excluded, so its own scheduled refreshes do not inflate the city.
+
+---
+
 ## LIVE GITHUB TELEMETRY
 
 <div align="center">
@@ -119,10 +131,12 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
   <summary><b>How the daily profile pulse works</b></summary>
   <br />
 
-  GitHub Actions fetches the real contribution calendar once a day, redraws the heatmap and local stats card, and commits the refreshed data automatically. The commit is authored with your GitHub noreply address and committed by `github-actions[bot]`, so the history labels it as automation. It saves the manual daily update; it does not claim the refresh is hand-written development.
+  The daily profile pulse fetches the contribution calendar and refreshes the heatmap and stats card. A separate city pulse checks daily commit counts about every 15 minutes and only commits when the city data changes. Both updates are labeled as automated profile maintenance in the commit history.
 
   <br /><br />
-  Workflow: <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml">profile-pulse.yml</a> · Schedule: daily at 17:42 UTC.
+  Workflows: <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml">profile-pulse.yml</a> (daily at 17:42 UTC) · <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/commit-city.yml">commit-city.yml</a> (about every 15 minutes; GitHub may queue scheduled runs).
+
+  The city uses commit contributions visible to GitHub. To include private-repository contribution counts, add a classic personal access token with `read:user` scope as the repository secret `PROFILE_STATS_TOKEN`; otherwise it uses the default repository token.
 </details>
 
 ---
