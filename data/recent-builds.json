@@ -2,7 +2,7 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-10-31 18:22:24Z",
+  "updated_at_utc": "2026-10-31T18:26:21.357818+00:00",
   "repositories": [
     {
       "name": "broke",
@@ -23,24 +23,21 @@
       "forks": 0
     },
     {
-      "name": "DBMS_Capstone_Project_S_P",
-      "url": "https://github.com/TheVoidJulius/DBMS_Capstone_Project_S_P",
+      "name": "HackIIITD_final",
+      "url": "https://github.com/Krishyangi-bit/HackIIITD_final",
       "description": null,
       "language": null,
-      "pushed_at": "2026-10-20T13:02:17Z",
-      "stars": 1,
+      "pushed_at": "2026-10-25T05:43:15Z",
+      "stars": 0,
       "forks": 0
     },
     {
-      "name": "webdev3-assignment",
-      "url": "https://github.com/TheVoidJulius/webdev3-assignment",
+      "name": "KhetKaaj",
+      "url": "https://github.com/Krishyangi-bit/KhetKaaj",
       "description": null,
-      "language": {
-        "name": "JavaScript",
-        "color": null
-      },
-      "pushed_at": "2026-09-23T17:43:14Z",
-      "stars": 0,
+      "language": null,
+      "pushed_at": "2026-10-24T20:40:06Z",
+      "stars": 1,
       "forks": 0
     }
   ]
