@@ -1,6 +1,12 @@
 name: Commit city refresh
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/commit-city.yml"
+      - "scripts/update_city.py"
   schedule:
     - cron: "*/15 * * * *"
     - cron: "7 3 * * *"
