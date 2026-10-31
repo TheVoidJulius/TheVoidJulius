@@ -3,8 +3,9 @@
   "source": "GitHub GraphQL commitContributionsByRepository",
   "profile_repository_excluded": "thevoidjulius/thevoidjulius",
   "renderer_version": 3,
-  "refresh_mode": "calendar-year-transition",
-  "updated_at_utc": "2026-10-31T17:38:37.724024+00:00",
+  "refresh_mode": "full",
+  "updated_at_utc": "2026-10-31T17:49:29.137485+00:00",
+  "as_of_date": "2026-10-31",
   "window_start": "2026-01-01",
   "window_end": "2026-12-31",
   "daily_commits": [
@@ -1470,7 +1471,5 @@
     }
   ],
   "total_commits": 220,
-  "peak_commits": 16,
-  "as_of_date": "2026-10-31",
-  "full_refresh_required": true
+  "peak_commits": 16
 }
