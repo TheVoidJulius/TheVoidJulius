@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="184" viewBox="0 0 780 184" role="img" aria-labelledby="title desc">
+<title id="title">Contribution heatmap awaiting first refresh</title>
+<desc id="desc">The profile refresh workflow will replace this panel with GitHub's live contribution calendar.</desc>
+<rect width="100%" height="100%" rx="12" fill="#07110C"/>
+<text x="24" y="60" fill="#63E6BE" font-family="Consolas, monospace" font-size="13">PROFILE CONTRIBUTION SIGNAL / INITIALIZING</text>
+<text x="24" y="91" fill="#DCE8DF" font-family="Consolas, monospace" font-size="14">Run the Profile contribution refresh workflow to load the live GitHub calendar.</text>
+<text x="24" y="121" fill="#91A79A" font-family="Consolas, monospace" font-size="11">This panel contains no placeholder counts.</text>
+</svg>
+

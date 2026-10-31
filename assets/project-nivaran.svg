@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<title id="title">NIVARAN</title>
+<desc id="desc">Need-first support routing for rural communities.</desc>
+<defs>
+<linearGradient id="niv-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09120D"/><stop offset=".55" stop-color="#10281B"/><stop offset="1" stop-color="#080E0A"/></linearGradient>
+<linearGradient id="niv-line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39C98A"/><stop offset=".62" stop-color="#4AD9D1"/><stop offset="1" stop-color="#F4C94F"/></linearGradient>
+<radialGradient id="niv-mist"><stop stop-color="#3ED898" stop-opacity=".22"/><stop offset="1" stop-color="#3ED898" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="2" width="896" height="256" rx="20" fill="url(#niv-bg)" stroke="#365A44" stroke-width="2"/>
+<ellipse cx="772" cy="124" rx="176" ry="122" fill="url(#niv-mist)"/>
+<path d="M24 37h32M24 37v32M876 223h-32M876 223v-32" fill="none" stroke="#63E6BE" stroke-width="3"/>
+<text x="52" y="52" fill="#69D9A0" font-family="monospace" font-size="13" letter-spacing="3">01 / SOCIAL IMPACT</text>
+<text x="50" y="112" fill="#F2F7F2" font-family="monospace" font-size="34" font-weight="700">NIVARAN</text>
+<text x="52" y="151" fill="#C5D6C9" font-family="monospace" font-size="15">Need-first support routing for rural communities.</text>
+<text x="52" y="199" fill="#7FE0BB" font-family="monospace" font-size="12" letter-spacing="1">CIVIC TECH  ·  ROUTING  ·  COMMUNITY</text>
+<path d="M52 218h520" stroke="url(#niv-line)" stroke-width="2" stroke-dasharray="16 8" opacity=".8">
+<animate attributeName="stroke-dashoffset" values="0;48" dur="5s" repeatCount="indefinite"/>
+</path>
+<g fill="none" stroke="#45D7B8" stroke-width="3"><path d="M700 83L772 121L827 76M772 121L826 166M700 83L698 167"/><circle cx="700" cy="83" r="11" fill="#10281B"/><circle cx="772" cy="121" r="14" fill="#143B2A"/><circle cx="827" cy="76" r="10" fill="#4AD9D1"/><circle cx="826" cy="166" r="10" fill="#F4C94F"/><circle cx="698" cy="167" r="10" fill="#D43F55"/></g>
+</svg>

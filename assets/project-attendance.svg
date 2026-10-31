@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<title id="title">ATTENDANCE PREDICTOR</title>
+<desc id="desc">Track attendance. See the classes needed to recover.</desc>
+<defs>
+<linearGradient id="att-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09120D"/><stop offset=".55" stop-color="#10281B"/><stop offset="1" stop-color="#080E0A"/></linearGradient>
+<linearGradient id="att-line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39C98A"/><stop offset=".62" stop-color="#4AD9D1"/><stop offset="1" stop-color="#F4C94F"/></linearGradient>
+<radialGradient id="att-mist"><stop stop-color="#3ED898" stop-opacity=".22"/><stop offset="1" stop-color="#3ED898" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="2" width="896" height="256" rx="20" fill="url(#att-bg)" stroke="#365A44" stroke-width="2"/>
+<ellipse cx="772" cy="124" rx="176" ry="122" fill="url(#att-mist)"/>
+<path d="M24 37h32M24 37v32M876 223h-32M876 223v-32" fill="none" stroke="#63E6BE" stroke-width="3"/>
+<text x="52" y="52" fill="#69D9A0" font-family="monospace" font-size="13" letter-spacing="3">02 / STUDENT TOOL</text>
+<text x="50" y="112" fill="#F2F7F2" font-family="monospace" font-size="34" font-weight="700">ATTENDANCE PREDICTOR</text>
+<text x="52" y="151" fill="#C5D6C9" font-family="monospace" font-size="15">Track attendance. See the classes needed to recover.</text>
+<text x="52" y="199" fill="#7FE0BB" font-family="monospace" font-size="12" letter-spacing="1">FLASK  ·  MYSQL  ·  HTML / CSS / JS</text>
+<path d="M52 218h520" stroke="url(#att-line)" stroke-width="2" stroke-dasharray="16 8" opacity=".8">
+<animate attributeName="stroke-dashoffset" values="0;48" dur="5s" repeatCount="indefinite"/>
+</path>
+<g transform="translate(687 62)"><rect x="0" y="0" width="160" height="132" rx="12" fill="#0A1710" stroke="#3A7853" stroke-width="2"/><path d="M0 33h160" stroke="#3A7853"/><circle cx="17" cy="17" r="4" fill="#D43F55"/><circle cx="32" cy="17" r="4" fill="#F4C94F"/><circle cx="47" cy="17" r="4" fill="#63E6BE"/><path d="M24 59h34v22H24zm45 0h34v22H69zm45 0h22v22h-22zM24 91h34v22H24zm45 0h34v22H69z" fill="#16472E" stroke="#46CF91"/><path d="M122 99l8 8 16-21" fill="none" stroke="#42D6D0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

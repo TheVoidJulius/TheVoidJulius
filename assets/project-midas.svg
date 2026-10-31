@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<title id="title">MIDAS / FORAGE</title>
+<desc id="desc">JPMC Advanced Software Engineering Forage project.</desc>
+<defs>
+<linearGradient id="mid-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09120D"/><stop offset=".55" stop-color="#10281B"/><stop offset="1" stop-color="#080E0A"/></linearGradient>
+<linearGradient id="mid-line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39C98A"/><stop offset=".62" stop-color="#4AD9D1"/><stop offset="1" stop-color="#F4C94F"/></linearGradient>
+<radialGradient id="mid-mist"><stop stop-color="#3ED898" stop-opacity=".22"/><stop offset="1" stop-color="#3ED898" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="2" y="2" width="896" height="256" rx="20" fill="url(#mid-bg)" stroke="#365A44" stroke-width="2"/>
+<ellipse cx="772" cy="124" rx="176" ry="122" fill="url(#mid-mist)"/>
+<path d="M24 37h32M24 37v32M876 223h-32M876 223v-32" fill="none" stroke="#63E6BE" stroke-width="3"/>
+<text x="52" y="52" fill="#69D9A0" font-family="monospace" font-size="13" letter-spacing="3">04 / ENGINEERING SIM</text>
+<text x="50" y="112" fill="#F2F7F2" font-family="monospace" font-size="34" font-weight="700">MIDAS / FORAGE</text>
+<text x="52" y="151" fill="#C5D6C9" font-family="monospace" font-size="15">JPMC Advanced Software Engineering Forage project.</text>
+<text x="52" y="199" fill="#7FE0BB" font-family="monospace" font-size="12" letter-spacing="1">SOFTWARE ENGINEERING  ·  FORAGE</text>
+<path d="M52 218h520" stroke="url(#mid-line)" stroke-width="2" stroke-dasharray="16 8" opacity=".8">
+<animate attributeName="stroke-dashoffset" values="0;48" dur="5s" repeatCount="indefinite"/>
+</path>
+<g transform="translate(700 70)" fill="none" stroke-width="3"><path d="M0 38h56l24 30h56M0 104h47l24-36M80 68l-2 52h78" stroke="#45D7B8"/><circle cx="0" cy="38" r="9" fill="#0E2619" stroke="#63E6BE"/><circle cx="0" cy="104" r="9" fill="#0E2619" stroke="#D43F55"/><circle cx="80" cy="68" r="13" fill="#163B28" stroke="#F4C94F"/><circle cx="136" cy="38" r="9" fill="#0E2619" stroke="#42D6D0"/><circle cx="158" cy="120" r="9" fill="#0E2619" stroke="#63E6BE"/></g>
+</svg>
