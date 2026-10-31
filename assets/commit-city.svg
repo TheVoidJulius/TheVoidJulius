@@ -9,17 +9,17 @@
 <style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#65E7B7;font-size:10px;letter-spacing:2px}.title{fill:#F0F7F2;font-size:22px;font-weight:700;letter-spacing:.4px}.label{fill:#87A594;font-size:9px;letter-spacing:1px}.micro{fill:#6D8978;font-size:8px;letter-spacing:.6px}.metric{fill:#F0F7F2;font-size:29px;font-weight:700}.metric-small{fill:#CBF5DF;font-size:13px;font-weight:700}.panel-title{fill:#63E6BE;font-size:9px;letter-spacing:1.5px;font-weight:700}.key-label{fill:#D5E9DC;font-size:9px}</style>
 <text x="28" y="30" class="eyebrow">THE VOID / LIVE BUILD LOG</text>
 <text x="28" y="63" class="title">THE CITY I BUILT THIS YEAR</text>
-<text x="1172" y="30" text-anchor="end" class="label">2025-11-01  →  2026-10-31</text>
-<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-10-31 17:31 UTC  ·  LIVE COMMIT DATA</text>
+<text x="1172" y="30" text-anchor="end" class="label">2026-10-02  →  2026-10-31</text>
+<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-10-31 17:38 UTC  ·  LIVE COMMIT DATA</text>
 <rect x="24" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>
 <path d="M42 302h148" stroke="#204A35"/>
 <text x="42" y="296" class="panel-title">CITY RECORD</text>
-<text x="42" y="340" class="metric">287</text>
+<text x="42" y="340" class="metric">42</text>
 <text x="42" y="359" class="label">PROJECT COMMITS / YEAR</text>
-<text x="42" y="391" class="metric-small">88 active days</text>
-<text x="42" y="414" class="key-label">Peak day  <tspan fill="#63E6BE">27 / 50</tspan></text>
+<text x="42" y="391" class="metric-small">27 active days</text>
+<text x="42" y="414" class="key-label">Peak day  <tspan fill="#63E6BE">9 / 50</tspan></text>
 <rect x="42" y="428" width="148" height="6" rx="3" fill="#142B1D"/>
-<rect x="42" y="428" width="79.9" height="6" rx="3" fill="#47D8A8"/>
+<rect x="42" y="428" width="26.6" height="6" rx="3" fill="#47D8A8"/>
 <text x="42" y="447" class="micro">HEIGHT MAPS TO DAILY COMMITS</text>
 <rect x="992" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>
 <path d="M1010 302h148" stroke="#204A35"/>
@@ -39,849 +39,178 @@
 <path d="M1012 440h8" stroke="#142B1D" stroke-width="5" stroke-linecap="round"/>
 <text x="1027" y="443" class="micro">0 = OPEN LOT</text>
 <text x="1010" y="453" class="micro">50 COMMITS REACHES THE SKYLINE</text>
-<path d="M990.0 590.0L899.0 632.0L899.0 647.0L990.0 605.0Z" fill="#06150D" stroke="#153D29"/>
-<path d="M210.0 268.0L899.0 632.0L899.0 647.0L210.0 283.0Z" fill="url(#plane-face)" stroke="#1C5237"/>
-<path d="M301.0 212.0L990.0 590.0L899.0 632.0L210.0 268.0Z" fill="#0A1F14" stroke="#2A7651" stroke-width="1.5"/>
-<g><title>outside the 365-day window</title><path d="M301.0 212.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>outside the 365-day window</title><path d="M288.0 219.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>outside the 365-day window</title><path d="M275.0 226.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>outside the 365-day window</title><path d="M262.0 233.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>outside the 365-day window</title><path d="M249.0 240.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>outside the 365-day window</title><path d="M236.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
-<g><title>2025-11-01 · 0 commits</title><path d="M223.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-02 · 0 commits</title><path d="M314.0 219.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-03 · 0 commits</title><path d="M301.0 226.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-04 · 0 commits</title><path d="M288.0 233.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-05 · 0 commits</title><path d="M275.0 240.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-06 · 0 commits</title><path d="M262.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-07 · 12 commits</title><path d="M249.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-08 · 0 commits</title><path d="M236.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-09 · 0 commits</title><path d="M327.0 226.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-10 · 0 commits</title><path d="M314.0 233.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-11 · 4 commits</title><path d="M301.0 240.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-12 · 0 commits</title><path d="M288.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-13 · 0 commits</title><path d="M275.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-14 · 0 commits</title><path d="M262.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-15 · 0 commits</title><path d="M249.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-16 · 0 commits</title><path d="M340.0 233.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-17 · 0 commits</title><path d="M327.0 240.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-18 · 0 commits</title><path d="M314.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-19 · 0 commits</title><path d="M301.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-20 · 0 commits</title><path d="M288.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-21 · 0 commits</title><path d="M275.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-22 · 0 commits</title><path d="M262.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-23 · 0 commits</title><path d="M353.0 240.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-24 · 10 commits</title><path d="M340.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-25 · 3 commits</title><path d="M327.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-26 · 0 commits</title><path d="M314.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-27 · 0 commits</title><path d="M301.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-28 · 0 commits</title><path d="M288.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-29 · 11 commits</title><path d="M275.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-30 · 0 commits</title><path d="M366.0 247.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-01 · 0 commits</title><path d="M353.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-02 · 0 commits</title><path d="M340.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-03 · 0 commits</title><path d="M327.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-04 · 27 commits</title><path d="M314.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#15543A" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-05 · 0 commits</title><path d="M301.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-06 · 0 commits</title><path d="M288.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-07 · 0 commits</title><path d="M379.0 254.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-08 · 0 commits</title><path d="M366.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-09 · 0 commits</title><path d="M353.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-10 · 0 commits</title><path d="M340.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-11 · 0 commits</title><path d="M327.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-12 · 0 commits</title><path d="M314.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-13 · 0 commits</title><path d="M301.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-14 · 0 commits</title><path d="M392.0 261.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-15 · 0 commits</title><path d="M379.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-16 · 0 commits</title><path d="M366.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-17 · 0 commits</title><path d="M353.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-18 · 0 commits</title><path d="M340.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-19 · 0 commits</title><path d="M327.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-20 · 0 commits</title><path d="M314.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-21 · 0 commits</title><path d="M405.0 268.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-22 · 0 commits</title><path d="M392.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-23 · 0 commits</title><path d="M379.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-24 · 0 commits</title><path d="M366.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-25 · 0 commits</title><path d="M353.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-26 · 0 commits</title><path d="M340.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-27 · 0 commits</title><path d="M327.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-28 · 0 commits</title><path d="M418.0 275.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-29 · 0 commits</title><path d="M405.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-30 · 0 commits</title><path d="M392.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-12-31 · 0 commits</title><path d="M379.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-01 · 0 commits</title><path d="M366.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-02 · 1 commit</title><path d="M353.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-03 · 0 commits</title><path d="M340.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-04 · 0 commits</title><path d="M431.0 282.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-05 · 0 commits</title><path d="M418.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-06 · 0 commits</title><path d="M405.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-07 · 0 commits</title><path d="M392.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-08 · 6 commits</title><path d="M379.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-09 · 11 commits</title><path d="M366.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-10 · 10 commits</title><path d="M353.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-11 · 9 commits</title><path d="M444.0 289.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-12 · 1 commit</title><path d="M431.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-13 · 0 commits</title><path d="M418.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-14 · 2 commits</title><path d="M405.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-15 · 0 commits</title><path d="M392.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-16 · 0 commits</title><path d="M379.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-17 · 0 commits</title><path d="M366.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-18 · 0 commits</title><path d="M457.0 296.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-19 · 0 commits</title><path d="M444.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-20 · 1 commit</title><path d="M431.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-21 · 2 commits</title><path d="M418.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-22 · 0 commits</title><path d="M405.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-23 · 3 commits</title><path d="M392.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-24 · 0 commits</title><path d="M379.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-25 · 0 commits</title><path d="M470.0 303.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-26 · 1 commit</title><path d="M457.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-27 · 1 commit</title><path d="M444.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-28 · 1 commit</title><path d="M431.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-29 · 0 commits</title><path d="M418.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-30 · 0 commits</title><path d="M405.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-01-31 · 0 commits</title><path d="M392.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-01 · 1 commit</title><path d="M483.0 310.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-02 · 0 commits</title><path d="M470.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-03 · 1 commit</title><path d="M457.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-04 · 6 commits</title><path d="M444.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-05 · 2 commits</title><path d="M431.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-06 · 7 commits</title><path d="M418.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-07 · 0 commits</title><path d="M405.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-08 · 0 commits</title><path d="M496.0 317.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-09 · 0 commits</title><path d="M483.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-10 · 0 commits</title><path d="M470.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-11 · 2 commits</title><path d="M457.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-12 · 3 commits</title><path d="M444.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-13 · 8 commits</title><path d="M431.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-14 · 0 commits</title><path d="M418.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-15 · 0 commits</title><path d="M509.0 324.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-16 · 0 commits</title><path d="M496.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-17 · 0 commits</title><path d="M483.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-18 · 5 commits</title><path d="M470.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-19 · 0 commits</title><path d="M457.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-20 · 0 commits</title><path d="M444.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-21 · 0 commits</title><path d="M431.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-22 · 0 commits</title><path d="M522.0 331.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-23 · 0 commits</title><path d="M509.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-24 · 0 commits</title><path d="M496.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-25 · 0 commits</title><path d="M483.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-26 · 0 commits</title><path d="M470.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-27 · 0 commits</title><path d="M457.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-02-28 · 0 commits</title><path d="M444.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-01 · 0 commits</title><path d="M535.0 338.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-02 · 0 commits</title><path d="M522.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-03 · 0 commits</title><path d="M509.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-04 · 0 commits</title><path d="M496.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-05 · 0 commits</title><path d="M483.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-06 · 0 commits</title><path d="M470.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-07 · 0 commits</title><path d="M457.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-08 · 0 commits</title><path d="M548.0 345.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-09 · 0 commits</title><path d="M535.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-10 · 0 commits</title><path d="M522.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-11 · 0 commits</title><path d="M509.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-12 · 0 commits</title><path d="M496.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-13 · 0 commits</title><path d="M483.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-14 · 0 commits</title><path d="M470.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-15 · 0 commits</title><path d="M561.0 352.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-16 · 0 commits</title><path d="M548.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-17 · 0 commits</title><path d="M535.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-18 · 0 commits</title><path d="M522.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-19 · 0 commits</title><path d="M509.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-20 · 0 commits</title><path d="M496.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-21 · 10 commits</title><path d="M483.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-22 · 0 commits</title><path d="M574.0 359.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-23 · 0 commits</title><path d="M561.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-24 · 0 commits</title><path d="M548.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-25 · 1 commit</title><path d="M535.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-26 · 0 commits</title><path d="M522.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-27 · 0 commits</title><path d="M509.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-28 · 0 commits</title><path d="M496.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-29 · 0 commits</title><path d="M587.0 366.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-30 · 0 commits</title><path d="M574.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-03-31 · 0 commits</title><path d="M561.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-01 · 0 commits</title><path d="M548.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-02 · 0 commits</title><path d="M535.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-03 · 0 commits</title><path d="M522.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-04 · 0 commits</title><path d="M509.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-05 · 0 commits</title><path d="M600.0 373.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-06 · 0 commits</title><path d="M587.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-07 · 0 commits</title><path d="M574.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-08 · 0 commits</title><path d="M561.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-09 · 0 commits</title><path d="M548.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-10 · 0 commits</title><path d="M535.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-11 · 0 commits</title><path d="M522.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-12 · 0 commits</title><path d="M613.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-13 · 0 commits</title><path d="M600.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-14 · 0 commits</title><path d="M587.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-15 · 0 commits</title><path d="M574.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-16 · 0 commits</title><path d="M561.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-17 · 0 commits</title><path d="M548.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-18 · 0 commits</title><path d="M535.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-19 · 0 commits</title><path d="M626.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-20 · 1 commit</title><path d="M613.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-21 · 14 commits</title><path d="M600.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-22 · 0 commits</title><path d="M587.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-23 · 0 commits</title><path d="M574.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-24 · 0 commits</title><path d="M561.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-25 · 0 commits</title><path d="M548.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-26 · 0 commits</title><path d="M639.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-27 · 0 commits</title><path d="M626.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-28 · 0 commits</title><path d="M613.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-29 · 0 commits</title><path d="M600.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-04-30 · 2 commits</title><path d="M587.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-01 · 4 commits</title><path d="M574.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-02 · 0 commits</title><path d="M561.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-03 · 0 commits</title><path d="M652.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-04 · 0 commits</title><path d="M639.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-05 · 0 commits</title><path d="M626.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-06 · 7 commits</title><path d="M613.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-07 · 0 commits</title><path d="M600.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-08 · 0 commits</title><path d="M587.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-09 · 0 commits</title><path d="M574.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-10 · 0 commits</title><path d="M665.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-11 · 0 commits</title><path d="M652.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-12 · 0 commits</title><path d="M639.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-13 · 0 commits</title><path d="M626.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-14 · 0 commits</title><path d="M613.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-15 · 0 commits</title><path d="M600.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-16 · 0 commits</title><path d="M587.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-17 · 0 commits</title><path d="M678.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-18 · 0 commits</title><path d="M665.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-19 · 6 commits</title><path d="M652.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-20 · 16 commits</title><path d="M639.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-21 · 0 commits</title><path d="M626.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-22 · 0 commits</title><path d="M613.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-23 · 0 commits</title><path d="M600.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-24 · 0 commits</title><path d="M691.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-25 · 0 commits</title><path d="M678.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-26 · 0 commits</title><path d="M665.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-27 · 0 commits</title><path d="M652.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-28 · 0 commits</title><path d="M639.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-29 · 0 commits</title><path d="M626.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-30 · 0 commits</title><path d="M613.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-05-31 · 0 commits</title><path d="M704.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-01 · 0 commits</title><path d="M691.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-02 · 0 commits</title><path d="M678.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-03 · 0 commits</title><path d="M665.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-04 · 0 commits</title><path d="M652.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-05 · 0 commits</title><path d="M639.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-06 · 0 commits</title><path d="M626.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-07 · 0 commits</title><path d="M717.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-08 · 0 commits</title><path d="M704.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-09 · 0 commits</title><path d="M691.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-10 · 1 commit</title><path d="M678.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-11 · 0 commits</title><path d="M665.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-12 · 1 commit</title><path d="M652.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-13 · 0 commits</title><path d="M639.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-14 · 0 commits</title><path d="M730.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-15 · 1 commit</title><path d="M717.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-16 · 0 commits</title><path d="M704.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-17 · 1 commit</title><path d="M691.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-18 · 1 commit</title><path d="M678.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-19 · 1 commit</title><path d="M665.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-20 · 0 commits</title><path d="M652.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-21 · 1 commit</title><path d="M743.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-22 · 0 commits</title><path d="M730.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-23 · 1 commit</title><path d="M717.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-24 · 0 commits</title><path d="M704.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-25 · 0 commits</title><path d="M691.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-26 · 1 commit</title><path d="M678.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-27 · 0 commits</title><path d="M665.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-28 · 1 commit</title><path d="M756.0 457.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-29 · 0 commits</title><path d="M743.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-06-30 · 1 commit</title><path d="M730.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-01 · 0 commits</title><path d="M717.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-02 · 1 commit</title><path d="M704.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-03 · 0 commits</title><path d="M691.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-04 · 0 commits</title><path d="M678.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-05 · 1 commit</title><path d="M769.0 464.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-06 · 0 commits</title><path d="M756.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-07 · 0 commits</title><path d="M743.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-08 · 1 commit</title><path d="M730.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-09 · 0 commits</title><path d="M717.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-10 · 0 commits</title><path d="M704.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-11 · 1 commit</title><path d="M691.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-12 · 0 commits</title><path d="M782.0 471.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-13 · 1 commit</title><path d="M769.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-14 · 0 commits</title><path d="M756.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-15 · 0 commits</title><path d="M743.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-16 · 0 commits</title><path d="M730.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-17 · 0 commits</title><path d="M717.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-18 · 0 commits</title><path d="M704.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-19 · 0 commits</title><path d="M795.0 478.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-20 · 0 commits</title><path d="M782.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-21 · 0 commits</title><path d="M769.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-22 · 0 commits</title><path d="M756.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-23 · 0 commits</title><path d="M743.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-24 · 0 commits</title><path d="M730.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-25 · 0 commits</title><path d="M717.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-26 · 0 commits</title><path d="M808.0 485.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-27 · 0 commits</title><path d="M795.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-28 · 1 commit</title><path d="M782.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-29 · 2 commits</title><path d="M769.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-30 · 0 commits</title><path d="M756.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-07-31 · 0 commits</title><path d="M743.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-01 · 0 commits</title><path d="M730.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-02 · 0 commits</title><path d="M821.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-03 · 0 commits</title><path d="M808.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-04 · 0 commits</title><path d="M795.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-05 · 0 commits</title><path d="M782.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-06 · 0 commits</title><path d="M769.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-07 · 0 commits</title><path d="M756.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-08 · 0 commits</title><path d="M743.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-09 · 0 commits</title><path d="M834.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-10 · 0 commits</title><path d="M821.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-11 · 0 commits</title><path d="M808.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-12 · 0 commits</title><path d="M795.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-13 · 0 commits</title><path d="M782.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-14 · 0 commits</title><path d="M769.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-15 · 0 commits</title><path d="M756.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-16 · 0 commits</title><path d="M847.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-17 · 0 commits</title><path d="M834.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-18 · 0 commits</title><path d="M821.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-19 · 0 commits</title><path d="M808.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-20 · 0 commits</title><path d="M795.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-21 · 0 commits</title><path d="M782.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-22 · 0 commits</title><path d="M769.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-23 · 0 commits</title><path d="M860.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-24 · 0 commits</title><path d="M847.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-25 · 0 commits</title><path d="M834.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-26 · 0 commits</title><path d="M821.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-27 · 0 commits</title><path d="M808.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-28 · 0 commits</title><path d="M795.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-29 · 1 commit</title><path d="M782.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-30 · 0 commits</title><path d="M873.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-08-31 · 0 commits</title><path d="M860.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-01 · 2 commits</title><path d="M847.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-02 · 0 commits</title><path d="M834.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-03 · 2 commits</title><path d="M821.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-04 · 4 commits</title><path d="M808.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-05 · 0 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-06 · 0 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-07 · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-08 · 0 commits</title><path d="M860.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-09 · 2 commits</title><path d="M847.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-10 · 0 commits</title><path d="M834.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-11 · 0 commits</title><path d="M821.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-12 · 0 commits</title><path d="M808.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-13 · 0 commits</title><path d="M899.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-14 · 0 commits</title><path d="M886.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-15 · 0 commits</title><path d="M873.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-16 · 0 commits</title><path d="M860.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-17 · 0 commits</title><path d="M847.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-18 · 0 commits</title><path d="M834.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-19 · 0 commits</title><path d="M821.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-20 · 0 commits</title><path d="M912.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-21 · 0 commits</title><path d="M899.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-22 · 0 commits</title><path d="M886.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-23 · 3 commits</title><path d="M873.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-24 · 0 commits</title><path d="M860.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-25 · 0 commits</title><path d="M847.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-26 · 0 commits</title><path d="M834.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-27 · 0 commits</title><path d="M925.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-28 · 0 commits</title><path d="M912.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-29 · 0 commits</title><path d="M899.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-09-30 · 0 commits</title><path d="M886.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-01 · 0 commits</title><path d="M873.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-02 · 0 commits</title><path d="M860.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-03 · 0 commits</title><path d="M847.0 590.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-04 · 0 commits</title><path d="M938.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-05 · 5 commits</title><path d="M925.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-06 · 3 commits</title><path d="M912.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-07 · 1 commit</title><path d="M899.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-08 · 1 commit</title><path d="M886.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-09 · 1 commit</title><path d="M873.0 590.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-10 · 1 commit</title><path d="M860.0 597.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-11 · 1 commit</title><path d="M951.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-12 · 1 commit</title><path d="M938.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-13 · 1 commit</title><path d="M925.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-14 · 1 commit</title><path d="M912.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-15 · 1 commit</title><path d="M899.0 590.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-16 · 1 commit</title><path d="M886.0 597.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-17 · 1 commit</title><path d="M873.0 604.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-18 · 1 commit</title><path d="M964.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-19 · 1 commit</title><path d="M951.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-20 · 2 commits</title><path d="M938.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-21 · 1 commit</title><path d="M925.0 590.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-22 · 1 commit</title><path d="M912.0 597.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-23 · 1 commit</title><path d="M899.0 604.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-24 · 1 commit</title><path d="M886.0 611.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-25 · 1 commit</title><path d="M977.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-26 · 1 commit</title><path d="M964.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-27 · 1 commit</title><path d="M951.0 590.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-28 · 1 commit</title><path d="M938.0 597.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-29 · 1 commit</title><path d="M925.0 604.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-30 · 1 commit</title><path d="M912.0 611.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-31 · 9 commits</title><path d="M899.0 618.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2025-11-11 · 4 commits</title>
-<path d="M291.5 239.0L301.0 244.0L301.0 252.0L291.5 247.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M310.5 239.0L301.0 244.0L301.0 252.0L310.5 247.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M301.0 234.0L310.5 239.0L301.0 244.0L291.5 239.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2025-11-24 · 10 commits</title>
-<path d="M330.5 234.0L340.0 239.0L340.0 259.0L330.5 254.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M349.5 234.0L340.0 239.0L340.0 259.0L349.5 254.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M340.0 229.0L349.5 234.0L340.0 239.0L330.5 234.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2025-11-07 · 12 commits</title>
-<path d="M239.5 237.0L249.0 242.0L249.0 266.0L239.5 261.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M258.5 237.0L249.0 242.0L249.0 266.0L258.5 261.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M249.0 232.0L258.5 237.0L249.0 242.0L239.5 237.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="243.0" y="246.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="247.5" y="246.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="252.3" y="246.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-</g>
-<g><title>2025-11-25 · 3 commits</title>
-<path d="M317.5 255.0L327.0 260.0L327.0 266.0L317.5 261.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M336.5 255.0L327.0 260.0L327.0 266.0L336.5 261.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M327.0 250.0L336.5 255.0L327.0 260.0L317.5 255.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2025-12-04 · 27 commits</title>
-<path d="M304.5 228.0L314.0 233.0L314.0 287.0L304.5 282.0Z" fill="#0E805A" stroke="#06170F" stroke-width=".7"/>
-<path d="M323.5 228.0L314.0 233.0L314.0 287.0L323.5 282.0Z" fill="#09583F" stroke="#06170F" stroke-width=".7"/>
-<path d="M314.0 223.0L323.5 228.0L314.0 233.0L304.5 228.0Z" fill="#53E9B8" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="308.0" y="267.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".9"/>
-<rect x="312.5" y="267.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".72"/>
-<rect x="317.3" y="267.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".82"/>
-<rect x="308.0" y="257.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".9"/>
-<rect x="312.5" y="257.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".72"/>
-<rect x="317.3" y="257.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".82"/>
-<rect x="308.0" y="247.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".9"/>
-<rect x="312.5" y="247.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".72"/>
-<rect x="317.3" y="247.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".82"/>
-<rect x="308.0" y="237.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".9"/>
-<rect x="312.5" y="237.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".72"/>
-<rect x="317.3" y="237.0" width="2.4" height="3.4" rx=".6" fill="#D1FFEA" opacity=".82"/>
-</g>
-<g><title>2025-11-29 · 11 commits</title>
-<path d="M265.5 267.0L275.0 272.0L275.0 294.0L265.5 289.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M284.5 267.0L275.0 272.0L275.0 294.0L284.5 289.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M275.0 262.0L284.5 267.0L275.0 272.0L265.5 267.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="269.0" y="274.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="273.5" y="274.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="278.3" y="274.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-</g>
-<g><title>2026-01-11 · 9 commits</title>
-<path d="M434.5 278.0L444.0 283.0L444.0 301.0L434.5 296.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M453.5 278.0L444.0 283.0L444.0 301.0L453.5 296.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M444.0 273.0L453.5 278.0L444.0 283.0L434.5 278.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-12 · 1 commit</title>
-<path d="M421.5 300.0L431.0 305.0L431.0 308.0L421.5 303.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M440.5 300.0L431.0 305.0L431.0 308.0L440.5 303.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M431.0 295.0L440.5 300.0L431.0 305.0L421.5 300.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-02 · 1 commit</title>
-<path d="M343.5 314.0L353.0 319.0L353.0 322.0L343.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M362.5 314.0L353.0 319.0L353.0 322.0L362.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M353.0 309.0L362.5 314.0L353.0 319.0L343.5 314.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-08 · 6 commits</title>
-<path d="M369.5 305.0L379.0 310.0L379.0 322.0L369.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M388.5 305.0L379.0 310.0L379.0 322.0L388.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M379.0 300.0L388.5 305.0L379.0 310.0L369.5 305.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-14 · 2 commits</title>
-<path d="M395.5 313.0L405.0 318.0L405.0 322.0L395.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M414.5 313.0L405.0 318.0L405.0 322.0L414.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M405.0 308.0L414.5 313.0L405.0 318.0L395.5 313.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-20 · 1 commit</title>
-<path d="M421.5 314.0L431.0 319.0L431.0 322.0L421.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M440.5 314.0L431.0 319.0L431.0 322.0L440.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M431.0 309.0L440.5 314.0L431.0 319.0L421.5 314.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-26 · 1 commit</title>
-<path d="M447.5 314.0L457.0 319.0L457.0 322.0L447.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M466.5 314.0L457.0 319.0L457.0 322.0L466.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M457.0 309.0L466.5 314.0L457.0 319.0L447.5 314.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-01 · 1 commit</title>
-<path d="M473.5 314.0L483.0 319.0L483.0 322.0L473.5 317.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M492.5 314.0L483.0 319.0L483.0 322.0L492.5 317.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M483.0 309.0L492.5 314.0L483.0 319.0L473.5 314.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-09 · 11 commits</title>
-<path d="M356.5 302.0L366.0 307.0L366.0 329.0L356.5 324.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M375.5 302.0L366.0 307.0L366.0 329.0L375.5 324.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M366.0 297.0L375.5 302.0L366.0 307.0L356.5 302.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="360.0" y="309.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="364.5" y="309.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="369.3" y="309.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-</g>
-<g><title>2026-01-21 · 2 commits</title>
-<path d="M408.5 320.0L418.0 325.0L418.0 329.0L408.5 324.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M427.5 320.0L418.0 325.0L418.0 329.0L427.5 324.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M418.0 315.0L427.5 320.0L418.0 325.0L408.5 320.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-27 · 1 commit</title>
-<path d="M434.5 321.0L444.0 326.0L444.0 329.0L434.5 324.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M453.5 321.0L444.0 326.0L444.0 329.0L453.5 324.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M444.0 316.0L453.5 321.0L444.0 326.0L434.5 321.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-10 · 10 commits</title>
-<path d="M343.5 311.0L353.0 316.0L353.0 336.0L343.5 331.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M362.5 311.0L353.0 316.0L353.0 336.0L362.5 331.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M353.0 306.0L362.5 311.0L353.0 316.0L343.5 311.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-28 · 1 commit</title>
-<path d="M421.5 328.0L431.0 333.0L431.0 336.0L421.5 331.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M440.5 328.0L431.0 333.0L431.0 336.0L440.5 331.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M431.0 323.0L440.5 328.0L431.0 333.0L421.5 328.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-03 · 1 commit</title>
-<path d="M447.5 328.0L457.0 333.0L457.0 336.0L447.5 331.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M466.5 328.0L457.0 333.0L457.0 336.0L466.5 331.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M457.0 323.0L466.5 328.0L457.0 333.0L447.5 328.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-01-23 · 3 commits</title>
-<path d="M382.5 332.0L392.0 337.0L392.0 343.0L382.5 338.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M401.5 332.0L392.0 337.0L392.0 343.0L401.5 338.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M392.0 327.0L401.5 332.0L392.0 337.0L382.5 332.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-04 · 6 commits</title>
-<path d="M434.5 326.0L444.0 331.0L444.0 343.0L434.5 338.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M453.5 326.0L444.0 331.0L444.0 343.0L453.5 338.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M444.0 321.0L453.5 326.0L444.0 331.0L434.5 326.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-05 · 2 commits</title>
-<path d="M421.5 341.0L431.0 346.0L431.0 350.0L421.5 345.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M440.5 341.0L431.0 346.0L431.0 350.0L440.5 345.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M431.0 336.0L440.5 341.0L431.0 346.0L421.5 341.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-11 · 2 commits</title>
-<path d="M447.5 341.0L457.0 346.0L457.0 350.0L447.5 345.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M466.5 341.0L457.0 346.0L457.0 350.0L466.5 345.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M457.0 336.0L466.5 341.0L457.0 346.0L447.5 341.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-06 · 7 commits</title>
-<path d="M408.5 338.0L418.0 343.0L418.0 357.0L408.5 352.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M427.5 338.0L418.0 343.0L418.0 357.0L427.5 352.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M418.0 333.0L427.5 338.0L418.0 343.0L408.5 338.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-12 · 3 commits</title>
-<path d="M434.5 346.0L444.0 351.0L444.0 357.0L434.5 352.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M453.5 346.0L444.0 351.0L444.0 357.0L453.5 352.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M444.0 341.0L453.5 346.0L444.0 351.0L434.5 346.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-18 · 5 commits</title>
-<path d="M460.5 342.0L470.0 347.0L470.0 357.0L460.5 352.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M479.5 342.0L470.0 347.0L470.0 357.0L479.5 352.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M470.0 337.0L479.5 342.0L470.0 347.0L460.5 342.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-02-13 · 8 commits</title>
-<path d="M421.5 343.0L431.0 348.0L431.0 364.0L421.5 359.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M440.5 343.0L431.0 348.0L431.0 364.0L440.5 359.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M431.0 338.0L440.5 343.0L431.0 348.0L421.5 343.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-03-25 · 1 commit</title>
-<path d="M525.5 384.0L535.0 389.0L535.0 392.0L525.5 387.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M544.5 384.0L535.0 389.0L535.0 392.0L544.5 387.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M535.0 379.0L544.5 384.0L535.0 389.0L525.5 384.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-03-21 · 10 commits</title>
-<path d="M473.5 381.0L483.0 386.0L483.0 406.0L473.5 401.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M492.5 381.0L483.0 386.0L483.0 406.0L492.5 401.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M483.0 376.0L492.5 381.0L483.0 386.0L473.5 381.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-04-20 · 1 commit</title>
-<path d="M603.5 398.0L613.0 403.0L613.0 406.0L603.5 401.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M622.5 398.0L613.0 403.0L613.0 406.0L622.5 401.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M613.0 393.0L622.5 398.0L613.0 403.0L603.5 398.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-04-21 · 14 commits</title>
-<path d="M590.5 380.0L600.0 385.0L600.0 413.0L590.5 408.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M609.5 380.0L600.0 385.0L600.0 413.0L609.5 408.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M600.0 375.0L609.5 380.0L600.0 385.0L590.5 380.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="594.0" y="393.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="598.5" y="393.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="603.3" y="393.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-</g>
-<g><title>2026-04-30 · 2 commits</title>
-<path d="M577.5 425.0L587.0 430.0L587.0 434.0L577.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M596.5 425.0L587.0 430.0L587.0 434.0L596.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M587.0 420.0L596.5 425.0L587.0 430.0L577.5 425.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-05-06 · 7 commits</title>
-<path d="M603.5 415.0L613.0 420.0L613.0 434.0L603.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M622.5 415.0L613.0 420.0L613.0 434.0L622.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M613.0 410.0L622.5 415.0L613.0 420.0L603.5 415.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-05-01 · 4 commits</title>
-<path d="M564.5 428.0L574.0 433.0L574.0 441.0L564.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M583.5 428.0L574.0 433.0L574.0 441.0L583.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M574.0 423.0L583.5 428.0L574.0 433.0L564.5 428.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-05-19 · 6 commits</title>
-<path d="M642.5 424.0L652.0 429.0L652.0 441.0L642.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M661.5 424.0L652.0 429.0L652.0 441.0L661.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M652.0 419.0L661.5 424.0L652.0 429.0L642.5 424.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-05-20 · 16 commits</title>
-<path d="M629.5 411.0L639.0 416.0L639.0 448.0L629.5 443.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M648.5 411.0L639.0 416.0L639.0 448.0L648.5 443.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M639.0 406.0L648.5 411.0L639.0 416.0L629.5 411.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
-<rect x="633.0" y="428.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="637.5" y="428.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="642.3" y="428.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-<rect x="633.0" y="418.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".9"/>
-<rect x="637.5" y="418.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
-<rect x="642.3" y="418.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
-</g>
-<g><title>2026-06-15 · 1 commit</title>
-<path d="M707.5 454.0L717.0 459.0L717.0 462.0L707.5 457.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M726.5 454.0L717.0 459.0L717.0 462.0L726.5 457.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M717.0 449.0L726.5 454.0L717.0 459.0L707.5 454.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-21 · 1 commit</title>
-<path d="M733.5 454.0L743.0 459.0L743.0 462.0L733.5 457.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M752.5 454.0L743.0 459.0L743.0 462.0L752.5 457.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M743.0 449.0L752.5 454.0L743.0 459.0L733.5 454.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-10 · 1 commit</title>
-<path d="M668.5 461.0L678.0 466.0L678.0 469.0L668.5 464.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M687.5 461.0L678.0 466.0L678.0 469.0L687.5 464.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M678.0 456.0L687.5 461.0L678.0 466.0L668.5 461.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-28 · 1 commit</title>
-<path d="M746.5 461.0L756.0 466.0L756.0 469.0L746.5 464.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M765.5 461.0L756.0 466.0L756.0 469.0L765.5 464.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M756.0 456.0L765.5 461.0L756.0 466.0L746.5 461.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-17 · 1 commit</title>
-<path d="M681.5 468.0L691.0 473.0L691.0 476.0L681.5 471.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M700.5 468.0L691.0 473.0L691.0 476.0L700.5 471.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M691.0 463.0L700.5 468.0L691.0 473.0L681.5 468.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-23 · 1 commit</title>
-<path d="M707.5 468.0L717.0 473.0L717.0 476.0L707.5 471.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M726.5 468.0L717.0 473.0L717.0 476.0L726.5 471.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M717.0 463.0L726.5 468.0L717.0 473.0L707.5 468.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-05 · 1 commit</title>
-<path d="M759.5 468.0L769.0 473.0L769.0 476.0L759.5 471.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M778.5 468.0L769.0 473.0L769.0 476.0L778.5 471.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M769.0 463.0L778.5 468.0L769.0 473.0L759.5 468.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-12 · 1 commit</title>
-<path d="M642.5 475.0L652.0 480.0L652.0 483.0L642.5 478.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M661.5 475.0L652.0 480.0L652.0 483.0L661.5 478.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M652.0 470.0L661.5 475.0L652.0 480.0L642.5 475.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-18 · 1 commit</title>
-<path d="M668.5 475.0L678.0 480.0L678.0 483.0L668.5 478.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M687.5 475.0L678.0 480.0L678.0 483.0L687.5 478.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M678.0 470.0L687.5 475.0L678.0 480.0L668.5 475.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-30 · 1 commit</title>
-<path d="M720.5 475.0L730.0 480.0L730.0 483.0L720.5 478.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M739.5 475.0L730.0 480.0L730.0 483.0L739.5 478.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M730.0 470.0L739.5 475.0L730.0 480.0L720.5 475.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-19 · 1 commit</title>
-<path d="M655.5 482.0L665.0 487.0L665.0 490.0L655.5 485.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M674.5 482.0L665.0 487.0L665.0 490.0L674.5 485.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M665.0 477.0L674.5 482.0L665.0 487.0L655.5 482.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-13 · 1 commit</title>
-<path d="M759.5 482.0L769.0 487.0L769.0 490.0L759.5 485.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M778.5 482.0L769.0 487.0L769.0 490.0L778.5 485.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M769.0 477.0L778.5 482.0L769.0 487.0L759.5 482.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-06-26 · 1 commit</title>
-<path d="M668.5 489.0L678.0 494.0L678.0 497.0L668.5 492.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M687.5 489.0L678.0 494.0L678.0 497.0L687.5 492.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M678.0 484.0L687.5 489.0L678.0 494.0L668.5 489.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-02 · 1 commit</title>
-<path d="M694.5 489.0L704.0 494.0L704.0 497.0L694.5 492.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M713.5 489.0L704.0 494.0L704.0 497.0L713.5 492.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M704.0 484.0L713.5 489.0L704.0 494.0L694.5 489.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-08 · 1 commit</title>
-<path d="M720.5 489.0L730.0 494.0L730.0 497.0L720.5 492.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M739.5 489.0L730.0 494.0L730.0 497.0L739.5 492.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M730.0 484.0L739.5 489.0L730.0 494.0L720.5 489.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-28 · 1 commit</title>
-<path d="M772.5 503.0L782.0 508.0L782.0 511.0L772.5 506.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M791.5 503.0L782.0 508.0L782.0 511.0L791.5 506.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M782.0 498.0L791.5 503.0L782.0 508.0L772.5 503.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-11 · 1 commit</title>
-<path d="M681.5 510.0L691.0 515.0L691.0 518.0L681.5 513.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M700.5 510.0L691.0 515.0L691.0 518.0L700.5 513.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M691.0 505.0L700.5 510.0L691.0 515.0L681.5 510.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-07-29 · 2 commits</title>
-<path d="M759.5 509.0L769.0 514.0L769.0 518.0L759.5 513.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M778.5 509.0L769.0 514.0L769.0 518.0L778.5 513.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M769.0 504.0L778.5 509.0L769.0 514.0L759.5 509.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-09-01 · 2 commits</title>
-<path d="M837.5 537.0L847.0 542.0L847.0 546.0L837.5 541.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M856.5 537.0L847.0 542.0L847.0 546.0L856.5 541.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M847.0 532.0L856.5 537.0L847.0 542.0L837.5 537.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-09-03 · 2 commits</title>
-<path d="M811.5 551.0L821.0 556.0L821.0 560.0L811.5 555.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M830.5 551.0L821.0 556.0L821.0 560.0L830.5 555.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M821.0 546.0L830.5 551.0L821.0 556.0L811.5 551.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-09-09 · 2 commits</title>
-<path d="M837.5 551.0L847.0 556.0L847.0 560.0L837.5 555.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M856.5 551.0L847.0 556.0L847.0 560.0L856.5 555.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M847.0 546.0L856.5 551.0L847.0 556.0L837.5 551.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-08-29 · 1 commit</title>
-<path d="M772.5 559.0L782.0 564.0L782.0 567.0L772.5 562.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M791.5 559.0L782.0 564.0L782.0 567.0L791.5 562.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M782.0 554.0L791.5 559.0L782.0 564.0L772.5 559.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-09-04 · 4 commits</title>
-<path d="M798.5 554.0L808.0 559.0L808.0 567.0L798.5 562.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M817.5 554.0L808.0 559.0L808.0 567.0L817.5 562.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M808.0 549.0L817.5 554.0L808.0 559.0L798.5 554.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
-<g><title>2026-09-23 · 3 commits</title>
-<path d="M863.5 563.0L873.0 568.0L873.0 574.0L863.5 569.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M882.5 563.0L873.0 568.0L873.0 574.0L882.5 569.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M873.0 558.0L882.5 563.0L873.0 568.0L863.5 563.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
-</g>
+<path d="M678.0 422.0L587.0 464.0L587.0 479.0L678.0 437.0Z" fill="#06150D" stroke="#153D29"/>
+<path d="M522.0 436.0L587.0 464.0L587.0 479.0L522.0 451.0Z" fill="url(#plane-face)" stroke="#1C5237"/>
+<path d="M613.0 380.0L678.0 422.0L587.0 464.0L522.0 436.0Z" fill="#0A1F14" stroke="#2A7651" stroke-width="1.5"/>
+<g><title>outside the 365-day window</title><path d="M613.0 380.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
+<g><title>outside the 365-day window</title><path d="M600.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
+<g><title>outside the 365-day window</title><path d="M587.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
+<g><title>outside the 365-day window</title><path d="M574.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
+<g><title>outside the 365-day window</title><path d="M561.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity=".42"/></g>
+<g><title>2026-10-02 · 0 commits</title><path d="M548.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-03 · 0 commits</title><path d="M535.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-04 · 0 commits</title><path d="M626.0 387.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-05 · 5 commits</title><path d="M613.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-06 · 3 commits</title><path d="M600.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-07 · 1 commit</title><path d="M587.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-08 · 1 commit</title><path d="M574.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-09 · 1 commit</title><path d="M561.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-10 · 1 commit</title><path d="M548.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-11 · 1 commit</title><path d="M639.0 394.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-12 · 1 commit</title><path d="M626.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-13 · 1 commit</title><path d="M613.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-14 · 1 commit</title><path d="M600.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-15 · 1 commit</title><path d="M587.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-16 · 1 commit</title><path d="M574.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-17 · 1 commit</title><path d="M561.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-18 · 1 commit</title><path d="M652.0 401.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-19 · 1 commit</title><path d="M639.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-20 · 2 commits</title><path d="M626.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-21 · 1 commit</title><path d="M613.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-22 · 1 commit</title><path d="M600.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-23 · 1 commit</title><path d="M587.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-24 · 1 commit</title><path d="M574.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-25 · 1 commit</title><path d="M665.0 408.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-26 · 1 commit</title><path d="M652.0 415.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-27 · 1 commit</title><path d="M639.0 422.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-28 · 1 commit</title><path d="M626.0 429.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-29 · 1 commit</title><path d="M613.0 436.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-30 · 1 commit</title><path d="M600.0 443.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-31 · 9 commits</title><path d="M587.0 450.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
 <g><title>2026-10-05 · 5 commits</title>
-<path d="M915.5 559.0L925.0 564.0L925.0 574.0L915.5 569.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M934.5 559.0L925.0 564.0L925.0 574.0L934.5 569.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M925.0 554.0L934.5 559.0L925.0 564.0L915.5 559.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M603.5 391.0L613.0 396.0L613.0 406.0L603.5 401.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M622.5 391.0L613.0 396.0L613.0 406.0L622.5 401.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M613.0 386.0L622.5 391.0L613.0 396.0L603.5 391.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-11 · 1 commit</title>
-<path d="M941.5 566.0L951.0 571.0L951.0 574.0L941.5 569.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M960.5 566.0L951.0 571.0L951.0 574.0L960.5 569.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M951.0 561.0L960.5 566.0L951.0 571.0L941.5 566.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M629.5 398.0L639.0 403.0L639.0 406.0L629.5 401.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M648.5 398.0L639.0 403.0L639.0 406.0L648.5 401.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M639.0 393.0L648.5 398.0L639.0 403.0L629.5 398.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-06 · 3 commits</title>
-<path d="M902.5 570.0L912.0 575.0L912.0 581.0L902.5 576.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M921.5 570.0L912.0 575.0L912.0 581.0L921.5 576.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M912.0 565.0L921.5 570.0L912.0 575.0L902.5 570.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M590.5 402.0L600.0 407.0L600.0 413.0L590.5 408.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M609.5 402.0L600.0 407.0L600.0 413.0L609.5 408.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M600.0 397.0L609.5 402.0L600.0 407.0L590.5 402.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-12 · 1 commit</title>
-<path d="M928.5 573.0L938.0 578.0L938.0 581.0L928.5 576.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M947.5 573.0L938.0 578.0L938.0 581.0L947.5 576.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M938.0 568.0L947.5 573.0L938.0 578.0L928.5 573.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M616.5 405.0L626.0 410.0L626.0 413.0L616.5 408.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M635.5 405.0L626.0 410.0L626.0 413.0L635.5 408.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M626.0 400.0L635.5 405.0L626.0 410.0L616.5 405.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-18 · 1 commit</title>
-<path d="M954.5 573.0L964.0 578.0L964.0 581.0L954.5 576.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M973.5 573.0L964.0 578.0L964.0 581.0L973.5 576.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M964.0 568.0L973.5 573.0L964.0 578.0L954.5 573.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M642.5 405.0L652.0 410.0L652.0 413.0L642.5 408.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M661.5 405.0L652.0 410.0L652.0 413.0L661.5 408.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M652.0 400.0L661.5 405.0L652.0 410.0L642.5 405.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-07 · 1 commit</title>
-<path d="M889.5 580.0L899.0 585.0L899.0 588.0L889.5 583.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M908.5 580.0L899.0 585.0L899.0 588.0L908.5 583.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M899.0 575.0L908.5 580.0L899.0 585.0L889.5 580.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M577.5 412.0L587.0 417.0L587.0 420.0L577.5 415.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M596.5 412.0L587.0 417.0L587.0 420.0L596.5 415.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M587.0 407.0L596.5 412.0L587.0 417.0L577.5 412.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-13 · 1 commit</title>
-<path d="M915.5 580.0L925.0 585.0L925.0 588.0L915.5 583.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M934.5 580.0L925.0 585.0L925.0 588.0L934.5 583.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M925.0 575.0L934.5 580.0L925.0 585.0L915.5 580.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M603.5 412.0L613.0 417.0L613.0 420.0L603.5 415.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M622.5 412.0L613.0 417.0L613.0 420.0L622.5 415.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M613.0 407.0L622.5 412.0L613.0 417.0L603.5 412.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-19 · 1 commit</title>
-<path d="M941.5 580.0L951.0 585.0L951.0 588.0L941.5 583.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M960.5 580.0L951.0 585.0L951.0 588.0L960.5 583.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M951.0 575.0L960.5 580.0L951.0 585.0L941.5 580.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M629.5 412.0L639.0 417.0L639.0 420.0L629.5 415.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M648.5 412.0L639.0 417.0L639.0 420.0L648.5 415.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M639.0 407.0L648.5 412.0L639.0 417.0L629.5 412.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-25 · 1 commit</title>
-<path d="M967.5 580.0L977.0 585.0L977.0 588.0L967.5 583.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M986.5 580.0L977.0 585.0L977.0 588.0L986.5 583.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M977.0 575.0L986.5 580.0L977.0 585.0L967.5 580.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M655.5 412.0L665.0 417.0L665.0 420.0L655.5 415.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M674.5 412.0L665.0 417.0L665.0 420.0L674.5 415.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M665.0 407.0L674.5 412.0L665.0 417.0L655.5 412.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-08 · 1 commit</title>
-<path d="M876.5 587.0L886.0 592.0L886.0 595.0L876.5 590.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M895.5 587.0L886.0 592.0L886.0 595.0L895.5 590.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M886.0 582.0L895.5 587.0L886.0 592.0L876.5 587.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M564.5 419.0L574.0 424.0L574.0 427.0L564.5 422.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M583.5 419.0L574.0 424.0L574.0 427.0L583.5 422.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M574.0 414.0L583.5 419.0L574.0 424.0L564.5 419.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-14 · 1 commit</title>
-<path d="M902.5 587.0L912.0 592.0L912.0 595.0L902.5 590.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M921.5 587.0L912.0 592.0L912.0 595.0L921.5 590.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M912.0 582.0L921.5 587.0L912.0 592.0L902.5 587.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M590.5 419.0L600.0 424.0L600.0 427.0L590.5 422.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M609.5 419.0L600.0 424.0L600.0 427.0L609.5 422.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M600.0 414.0L609.5 419.0L600.0 424.0L590.5 419.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-20 · 2 commits</title>
-<path d="M928.5 586.0L938.0 591.0L938.0 595.0L928.5 590.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M947.5 586.0L938.0 591.0L938.0 595.0L947.5 590.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M938.0 581.0L947.5 586.0L938.0 591.0L928.5 586.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M616.5 418.0L626.0 423.0L626.0 427.0L616.5 422.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M635.5 418.0L626.0 423.0L626.0 427.0L635.5 422.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M626.0 413.0L635.5 418.0L626.0 423.0L616.5 418.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-26 · 1 commit</title>
-<path d="M954.5 587.0L964.0 592.0L964.0 595.0L954.5 590.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M973.5 587.0L964.0 592.0L964.0 595.0L973.5 590.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M964.0 582.0L973.5 587.0L964.0 592.0L954.5 587.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M642.5 419.0L652.0 424.0L652.0 427.0L642.5 422.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M661.5 419.0L652.0 424.0L652.0 427.0L661.5 422.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M652.0 414.0L661.5 419.0L652.0 424.0L642.5 419.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-09 · 1 commit</title>
-<path d="M863.5 594.0L873.0 599.0L873.0 602.0L863.5 597.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M882.5 594.0L873.0 599.0L873.0 602.0L882.5 597.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M873.0 589.0L882.5 594.0L873.0 599.0L863.5 594.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M551.5 426.0L561.0 431.0L561.0 434.0L551.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M570.5 426.0L561.0 431.0L561.0 434.0L570.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M561.0 421.0L570.5 426.0L561.0 431.0L551.5 426.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-15 · 1 commit</title>
-<path d="M889.5 594.0L899.0 599.0L899.0 602.0L889.5 597.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M908.5 594.0L899.0 599.0L899.0 602.0L908.5 597.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M899.0 589.0L908.5 594.0L899.0 599.0L889.5 594.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M577.5 426.0L587.0 431.0L587.0 434.0L577.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M596.5 426.0L587.0 431.0L587.0 434.0L596.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M587.0 421.0L596.5 426.0L587.0 431.0L577.5 426.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-21 · 1 commit</title>
-<path d="M915.5 594.0L925.0 599.0L925.0 602.0L915.5 597.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M934.5 594.0L925.0 599.0L925.0 602.0L934.5 597.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M925.0 589.0L934.5 594.0L925.0 599.0L915.5 594.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M603.5 426.0L613.0 431.0L613.0 434.0L603.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M622.5 426.0L613.0 431.0L613.0 434.0L622.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M613.0 421.0L622.5 426.0L613.0 431.0L603.5 426.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-27 · 1 commit</title>
-<path d="M941.5 594.0L951.0 599.0L951.0 602.0L941.5 597.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M960.5 594.0L951.0 599.0L951.0 602.0L960.5 597.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M951.0 589.0L960.5 594.0L951.0 599.0L941.5 594.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M629.5 426.0L639.0 431.0L639.0 434.0L629.5 429.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M648.5 426.0L639.0 431.0L639.0 434.0L648.5 429.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M639.0 421.0L648.5 426.0L639.0 431.0L629.5 426.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-10 · 1 commit</title>
-<path d="M850.5 601.0L860.0 606.0L860.0 609.0L850.5 604.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M869.5 601.0L860.0 606.0L860.0 609.0L869.5 604.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M860.0 596.0L869.5 601.0L860.0 606.0L850.5 601.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M538.5 433.0L548.0 438.0L548.0 441.0L538.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M557.5 433.0L548.0 438.0L548.0 441.0L557.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M548.0 428.0L557.5 433.0L548.0 438.0L538.5 433.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-16 · 1 commit</title>
-<path d="M876.5 601.0L886.0 606.0L886.0 609.0L876.5 604.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M895.5 601.0L886.0 606.0L886.0 609.0L895.5 604.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M886.0 596.0L895.5 601.0L886.0 606.0L876.5 601.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M564.5 433.0L574.0 438.0L574.0 441.0L564.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M583.5 433.0L574.0 438.0L574.0 441.0L583.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M574.0 428.0L583.5 433.0L574.0 438.0L564.5 433.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-22 · 1 commit</title>
-<path d="M902.5 601.0L912.0 606.0L912.0 609.0L902.5 604.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M921.5 601.0L912.0 606.0L912.0 609.0L921.5 604.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M912.0 596.0L921.5 601.0L912.0 606.0L902.5 601.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M590.5 433.0L600.0 438.0L600.0 441.0L590.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M609.5 433.0L600.0 438.0L600.0 441.0L609.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M600.0 428.0L609.5 433.0L600.0 438.0L590.5 433.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-28 · 1 commit</title>
-<path d="M928.5 601.0L938.0 606.0L938.0 609.0L928.5 604.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M947.5 601.0L938.0 606.0L938.0 609.0L947.5 604.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M938.0 596.0L947.5 601.0L938.0 606.0L928.5 601.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M616.5 433.0L626.0 438.0L626.0 441.0L616.5 436.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M635.5 433.0L626.0 438.0L626.0 441.0L635.5 436.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M626.0 428.0L635.5 433.0L626.0 438.0L616.5 433.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-17 · 1 commit</title>
-<path d="M863.5 608.0L873.0 613.0L873.0 616.0L863.5 611.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M882.5 608.0L873.0 613.0L873.0 616.0L882.5 611.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M873.0 603.0L882.5 608.0L873.0 613.0L863.5 608.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M551.5 440.0L561.0 445.0L561.0 448.0L551.5 443.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M570.5 440.0L561.0 445.0L561.0 448.0L570.5 443.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M561.0 435.0L570.5 440.0L561.0 445.0L551.5 440.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-23 · 1 commit</title>
-<path d="M889.5 608.0L899.0 613.0L899.0 616.0L889.5 611.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M908.5 608.0L899.0 613.0L899.0 616.0L908.5 611.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M899.0 603.0L908.5 608.0L899.0 613.0L889.5 608.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M577.5 440.0L587.0 445.0L587.0 448.0L577.5 443.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M596.5 440.0L587.0 445.0L587.0 448.0L596.5 443.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M587.0 435.0L596.5 440.0L587.0 445.0L577.5 440.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-29 · 1 commit</title>
-<path d="M915.5 608.0L925.0 613.0L925.0 616.0L915.5 611.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M934.5 608.0L925.0 613.0L925.0 616.0L934.5 611.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M925.0 603.0L934.5 608.0L925.0 613.0L915.5 608.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M603.5 440.0L613.0 445.0L613.0 448.0L603.5 443.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M622.5 440.0L613.0 445.0L613.0 448.0L622.5 443.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M613.0 435.0L622.5 440.0L613.0 445.0L603.5 440.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-24 · 1 commit</title>
-<path d="M876.5 615.0L886.0 620.0L886.0 623.0L876.5 618.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M895.5 615.0L886.0 620.0L886.0 623.0L895.5 618.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M886.0 610.0L895.5 615.0L886.0 620.0L876.5 615.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M564.5 447.0L574.0 452.0L574.0 455.0L564.5 450.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M583.5 447.0L574.0 452.0L574.0 455.0L583.5 450.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M574.0 442.0L583.5 447.0L574.0 452.0L564.5 447.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-30 · 1 commit</title>
-<path d="M902.5 615.0L912.0 620.0L912.0 623.0L902.5 618.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
-<path d="M921.5 615.0L912.0 620.0L912.0 623.0L921.5 618.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
-<path d="M912.0 610.0L921.5 615.0L912.0 620.0L902.5 615.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M590.5 447.0L600.0 452.0L600.0 455.0L590.5 450.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M609.5 447.0L600.0 452.0L600.0 455.0L609.5 450.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M600.0 442.0L609.5 447.0L600.0 452.0L590.5 447.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <g><title>2026-10-31 · 9 commits</title>
-<path d="M889.5 607.0L899.0 612.0L899.0 630.0L889.5 625.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
-<path d="M908.5 607.0L899.0 612.0L899.0 630.0L908.5 625.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
-<path d="M899.0 602.0L908.5 607.0L899.0 612.0L889.5 607.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
+<path d="M577.5 439.0L587.0 444.0L587.0 462.0L577.5 457.0Z" fill="#0B704D" stroke="#06170F" stroke-width=".7"/>
+<path d="M596.5 439.0L587.0 444.0L587.0 462.0L596.5 457.0Z" fill="#084A35" stroke="#06170F" stroke-width=".7"/>
+<path d="M587.0 434.0L596.5 439.0L587.0 444.0L577.5 439.0Z" fill="#39C995" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <text x="28" y="663" class="micro">365 DAYS / ONE LOT PER DAY / HOVER FOR THE EXACT COUNT</text>
 <text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING</text>
