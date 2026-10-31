@@ -19,7 +19,7 @@ LOGIN = os.environ.get("PROFILE_LOGIN", "TheVoidJulius")
 PROFILE_REPO = os.environ.get("PROFILE_REPO", f"{LOGIN}/{LOGIN}").lower()
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 CITY_CAP = 50
-RENDERER_VERSION = 1
+RENDERER_VERSION = 2
 WINDOW_DAYS = 365
 REPOSITORY_LIMIT = 100
 WINDOW_SIZE_DAYS = 30
@@ -122,14 +122,14 @@ def fetch_daily_commits(now, previous_daily=None, full_refresh=False):
 
 def building_colors(commits):
     if commits >= 40:
-        return "#E9BE63", "#A4772F", "#FFE49A", "#182219"
+        return "#1C654B", "#13936A", "#0B654A", "#73F6CA", "#D9FFF0", "#FFE49A"
     if commits >= 20:
-        return "#55D7AD", "#268D6C", "#91F4D4", "#0E2118"
+        return "#15543A", "#0E805A", "#09583F", "#53E9B8", "#D1FFEA", "#A5FFE1"
     if commits >= 8:
-        return "#28A879", "#176A4A", "#63E6BE", "#0D1C14"
+        return "#10452F", "#0B704D", "#084A35", "#39C995", "#BAF8DA", "#63E6BE"
     if commits > 0:
-        return "#176A4A", "#10452F", "#39B583", "#0B1911"
-    return "#14251B", "#0F1D15", "#1D3023", "#122017"
+        return "#0D3826", "#095B3F", "#073C2C", "#27A979", "#A1EBCB", "#45D5A2"
+    return "#0A2015", "#0D281B", "#091D14", "#123323", "#8DE7BE", "#63E6BE"
 
 
 def render_city_svg(now, start, end, daily, synced=True):
@@ -137,80 +137,151 @@ def render_city_svg(now, start, end, daily, synced=True):
     first_sunday = start - timedelta(days=(start.weekday() + 1) % 7)
     last_saturday = end + timedelta(days=(5 - end.weekday()) % 7)
     week_count = ((last_saturday - first_sunday).days // 7) + 1
-    width, height = 1200, 570
-    left, week_pitch = 64, 21
-    row_pitch, first_base = 50, 166
+    width, height = 1200, 680
+    tile_width, tile_height = 26, 14
+    half_width, half_height = tile_width / 2, tile_height / 2
+    center_x, center_y = 600, 422
+    week_mid = (week_count - 1) / 2
     active_days = sum(value > 0 for value in by_date.values())
     total_commits = sum(by_date.values())
     peak = max(by_date.values(), default=0)
 
+    def cell_center(week, row):
+        x = center_x + ((week - week_mid) - (row - 3)) * half_width
+        y = center_y + ((week - week_mid) + (row - 3)) * half_height
+        return x, y
+
+    first_center = cell_center(0, 0)
+    east_center = cell_center(week_count - 1, 0)
+    far_center = cell_center(week_count - 1, 6)
+    west_center = cell_center(0, 6)
+    plane_top = (first_center[0], first_center[1] - half_height)
+    plane_east = (east_center[0] + half_width, east_center[1] + half_height)
+    plane_far = (far_center[0], far_center[1] + half_height)
+    plane_west = (west_center[0] - half_width, west_center[1] + half_height)
+
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="city-title city-desc">',
         '<title id="city-title">TheVoidJulius commit city</title>',
-        '<desc id="city-desc">An isometric building for each day in the last year. Building height scales with the daily commit count; 50 commits or more reaches the skyline cap.</desc>',
-        '<defs><linearGradient id="city-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08130D"/><stop offset="1" stop-color="#07100B"/></linearGradient><linearGradient id="city-glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#63E6BE" stop-opacity=".22"/><stop offset="1" stop-color="#63E6BE" stop-opacity="0"/></linearGradient></defs>',
-        '<rect x="2" y="2" width="1196" height="566" rx="18" fill="url(#city-bg)" stroke="#294734" stroke-width="2"/>',
-        '<path d="M24 78h1152" stroke="#294734"/>',
-        '<rect x="24" y="83" width="290" height="3" rx="2" fill="url(#city-glow)"/>',
-        '<style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#63E6BE;font-size:11px;letter-spacing:2px}.title{fill:#F0F7F2;font-size:21px;font-weight:700}.label{fill:#8FA99A;font-size:10px;letter-spacing:1px}.month{fill:#94AA9A;font-size:10px}.rowlabel{fill:#60786A;font-size:8px}.count{fill:#EAF4ED;font-size:15px;font-weight:700}</style>',
-        '<text x="28" y="31" class="eyebrow">THE VOID / BUILD LOG</text>',
-        '<text x="28" y="60" class="title">COMMIT CITY</text>',
-        f'<text x="1170" y="31" text-anchor="end" class="label">{total_commits:,} COMMITS  /  {active_days} BUILT DAYS  /  PEAK {peak}</text>',
-        f'<text x="1170" y="59" text-anchor="end" class="label">{start:%Y-%m-%d} → {end:%Y-%m-%d}  ·  UPDATED {now:%Y-%m-%d %H:%M} UTC</text>',
+        '<desc id="city-desc">A tilted isometric city grid with one plot for each day in the last year. Building height scales with daily commits; 50 commits or more reaches the skyline cap.</desc>',
+        '<defs><linearGradient id="city-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081711"/><stop offset=".52" stop-color="#06110C"/><stop offset="1" stop-color="#07130D"/></linearGradient><radialGradient id="city-halo"><stop stop-color="#1B9B70" stop-opacity=".2"/><stop offset="1" stop-color="#0A1710" stop-opacity="0"/></radialGradient><linearGradient id="plane-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#123B29"/><stop offset="1" stop-color="#07180F"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E2117"/><stop offset="1" stop-color="#09170F"/></linearGradient></defs>',
+        '<rect x="2" y="2" width="1196" height="676" rx="20" fill="url(#city-bg)" stroke="#244A35" stroke-width="2"/>',
+        '<ellipse cx="604" cy="404" rx="430" ry="240" fill="url(#city-halo)"/>',
+        '<path d="M26 88h1148" stroke="#244A35"/>',
+        '<rect x="26" y="92" width="350" height="3" rx="2" fill="#43C995" opacity=".7"/>',
+        '<style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#65E7B7;font-size:10px;letter-spacing:2px}.title{fill:#F0F7F2;font-size:22px;font-weight:700;letter-spacing:.4px}.label{fill:#87A594;font-size:9px;letter-spacing:1px}.micro{fill:#6D8978;font-size:8px;letter-spacing:.6px}.metric{fill:#F0F7F2;font-size:29px;font-weight:700}.metric-small{fill:#CBF5DF;font-size:13px;font-weight:700}.panel-title{fill:#63E6BE;font-size:9px;letter-spacing:1.5px;font-weight:700}.key-label{fill:#D5E9DC;font-size:9px}</style>',
+        '<text x="28" y="30" class="eyebrow">THE VOID / LIVE BUILD LOG</text>',
+        '<text x="28" y="63" class="title">THE CITY I BUILT THIS YEAR</text>',
+        f'<text x="1172" y="30" text-anchor="end" class="label">{start:%Y-%m-%d}  →  {end:%Y-%m-%d}</text>',
+        f'<text x="1172" y="61" text-anchor="end" class="label">UPDATED {now:%Y-%m-%d %H:%M} UTC  ·  LIVE COMMIT DATA</text>',
     ]
 
-    for row, weekday in enumerate(("SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT")):
-        baseline = first_base + row * row_pitch
-        out.append(f'<path d="M{left - 10} {baseline + 2}H{left + week_count * week_pitch + 8}" stroke="#142A1C" stroke-width="1"/>')
-        out.append(f'<text x="{left - 17}" y="{baseline - 3}" text-anchor="end" class="rowlabel">{weekday}</text>')
+    out.extend([
+        '<rect x="24" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>',
+        '<path d="M42 302h148" stroke="#204A35"/>',
+        '<text x="42" y="296" class="panel-title">CITY RECORD</text>',
+        f'<text x="42" y="340" class="metric">{total_commits:,}</text>',
+        '<text x="42" y="359" class="label">PROJECT COMMITS / YEAR</text>',
+        f'<text x="42" y="391" class="metric-small">{active_days} active days</text>',
+        f'<text x="42" y="414" class="key-label">Peak day  <tspan fill="#63E6BE">{peak} / {CITY_CAP}</tspan></text>',
+        '<rect x="42" y="428" width="148" height="6" rx="3" fill="#142B1D"/>',
+        f'<rect x="42" y="428" width="{148 * min(peak, CITY_CAP) / CITY_CAP:.1f}" height="6" rx="3" fill="#47D8A8"/>',
+        '<text x="42" y="447" class="micro">HEIGHT MAPS TO DAILY COMMITS</text>',
+        '<rect x="992" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>',
+        '<path d="M1010 302h148" stroke="#204A35"/>',
+        '<text x="1010" y="296" class="panel-title">BUILDING KEY</text>',
+    ])
 
-    month_seen = set()
-    for offset in range(WINDOW_DAYS):
-        day = start + timedelta(days=offset)
+    for x, sample, color_index in ((1030, 1, 0), (1084, 25, 1), (1138, 50, 2)):
+        base_y = 411
+        tower_h = max(3, round(56 * sample / CITY_CAP))
+        fw, fh = 22, 12
+        roof_top = (x, base_y - tower_h - fh / 2)
+        roof_right = (x + fw / 2, base_y - tower_h)
+        roof_front = (x, base_y - tower_h + fh / 2)
+        roof_left = (x - fw / 2, base_y - tower_h)
+        base_right = (x + fw / 2, base_y)
+        base_front = (x, base_y + fh / 2)
+        base_left = (x - fw / 2, base_y)
+        roof_colors = ("#27A979", "#53E9B8", "#73F6CA")
+        left_colors = ("#095B3F", "#0E805A", "#13936A")
+        right_colors = ("#073C2C", "#09583F", "#0B654A")
+        out.append(f'<path d="M{roof_left[0]:.1f} {roof_left[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{base_front[0]:.1f} {base_front[1]:.1f}L{base_left[0]:.1f} {base_left[1]:.1f}Z" fill="{left_colors[color_index]}"/>')
+        out.append(f'<path d="M{roof_right[0]:.1f} {roof_right[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{base_front[0]:.1f} {base_front[1]:.1f}L{base_right[0]:.1f} {base_right[1]:.1f}Z" fill="{right_colors[color_index]}"/>')
+        out.append(f'<path d="M{roof_top[0]:.1f} {roof_top[1]:.1f}L{roof_right[0]:.1f} {roof_right[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{roof_left[0]:.1f} {roof_left[1]:.1f}Z" fill="{roof_colors[color_index]}"/>')
+        out.append(f'<text x="{x}" y="433" text-anchor="middle" class="key-label">{sample if sample < CITY_CAP else "50+"}</text>')
+    out.extend([
+        '<path d="M1012 440h8" stroke="#142B1D" stroke-width="5" stroke-linecap="round"/>',
+        '<text x="1027" y="443" class="micro">0 = OPEN LOT</text>',
+        '<text x="1010" y="453" class="micro">50 COMMITS REACHES THE SKYLINE</text>',
+    ])
+
+    top_s = f'{plane_top[0]:.1f} {plane_top[1]:.1f}'
+    east_s = f'{plane_east[0]:.1f} {plane_east[1]:.1f}'
+    far_s = f'{plane_far[0]:.1f} {plane_far[1]:.1f}'
+    west_s = f'{plane_west[0]:.1f} {plane_west[1]:.1f}'
+    out.append(f'<path d="M{east_s}L{far_s}L{plane_far[0]:.1f} {plane_far[1] + 15:.1f}L{plane_east[0]:.1f} {plane_east[1] + 15:.1f}Z" fill="#06150D" stroke="#153D29"/>')
+    out.append(f'<path d="M{west_s}L{far_s}L{plane_far[0]:.1f} {plane_far[1] + 15:.1f}L{plane_west[0]:.1f} {plane_west[1] + 15:.1f}Z" fill="url(#plane-face)" stroke="#1C5237"/>')
+    out.append(f'<path d="M{top_s}L{east_s}L{far_s}L{west_s}Z" fill="#0A1F14" stroke="#2A7651" stroke-width="1.5"/>')
+
+    calendar_days = []
+    day = first_sunday
+    while day <= last_saturday:
         week = ((day - first_sunday).days // 7)
         row = (day.weekday() + 1) % 7
-        x = left + week * week_pitch + row * 3
-        baseline = first_base + row * row_pitch
-        commits = by_date.get(day.isoformat(), 0)
-        if day.day == 1 and day.month not in month_seen:
-            month_seen.add(day.month)
-            out.append(f'<text x="{left + week * week_pitch}" y="111" class="month">{day:%b}</text>')
+        calendar_days.append((day, week, row))
+        day += timedelta(days=1)
 
-        front, side, roof, window = building_colors(commits)
-        building_height = max(3, round(44 * min(commits, CITY_CAP) / CITY_CAP)) if commits else 3
-        top = baseline - building_height
+    for day, week, row in calendar_days:
+        x, y = cell_center(week, row)
+        commits = by_date.get(day.isoformat())
+        tile, _, _, _, _, _ = building_colors(commits or 0)
+        tooltip = "outside the 365-day window" if commits is None else html.escape(
+            f"{day.isoformat()} · {commits} commit" + ("s" if commits != 1 else "")
+        )
+        opacity = ".42" if commits is None else "1"
+        out.append(f'<g><title>{tooltip}</title><path d="M{x:.1f} {y - half_height:.1f}l{half_width:.1f} {half_height:.1f}l-{half_width:.1f} {half_height:.1f}l-{half_width:.1f} -{half_height:.1f}Z" fill="{tile}" stroke="#1B4A32" stroke-width=".7" opacity="{opacity}"/></g>')
+
+    for day, week, row in sorted(calendar_days, key=lambda item: (item[1] + item[2], item[1])):
+        commits = by_date.get(day.isoformat())
+        if commits is None or commits <= 0:
+            continue
+        x, y = cell_center(week, row)
+        _, left_color, right_color, roof_color, window_color, cap_color = building_colors(commits)
+        building_height = max(3, round(100 * min(commits, CITY_CAP) / CITY_CAP))
+        fw, fh = 19, 10
+        roof_top = (x, y - building_height - fh / 2)
+        roof_right = (x + fw / 2, y - building_height)
+        roof_front = (x, y - building_height + fh / 2)
+        roof_left = (x - fw / 2, y - building_height)
+        base_right = (x + fw / 2, y)
+        base_front = (x, y + fh / 2)
+        base_left = (x - fw / 2, y)
         tooltip = html.escape(f"{day.isoformat()} · {commits} commit" + ("s" if commits != 1 else ""))
         out.append(f'<g><title>{tooltip}</title>')
-        out.append(f'<path d="M{x} {top}h9v{building_height}h-9z" fill="{front}"/>')
-        out.append(f'<path d="M{x + 9} {top}l5 -3v{building_height}l-5 3z" fill="{side}"/>')
-        out.append(f'<path d="M{x} {top}l5 -3h9l-5 3z" fill="{roof}"/>')
-        if commits:
-            floors = max(1, min(6, (building_height - 2) // 7))
-            for floor in range(floors):
-                wy = baseline - 5 - floor * 7
-                if wy < top + 2:
-                    continue
-                out.append(f'<rect x="{x + 2}" y="{wy}" width="2" height="3" rx=".5" fill="{window}"/>')
-                out.append(f'<rect x="{x + 6}" y="{wy}" width="2" height="3" rx=".5" fill="{window}" opacity=".78"/>')
-            if commits >= CITY_CAP:
-                out.append(f'<path d="M{x + 4} {top - 3}v-4h2v4" stroke="#FFE49A" stroke-width="1" fill="none"/>')
+        out.append(f'<path d="M{roof_left[0]:.1f} {roof_left[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{base_front[0]:.1f} {base_front[1]:.1f}L{base_left[0]:.1f} {base_left[1]:.1f}Z" fill="{left_color}" stroke="#06170F" stroke-width=".7"/>')
+        out.append(f'<path d="M{roof_right[0]:.1f} {roof_right[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{base_front[0]:.1f} {base_front[1]:.1f}L{base_right[0]:.1f} {base_right[1]:.1f}Z" fill="{right_color}" stroke="#06170F" stroke-width=".7"/>')
+        out.append(f'<path d="M{roof_top[0]:.1f} {roof_top[1]:.1f}L{roof_right[0]:.1f} {roof_right[1]:.1f}L{roof_front[0]:.1f} {roof_front[1]:.1f}L{roof_left[0]:.1f} {roof_left[1]:.1f}Z" fill="{roof_color}" stroke="#86F9CD" stroke-width=".65"/>')
+        floors = min(8, building_height // 12)
+        for floor in range(1, floors + 1):
+            wy = y - 5 - floor * 10
+            if wy <= roof_front[1] + 1:
+                continue
+            out.append(f'<rect x="{x - 6:.1f}" y="{wy:.1f}" width="2.4" height="3.4" rx=".6" fill="{window_color}" opacity=".9"/>')
+            out.append(f'<rect x="{x - 1.5:.1f}" y="{wy:.1f}" width="2.4" height="3.4" rx=".6" fill="{window_color}" opacity=".72"/>')
+            out.append(f'<rect x="{x + 3.3:.1f}" y="{wy:.1f}" width="2.4" height="3.4" rx=".6" fill="{window_color}" opacity=".82"/>')
+        if commits >= CITY_CAP:
+            out.append(f'<path d="M{x:.1f} {roof_top[1]:.1f}v-9" stroke="{cap_color}" stroke-width="1.4"/>')
+            out.append(f'<circle cx="{x:.1f}" cy="{roof_top[1] - 10:.1f}" r="2.3" fill="{cap_color}"/>')
         out.append('</g>')
 
-    out.extend([
-        '<text x="28" y="530" class="label">ONE DAY / ONE BUILDING</text>',
-        '<text x="28" y="548" class="label">TOWER HEIGHT = DAILY COMMITS · 50+ HITS THE SKYLINE CAP · HOVER A BUILDING FOR ITS COUNT</text>',
-    ])
-    legend_x, legend_y = 805, 520
-    out.append(f'<text x="{legend_x}" y="{legend_y + 8}" class="label">0</text>')
-    for index, commits in enumerate((1, 8, 20, 40, 50)):
-        front, _, _, _ = building_colors(commits)
-        x = legend_x + 25 + index * 27
-        out.append(f'<rect x="{x}" y="{legend_y}" width="18" height="13" rx="2" fill="{front}"/>')
-    out.append(f'<text x="{legend_x + 170}" y="{legend_y + 8}" class="label">50+</text>')
-    out.append(f'<text x="1170" y="548" text-anchor="end" class="label">AUTOMATIC / REAL COMMIT CONTRIBUTIONS</text>')
     if not total_commits:
         message = "NO VISIBLE PROJECT COMMITS IN THIS WINDOW YET" if synced else "AWAITING FIRST GITHUB SYNC"
-        out.append(f'<text x="600" y="325" text-anchor="middle" class="label">{message}</text>')
+        out.append(f'<text x="600" y="415" text-anchor="middle" class="label">{message}</text>')
+    out.extend([
+        '<text x="28" y="663" class="micro">365 DAYS / ONE LOT PER DAY / HOVER FOR THE EXACT COUNT</text>',
+        '<text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING</text>',
+    ])
     out.append('</svg>')
     return "\n".join(out) + "\n"
 
