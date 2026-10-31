@@ -13,7 +13,7 @@
 
 <p>
   <a href="https://github.com/TheVoidJulius?tab=repositories"><img src="https://img.shields.io/badge/01_PROJECTS-ENTER_THE_LAB-0B1510?style=for-the-badge&logo=github&logoColor=63E6BE" alt="Browse projects" /></a>
-  <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml"><img src="https://img.shields.io/badge/02_PROFILE_PULSE-DAILY_REFRESH-0B1510?style=for-the-badge&logo=githubactions&logoColor=42D6D0" alt="Daily profile refresh workflow" /></a>
+  <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml"><img src="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml/badge.svg?branch=main" alt="Daily profile refresh workflow status" /></a>
   <a href="https://github.com/TheVoidJulius?tab=followers"><img src="https://img.shields.io/github/followers/TheVoidJulius?style=for-the-badge&logo=github&logoColor=F4C94F&color=0B1510&label=03_FOLLOWERS" alt="GitHub followers" /></a>
   <img src="https://komarev.com/ghpvc/?username=TheVoidJulius&style=for-the-badge&color=0B1510&label=04_PROFILE_SCANS" alt="Profile views" />
 </p>
@@ -99,28 +99,7 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 
 ## TOOLKIT
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <b>01 / LANGUAGES</b><br />
-      <img src="https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark" alt="Python, JavaScript, TypeScript, HTML, and CSS" />
-    </td>
-    <td width="50%" valign="top">
-      <b>02 / WEB SYSTEMS</b><br />
-      <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,flask&theme=dark" alt="React, Next.js, Node.js, Express, and Flask" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>03 / DATA + AI</b><br />
-      <img src="https://skillicons.dev/icons?i=mysql,mongodb,sqlite,tensorflow,opencv&theme=dark" alt="MySQL, MongoDB, SQLite, TensorFlow, and OpenCV" />
-    </td>
-    <td width="50%" valign="top">
-      <b>04 / DAILY DRIVERS</b><br />
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux&theme=dark" alt="Git, GitHub, VS Code, Postman, and Linux" />
-    </td>
-  </tr>
-</table>
+<img width="100%" src="assets/toolkit.svg" alt="Local toolkit map: Python, JavaScript, TypeScript, SQL, React, Next.js, Node.js, Express, Flask, MySQL, MongoDB, SQLite, AI and ML, Git, GitHub, VS Code, Postman, and Linux" />
 
 <p><sub>WORKING MIX &nbsp; / &nbsp; PYTHON · MERN · SQL · AI/ML · PRODUCT ENGINEERING</sub></p>
 
@@ -130,16 +109,9 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
 
 <div align="center">
 
-<a href="https://github.com/TheVoidJulius"><img width="49%" height="190" src="https://github-readme-stats.vercel.app/api?username=TheVoidJulius&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=07110C&title_color=63E6BE&text_color=DCE8DF&icon_color=42D6D0&custom_title=GITHUB%20AT%20A%20GLANCE" alt="GitHub overview: commits, repositories, stars, issues, pull requests, and rank" /></a>
-<a href="https://github.com/TheVoidJulius?tab=repositories"><img width="49%" height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheVoidJulius&layout=compact&langs_count=8&hide_border=true&bg_color=07110C&title_color=63E6BE&text_color=DCE8DF&custom_title=LANGUAGE%20MIX" alt="Most-used languages across public repositories" /></a>
-
-<a href="https://github.com/TheVoidJulius"><img width="82%" src="https://streak-stats.demolab.com?user=TheVoidJulius&theme=transparent&hide_border=true&background=07110C&ring=48D597&fire=42D6D0&currStreakLabel=63E6BE&sideLabels=9DB2A4&dates=718579&currStreakNum=EAF4ED&sideNums=EAF4ED" alt="Current and longest GitHub contribution streak" /></a>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=TheVoidJulius&bg_color=07110C&color=DCE8DF&line=48D597&point=42D6D0&area=true&area_color=153A29&hide_border=true&custom_title=THE%20BUILD%20TIMELINE" alt="GitHub contribution activity graph" />
+<img width="100%" src="assets/github-stats.svg" alt="Locally generated GitHub readout: last-year contributions, current and longest streak, monthly activity, and refresh timestamp" />
 
 <img width="100%" src="contrib-heatmap.svg" alt="Actual GitHub contribution calendar, automatically refreshed every day" />
-
-<a href="https://github.com/TheVoidJulius"><img width="100%" src="https://github-profile-trophy.vercel.app/?username=TheVoidJulius&theme=matrix&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub profile trophy shelf" /></a>
 
 </div>
 
@@ -147,7 +119,7 @@ I build software where useful ideas meet thoughtful engineering. My current orbi
   <summary><b>How the daily profile pulse works</b></summary>
   <br />
 
-  GitHub Actions fetches the real contribution calendar once a day, redraws the heatmap, and commits the refreshed data automatically. The commit is authored with your GitHub noreply address and committed by `github-actions[bot]`, so the history labels it as automation. It saves the manual daily update; it does not claim the refresh is hand-written development.
+  GitHub Actions fetches the real contribution calendar once a day, redraws the heatmap and local stats card, and commits the refreshed data automatically. The commit is authored with your GitHub noreply address and committed by `github-actions[bot]`, so the history labels it as automation. It saves the manual daily update; it does not claim the refresh is hand-written development.
 
   <br /><br />
   Workflow: <a href="https://github.com/TheVoidJulius/TheVoidJulius/actions/workflows/profile-pulse.yml">profile-pulse.yml</a> · Schedule: daily at 17:42 UTC.

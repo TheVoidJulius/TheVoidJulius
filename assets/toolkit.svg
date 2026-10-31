@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="376" viewBox="0 0 1100 376" role="img" aria-labelledby="title desc">
+<title id="title">Pushkar Panwar's developer toolkit</title>
+<desc id="desc">A dark forest-green technology map showing programming languages, web systems, data and AI, and daily tools.</desc>
+<defs>
+  <linearGradient id="kit-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09140E"/><stop offset="1" stop-color="#07100B"/></linearGradient>
+  <linearGradient id="kit-line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#39C98A"/><stop offset=".68" stop-color="#42D6D0"/><stop offset="1" stop-color="#F4C94F"/></linearGradient>
+  <style>text{font-family:Consolas,"Courier New",monospace}.eyebrow{fill:#63E6BE;font-size:12px;letter-spacing:2px}.heading{fill:#ECF5EF;font-size:17px;font-weight:700;letter-spacing:1px}.tag{fill:#D3E5D9;font-size:13px}.index{fill:#526F5C;font-size:11px}</style>
+</defs>
+<rect x="2" y="2" width="1096" height="372" rx="20" fill="url(#kit-bg)" stroke="#294734" stroke-width="2"/>
+<text x="28" y="34" class="eyebrow">STACK MAP / CURRENT TOOLKIT</text>
+<path d="M28 49H1072" stroke="url(#kit-line)" stroke-opacity=".58"/>
+
+<g>
+  <rect x="24" y="66" width="518" height="126" rx="14" fill="#0D2016" stroke="#294734"/>
+  <text x="44" y="93" class="index">01</text><text x="78" y="94" class="heading">LANGUAGES</text>
+  <rect x="44" y="112" width="84" height="30" rx="8" fill="#123323" stroke="#327A51"/><text x="86" y="132" text-anchor="middle" class="tag">Python</text>
+  <rect x="138" y="112" width="128" height="30" rx="8" fill="#123323" stroke="#327A51"/><text x="202" y="132" text-anchor="middle" class="tag">JavaScript</text>
+  <rect x="276" y="112" width="110" height="30" rx="8" fill="#123323" stroke="#327A51"/><text x="331" y="132" text-anchor="middle" class="tag">TypeScript</text>
+  <rect x="396" y="112" width="70" height="30" rx="8" fill="#123323" stroke="#327A51"/><text x="431" y="132" text-anchor="middle" class="tag">SQL</text>
+  <rect x="44" y="151" width="76" height="25" rx="7" fill="#10261B" stroke="#254D35"/><text x="82" y="168" text-anchor="middle" class="tag">HTML</text>
+  <rect x="130" y="151" width="62" height="25" rx="7" fill="#10261B" stroke="#254D35"/><text x="161" y="168" text-anchor="middle" class="tag">CSS</text>
+</g>
+
+<g>
+  <rect x="558" y="66" width="518" height="126" rx="14" fill="#0D2016" stroke="#294734"/>
+  <text x="578" y="93" class="index">02</text><text x="612" y="94" class="heading">WEB SYSTEMS</text>
+  <rect x="578" y="112" width="73" height="30" rx="8" fill="#102A25" stroke="#287C71"/><text x="614" y="132" text-anchor="middle" class="tag">React</text>
+  <rect x="661" y="112" width="92" height="30" rx="8" fill="#102A25" stroke="#287C71"/><text x="707" y="132" text-anchor="middle" class="tag">Next.js</text>
+  <rect x="763" y="112" width="92" height="30" rx="8" fill="#102A25" stroke="#287C71"/><text x="809" y="132" text-anchor="middle" class="tag">Node.js</text>
+  <rect x="865" y="112" width="90" height="30" rx="8" fill="#102A25" stroke="#287C71"/><text x="910" y="132" text-anchor="middle" class="tag">Express</text>
+  <rect x="965" y="112" width="75" height="30" rx="8" fill="#102A25" stroke="#287C71"/><text x="1002" y="132" text-anchor="middle" class="tag">Flask</text>
+  <text x="578" y="168" class="index">FRONTEND / APIS / FULL-STACK</text>
+</g>
+
+<g>
+  <rect x="24" y="208" width="518" height="138" rx="14" fill="#0D2016" stroke="#294734"/>
+  <text x="44" y="237" class="index">03</text><text x="78" y="238" class="heading">DATA + INTELLIGENCE</text>
+  <rect x="44" y="256" width="78" height="30" rx="8" fill="#17291B" stroke="#796B32"/><text x="83" y="276" text-anchor="middle" class="tag">MySQL</text>
+  <rect x="132" y="256" width="105" height="30" rx="8" fill="#17291B" stroke="#796B32"/><text x="184" y="276" text-anchor="middle" class="tag">MongoDB</text>
+  <rect x="247" y="256" width="83" height="30" rx="8" fill="#17291B" stroke="#796B32"/><text x="288" y="276" text-anchor="middle" class="tag">SQLite</text>
+  <rect x="340" y="256" width="94" height="30" rx="8" fill="#17291B" stroke="#796B32"/><text x="387" y="276" text-anchor="middle" class="tag">AI / ML</text>
+  <text x="44" y="319" class="index">DATA SYSTEMS / COMPUTER VISION / APPLIED AI</text>
+</g>
+
+<g>
+  <rect x="558" y="208" width="518" height="138" rx="14" fill="#0D2016" stroke="#294734"/>
+  <text x="578" y="237" class="index">04</text><text x="612" y="238" class="heading">WORKBENCH</text>
+  <rect x="578" y="256" width="63" height="30" rx="8" fill="#14231D" stroke="#3A6750"/><text x="609" y="276" text-anchor="middle" class="tag">Git</text>
+  <rect x="651" y="256" width="80" height="30" rx="8" fill="#14231D" stroke="#3A6750"/><text x="691" y="276" text-anchor="middle" class="tag">GitHub</text>
+  <rect x="741" y="256" width="74" height="30" rx="8" fill="#14231D" stroke="#3A6750"/><text x="778" y="276" text-anchor="middle" class="tag">VS Code</text>
+  <rect x="825" y="256" width="93" height="30" rx="8" fill="#14231D" stroke="#3A6750"/><text x="871" y="276" text-anchor="middle" class="tag">Postman</text>
+  <rect x="928" y="256" width="78" height="30" rx="8" fill="#14231D" stroke="#3A6750"/><text x="967" y="276" text-anchor="middle" class="tag">Linux</text>
+  <text x="578" y="319" class="index">VERSION CONTROL / API TESTING / DEVELOPMENT</text>
+</g>
+
+<circle cx="1044" cy="34" r="4" fill="#42D6D0"/><circle cx="1031" cy="34" r="4" fill="#63E6BE"/><circle cx="1018" cy="34" r="4" fill="#F4C94F"/>
+</svg>

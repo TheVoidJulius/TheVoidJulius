@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "$GITHUB_AUTHOR_NAME"
           git config user.email "$GITHUB_AUTHOR_EMAIL"
-          git add contrib-heatmap.svg data/contributions.json
+          git add contrib-heatmap.svg assets/github-stats.svg data/contributions.json
           if git diff --cached --quiet; then
             echo "No profile data changes."
             exit 0

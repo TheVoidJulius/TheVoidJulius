@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the profile heatmap from GitHub's real public contribution calendar."""
+"""Build local profile telemetry from GitHub's real public contribution calendar."""
 
 from __future__ import annotations
 
@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "contributions.json"
 SVG_FILE = ROOT / "contrib-heatmap.svg"
+STATS_FILE = ROOT / "assets" / "github-stats.svg"
 LOGIN = os.environ.get("PROFILE_LOGIN", "TheVoidJulius")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
@@ -164,6 +165,61 @@ def render_svg(now, total, days):
     return "\n".join(out) + "\n"
 
 
+def render_stats_svg(now, total, days):
+    current, longest = streak_lengths(days)
+    by_month = {}
+    for item in days:
+        day = date.fromisoformat(item["date"])
+        key = (day.year, day.month)
+        by_month[key] = by_month.get(key, 0) + item["contributionCount"]
+
+    end_index = now.year * 12 + now.month - 1
+    months = []
+    for index in range(end_index - 11, end_index + 1):
+        year, month_zero = divmod(index, 12)
+        month = month_zero + 1
+        months.append((year, month, by_month.get((year, month), 0)))
+    max_month = max((value for _, _, value in months), default=0) or 1
+
+    out = [
+        '<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="286" viewBox="0 0 1100 286" role="img" aria-labelledby="title desc">',
+        '<title id="title">Live GitHub contribution readout</title>',
+        '<desc id="desc">Real contribution total, current and longest streaks, and monthly activity over the last year. Refreshed daily by GitHub Actions.</desc>',
+        '<defs><linearGradient id="stats-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A1710"/><stop offset="1" stop-color="#07100B"/></linearGradient><linearGradient id="bar-fill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#63E6BE"/><stop offset="1" stop-color="#1F7850"/></linearGradient></defs>',
+        '<rect x="2" y="2" width="1096" height="282" rx="18" fill="url(#stats-bg)" stroke="#294734" stroke-width="2"/>',
+        '<style>text{font-family:Consolas,"Courier New",monospace}.label{fill:#8FA99A;font-size:11px;letter-spacing:1px}.metric{fill:#F0F7F2;font-size:28px;font-weight:700}.sub{fill:#63E6BE;font-size:11px;letter-spacing:1px}.month{fill:#849B8D;font-size:10px}</style>',
+        '<text x="28" y="30" class="sub">GITHUB SIGNAL / 365-DAY READOUT</text>',
+        f'<text x="1070" y="30" class="label" text-anchor="end">UPDATED {now:%Y-%m-%d %H:%M} UTC</text>',
+    ]
+    metrics = [
+        (28, str(total), "CONTRIBUTIONS / YEAR"),
+        (374, f"{current}d", "CURRENT STREAK"),
+        (720, f"{longest}d", "LONGEST STREAK"),
+    ]
+    for x, value, label in metrics:
+        out.append(f'<rect x="{x}" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>')
+        out.append(f'<text x="{x + 18}" y="82" class="metric">{html.escape(value)}</text>')
+        out.append(f'<text x="{x + 18}" y="108" class="label">{label}</text>')
+
+    out.append('<text x="28" y="160" class="sub">MONTHLY CONTRIBUTIONS / LAST 12 MONTHS</text>')
+    base_y = 249
+    x_start = 258
+    gap = 67
+    bar_width = 34
+    for i, (year, month, value) in enumerate(months):
+        x = x_start + i * gap
+        height = round(55 * value / max_month) if value else 0
+        if height:
+            out.append(f'<rect x="{x}" y="{base_y - height}" width="{bar_width}" height="{height}" rx="5" fill="url(#bar-fill)"/>')
+        else:
+            out.append(f'<path d="M{x} {base_y}h{bar_width}" stroke="#24412F" stroke-width="3" stroke-linecap="round"/>')
+        out.append(f'<text x="{x + bar_width / 2}" y="269" class="month" text-anchor="middle">{date(year, month, 1):%b}</text>')
+    out.append(f'<path d="M{x_start - 7} {base_y + 1}h{12 * gap - 20}" stroke="#345342" stroke-width="1"/>')
+    out.append('<text x="1070" y="269" class="label" text-anchor="end">AUTOMATED / REAL GITHUB DATA</text>')
+    out.append('</svg>')
+    return "\n".join(out) + "\n"
+
+
 def main():
     now, total, days = fetch_calendar()
     current, longest = streak_lengths(days)
@@ -179,8 +235,10 @@ def main():
     }
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     SVG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATS_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
     SVG_FILE.write_text(render_svg(now, total, days), encoding="utf-8")
+    STATS_FILE.write_text(render_stats_svg(now, total, days), encoding="utf-8")
     print(f"Updated real contribution data for {LOGIN}: {len(days)} days, {total} total.")
 
 
