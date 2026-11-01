@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="city-title city-desc">
 <title id="city-title">TheVoidJulius commit city</title>
-<desc id="city-desc">A tilted isometric city grid for January through December 2026. October is highlighted; the next two months are reserved as flat land. Building height scales with daily commits through 2026-10-31, with 50 commits reaching the skyline cap.</desc>
+<desc id="city-desc">A tilted isometric city grid for January through December 2026. November is highlighted; the next two months are reserved as flat land. Building height scales with daily commits through 2026-11-01, with 50 commits reaching the skyline cap.</desc>
 <defs><linearGradient id="city-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081711"/><stop offset=".52" stop-color="#06110C"/><stop offset="1" stop-color="#07130D"/></linearGradient><radialGradient id="city-halo"><stop stop-color="#1B9B70" stop-opacity=".2"/><stop offset="1" stop-color="#0A1710" stop-opacity="0"/></radialGradient><linearGradient id="plane-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#123B29"/><stop offset="1" stop-color="#07180F"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E2117"/><stop offset="1" stop-color="#09170F"/></linearGradient></defs>
 <rect x="2" y="2" width="1196" height="676" rx="20" fill="url(#city-bg)" stroke="#244A35" stroke-width="2"/>
 <ellipse cx="604" cy="404" rx="430" ry="240" fill="url(#city-halo)"/>
@@ -10,7 +10,7 @@
 <text x="28" y="30" class="eyebrow">THE VOID / LIVE BUILD LOG</text>
 <text x="28" y="63" class="title">THE CITY I BUILT THIS YEAR</text>
 <text x="1172" y="30" text-anchor="end" class="label">2026-01-01  →  2026-12-31</text>
-<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-10-31 18:10 UTC  ·  LIVE COMMIT DATA</text>
+<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-11-01 02:26 UTC  ·  LIVE COMMIT DATA</text>
 <g opacity=".82"><rect x="28" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="37" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">JAN</text><text x="108" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="37" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="123" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="132" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">FEB</text><text x="203" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="132" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="218" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="227" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">MAR</text><text x="298" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="227" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
@@ -20,15 +20,15 @@
 <g opacity=".82"><rect x="598" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="607" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">JUL</text><text x="678" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="607" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="693" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="702" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">AUG</text><text x="773" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="702" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="788" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="797" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">SEP</text><text x="868" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="797" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
-<g opacity="1"><rect x="883" y="104" width="88" height="38" rx="8" fill="#123C2A" stroke="#63E6BE"/><text x="892" y="119" fill="#E7FFF2" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">OCT</text><text x="963" y="119" text-anchor="end" fill="#E7FFF2" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">NOW</text><rect x="892" y="127" width="70" height="3" rx="1.5" fill="#63E6BE" opacity=".5"/></g>
-<g opacity=".9"><rect x="978" y="104" width="88" height="38" rx="8" fill="#0B2116" stroke="#28734E" stroke-dasharray="3 3"/><text x="987" y="119" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">NOV</text><text x="1058" y="119" text-anchor="end" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">NEXT 1</text><rect x="987" y="127" width="70" height="3" rx="1.5" fill="#28734E" opacity=".5"/></g>
-<g opacity=".9"><rect x="1073" y="104" width="88" height="38" rx="8" fill="#0B2116" stroke="#28734E" stroke-dasharray="3 3"/><text x="1082" y="119" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">DEC</text><text x="1153" y="119" text-anchor="end" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">NEXT 2</text><rect x="1082" y="127" width="70" height="3" rx="1.5" fill="#28734E" opacity=".5"/></g>
+<g opacity=".82"><rect x="883" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="892" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">OCT</text><text x="963" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="892" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
+<g opacity="1"><rect x="978" y="104" width="88" height="38" rx="8" fill="#123C2A" stroke="#63E6BE"/><text x="987" y="119" fill="#E7FFF2" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">NOV</text><text x="1058" y="119" text-anchor="end" fill="#E7FFF2" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">NOW</text><rect x="987" y="127" width="70" height="3" rx="1.5" fill="#63E6BE" opacity=".5"/></g>
+<g opacity=".9"><rect x="1073" y="104" width="88" height="38" rx="8" fill="#0B2116" stroke="#28734E" stroke-dasharray="3 3"/><text x="1082" y="119" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">DEC</text><text x="1153" y="119" text-anchor="end" fill="#86B99C" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">NEXT 1</text><rect x="1082" y="127" width="70" height="3" rx="1.5" fill="#28734E" opacity=".5"/></g>
 <rect x="24" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>
 <path d="M42 302h148" stroke="#204A35"/>
 <text x="42" y="296" class="panel-title">CITY RECORD</text>
-<text x="42" y="340" class="metric">425</text>
+<text x="42" y="340" class="metric">431</text>
 <text x="42" y="359" class="label">PROJECT COMMITS / YEAR</text>
-<text x="42" y="391" class="metric-small">213 active days</text>
+<text x="42" y="391" class="metric-small">214 active days</text>
 <text x="42" y="414" class="key-label">Peak day  <tspan fill="#63E6BE">17 / 50</tspan></text>
 <rect x="42" y="428" width="148" height="6" rx="3" fill="#142B1D"/>
 <rect x="42" y="428" width="50.3" height="6" rx="3" fill="#47D8A8"/>
@@ -331,68 +331,68 @@
 <g><title>2026-09-28 · 0 commits</title><path d="M795.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
 <g><title>2026-09-29 · 0 commits</title><path d="M782.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
 <g><title>2026-09-30 · 0 commits</title><path d="M769.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
-<g><title>2026-10-01 · 0 commits</title><path d="M756.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-02 · 0 commits</title><path d="M743.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-03 · 0 commits</title><path d="M730.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-04 · 0 commits</title><path d="M821.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-05 · 6 commits</title><path d="M808.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-06 · 3 commits</title><path d="M795.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-07 · 1 commit</title><path d="M782.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-08 · 1 commit</title><path d="M769.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-09 · 1 commit</title><path d="M756.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-10 · 1 commit</title><path d="M743.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-11 · 1 commit</title><path d="M834.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-12 · 1 commit</title><path d="M821.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-13 · 1 commit</title><path d="M808.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-14 · 1 commit</title><path d="M795.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-15 · 1 commit</title><path d="M782.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-16 · 1 commit</title><path d="M769.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-17 · 1 commit</title><path d="M756.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-18 · 1 commit</title><path d="M847.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-19 · 1 commit</title><path d="M834.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-20 · 2 commits</title><path d="M821.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-21 · 1 commit</title><path d="M808.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-22 · 1 commit</title><path d="M795.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-23 · 1 commit</title><path d="M782.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-24 · 1 commit</title><path d="M769.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-25 · 1 commit</title><path d="M860.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-26 · 1 commit</title><path d="M847.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-27 · 1 commit</title><path d="M834.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-28 · 1 commit</title><path d="M821.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-29 · 1 commit</title><path d="M808.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-30 · 1 commit</title><path d="M795.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-10-31 · 11 commits</title><path d="M782.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
-<circle cx="782.0" cy="562.0" r="2.2" fill="#FFE49A"/>
-<g><title>2026-11-01 · upcoming flat land · 0 commits</title><path d="M873.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-02 · upcoming flat land · 0 commits</title><path d="M860.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-03 · upcoming flat land · 0 commits</title><path d="M847.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-04 · upcoming flat land · 0 commits</title><path d="M834.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-05 · upcoming flat land · 0 commits</title><path d="M821.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-06 · upcoming flat land · 0 commits</title><path d="M808.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-07 · upcoming flat land · 0 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-08 · upcoming flat land · 0 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-09 · upcoming flat land · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-10 · upcoming flat land · 0 commits</title><path d="M860.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-11 · upcoming flat land · 0 commits</title><path d="M847.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-12 · upcoming flat land · 0 commits</title><path d="M834.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-13 · upcoming flat land · 0 commits</title><path d="M821.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-14 · upcoming flat land · 0 commits</title><path d="M808.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-15 · upcoming flat land · 0 commits</title><path d="M899.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-16 · upcoming flat land · 0 commits</title><path d="M886.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-17 · upcoming flat land · 0 commits</title><path d="M873.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-18 · upcoming flat land · 0 commits</title><path d="M860.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-19 · upcoming flat land · 0 commits</title><path d="M847.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-20 · upcoming flat land · 0 commits</title><path d="M834.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-21 · upcoming flat land · 0 commits</title><path d="M821.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-22 · upcoming flat land · 0 commits</title><path d="M912.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-23 · upcoming flat land · 0 commits</title><path d="M899.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-24 · upcoming flat land · 0 commits</title><path d="M886.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-25 · upcoming flat land · 0 commits</title><path d="M873.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-26 · upcoming flat land · 0 commits</title><path d="M860.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-27 · upcoming flat land · 0 commits</title><path d="M847.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-28 · upcoming flat land · 0 commits</title><path d="M834.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-29 · upcoming flat land · 0 commits</title><path d="M925.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
-<g><title>2026-11-30 · upcoming flat land · 0 commits</title><path d="M912.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
+<g><title>2026-10-01 · 0 commits</title><path d="M756.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-02 · 0 commits</title><path d="M743.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-03 · 0 commits</title><path d="M730.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-04 · 0 commits</title><path d="M821.0 492.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-05 · 6 commits</title><path d="M808.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-06 · 3 commits</title><path d="M795.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-07 · 1 commit</title><path d="M782.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-08 · 1 commit</title><path d="M769.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-09 · 1 commit</title><path d="M756.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-10 · 1 commit</title><path d="M743.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-11 · 1 commit</title><path d="M834.0 499.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-12 · 1 commit</title><path d="M821.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-13 · 1 commit</title><path d="M808.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-14 · 1 commit</title><path d="M795.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-15 · 1 commit</title><path d="M782.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-16 · 1 commit</title><path d="M769.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-17 · 1 commit</title><path d="M756.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-18 · 1 commit</title><path d="M847.0 506.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-19 · 1 commit</title><path d="M834.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-20 · 2 commits</title><path d="M821.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-21 · 1 commit</title><path d="M808.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-22 · 1 commit</title><path d="M795.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-23 · 1 commit</title><path d="M782.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-24 · 1 commit</title><path d="M769.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-25 · 1 commit</title><path d="M860.0 513.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-26 · 1 commit</title><path d="M847.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-27 · 1 commit</title><path d="M834.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-28 · 1 commit</title><path d="M821.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-29 · 1 commit</title><path d="M808.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-30 · 1 commit</title><path d="M795.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-10-31 · 11 commits</title><path d="M782.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#1B4A32" stroke-width=".7" opacity="1"/></g>
+<g><title>2026-11-01 · 6 commits</title><path d="M873.0 520.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
+<circle cx="873.0" cy="527.0" r="2.2" fill="#FFE49A"/>
+<g><title>2026-11-02 · upcoming flat land · 0 commits</title><path d="M860.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-03 · upcoming flat land · 0 commits</title><path d="M847.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-04 · upcoming flat land · 0 commits</title><path d="M834.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-05 · upcoming flat land · 0 commits</title><path d="M821.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-06 · upcoming flat land · 0 commits</title><path d="M808.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-07 · upcoming flat land · 0 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-08 · upcoming flat land · 0 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-09 · upcoming flat land · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-10 · upcoming flat land · 0 commits</title><path d="M860.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-11 · upcoming flat land · 0 commits</title><path d="M847.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-12 · upcoming flat land · 0 commits</title><path d="M834.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-13 · upcoming flat land · 0 commits</title><path d="M821.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-14 · upcoming flat land · 0 commits</title><path d="M808.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-15 · upcoming flat land · 0 commits</title><path d="M899.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-16 · upcoming flat land · 0 commits</title><path d="M886.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-17 · upcoming flat land · 0 commits</title><path d="M873.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-18 · upcoming flat land · 0 commits</title><path d="M860.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-19 · upcoming flat land · 0 commits</title><path d="M847.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-20 · upcoming flat land · 0 commits</title><path d="M834.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-21 · upcoming flat land · 0 commits</title><path d="M821.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-22 · upcoming flat land · 0 commits</title><path d="M912.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-23 · upcoming flat land · 0 commits</title><path d="M899.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-24 · upcoming flat land · 0 commits</title><path d="M886.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-25 · upcoming flat land · 0 commits</title><path d="M873.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-26 · upcoming flat land · 0 commits</title><path d="M860.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-27 · upcoming flat land · 0 commits</title><path d="M847.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-28 · upcoming flat land · 0 commits</title><path d="M834.0 583.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-29 · upcoming flat land · 0 commits</title><path d="M925.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-30 · upcoming flat land · 0 commits</title><path d="M912.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
 <g><title>2026-12-01 · upcoming flat land · 0 commits</title><path d="M899.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
 <g><title>2026-12-02 · upcoming flat land · 0 commits</title><path d="M886.0 569.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
 <g><title>2026-12-03 · upcoming flat land · 0 commits</title><path d="M873.0 576.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#3B9C71" stroke-width=".75" stroke-dasharray="2 2" opacity=".48"/></g>
@@ -1442,6 +1442,11 @@
 <path d="M856.5 524.0L847.0 529.0L847.0 532.0L856.5 527.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
 <path d="M847.0 519.0L856.5 524.0L847.0 529.0L837.5 524.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
+<g><title>2026-11-01 · 6 commits</title>
+<path d="M863.5 515.0L873.0 520.0L873.0 532.0L863.5 527.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M882.5 515.0L873.0 520.0L873.0 532.0L882.5 527.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M873.0 510.0L882.5 515.0L873.0 520.0L863.5 515.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+</g>
 <g><title>2026-10-09 · 1 commit</title>
 <path d="M746.5 531.0L756.0 536.0L756.0 539.0L746.5 534.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
 <path d="M765.5 531.0L756.0 536.0L756.0 539.0L765.5 534.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
@@ -1515,6 +1520,6 @@
 <rect x="780.5" y="547.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".72"/>
 <rect x="785.3" y="547.0" width="2.4" height="3.4" rx=".6" fill="#BAF8DA" opacity=".82"/>
 </g>
-<text x="28" y="663" class="micro">JAN → DEC 2026  /  OCTOBER FOCUS  /  NEXT TWO MONTHS RESERVED AS FLAT LAND</text>
+<text x="28" y="663" class="micro">JAN → DEC 2026  /  NOVEMBER FOCUS  /  NEXT TWO MONTHS RESERVED AS FLAT LAND</text>
 <text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING · HOVER FOR EXACT COUNTS</text>
 </svg>
