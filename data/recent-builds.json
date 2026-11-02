@@ -2,8 +2,17 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-10-31T20:21:00.065822+00:00",
+  "updated_at_utc": "2026-11-02T09:58:51.033038+00:00",
   "repositories": [
+    {
+      "name": "broke",
+      "url": "https://github.com/TheVoidJulius/broke",
+      "description": null,
+      "language": null,
+      "pushed_at": "2026-11-02T05:27:40Z",
+      "stars": 1,
+      "forks": 0
+    },
     {
       "name": "oveX",
       "url": "https://github.com/TheVoidJulius/oveX",
@@ -17,15 +26,6 @@
       "forks": 0
     },
     {
-      "name": "broke",
-      "url": "https://github.com/TheVoidJulius/broke",
-      "description": null,
-      "language": null,
-      "pushed_at": "2026-10-31T18:06:11Z",
-      "stars": 1,
-      "forks": 0
-    },
-    {
       "name": "theee",
       "url": "https://github.com/TheVoidJulius/theee",
       "description": null,
@@ -35,11 +35,11 @@
       "forks": 0
     },
     {
-      "name": "HackIIITD_final",
-      "url": "https://github.com/Krishyangi-bit/HackIIITD_final",
+      "name": "KhetKaaj",
+      "url": "https://github.com/Krishyangi-bit/KhetKaaj",
       "description": null,
       "language": null,
-      "pushed_at": "2026-10-25T05:43:15Z",
+      "pushed_at": "2026-10-24T20:40:06Z",
       "stars": 0,
       "forks": 0
     }
