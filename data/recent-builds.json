@@ -2,8 +2,20 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-04T08:11:21.126197+00:00",
+  "updated_at_utc": "2026-11-04T16:14:50.399400+00:00",
   "repositories": [
+    {
+      "name": "awesome-github-utils",
+      "url": "https://github.com/TheVoidJulius/awesome-github-utils",
+      "description": "A collection of handy utility scripts for developers \ud83d\udee0\ufe0f",
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "pushed_at": "2026-11-04T14:01:50Z",
+      "stars": 0,
+      "forks": 0
+    },
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
@@ -32,15 +44,6 @@
       "language": null,
       "pushed_at": "2026-10-31T14:38:38Z",
       "stars": 3,
-      "forks": 0
-    },
-    {
-      "name": "KhetKaaj",
-      "url": "https://github.com/Krishyangi-bit/KhetKaaj",
-      "description": null,
-      "language": null,
-      "pushed_at": "2026-10-24T20:40:06Z",
-      "stars": 0,
       "forks": 0
     }
   ]
