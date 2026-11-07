@@ -10,7 +10,7 @@
 <text x="28" y="30" class="eyebrow">THE VOID / LIVE BUILD LOG</text>
 <text x="28" y="63" class="title">THE CITY I BUILT THIS YEAR</text>
 <text x="1172" y="30" text-anchor="end" class="label">2026-01-01  →  2026-12-31</text>
-<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-11-07 01:24 UTC  ·  LIVE COMMIT DATA</text>
+<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-11-07 14:13 UTC  ·  LIVE COMMIT DATA</text>
 <g opacity=".82"><rect x="28" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="37" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">JAN</text><text x="108" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="37" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="123" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="132" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">FEB</text><text x="203" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="132" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="218" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="227" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">MAR</text><text x="298" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="227" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
@@ -26,9 +26,9 @@
 <rect x="24" y="278" width="184" height="178" rx="14" fill="url(#glass)" stroke="#25533B"/>
 <path d="M42 302h148" stroke="#204A35"/>
 <text x="42" y="296" class="panel-title">CITY RECORD</text>
-<text x="42" y="340" class="metric">1,394</text>
+<text x="42" y="340" class="metric">1,396</text>
 <text x="42" y="359" class="label">PROJECT COMMITS / YEAR</text>
-<text x="42" y="391" class="metric-small">308 active days</text>
+<text x="42" y="391" class="metric-small">309 active days</text>
 <text x="42" y="414" class="key-label">Peak day  <tspan fill="#63E6BE">19 / 50</tspan></text>
 <rect x="42" y="428" width="148" height="6" rx="3" fill="#142B1D"/>
 <rect x="42" y="428" width="56.2" height="6" rx="3" fill="#47D8A8"/>
@@ -368,7 +368,7 @@
 <g><title>2026-11-04 · 7 commits</title><path d="M834.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
 <g><title>2026-11-05 · 0 commits</title><path d="M821.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
 <g><title>2026-11-06 · 3 commits</title><path d="M808.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-11-07 · 0 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
+<g><title>2026-11-07 · 2 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
 <circle cx="795.0" cy="569.0" r="2.2" fill="#FFE49A"/>
 <g><title>2026-11-08 · upcoming flat land · 0 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
 <g><title>2026-11-09 · upcoming flat land · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
@@ -2019,6 +2019,11 @@
 <path d="M798.5 556.0L808.0 561.0L808.0 567.0L798.5 562.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
 <path d="M817.5 556.0L808.0 561.0L808.0 567.0L817.5 562.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
 <path d="M808.0 551.0L817.5 556.0L808.0 561.0L798.5 556.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
+</g>
+<g><title>2026-11-07 · 2 commits</title>
+<path d="M785.5 565.0L795.0 570.0L795.0 574.0L785.5 569.0Z" fill="#095B3F" stroke="#06170F" stroke-width=".7"/>
+<path d="M804.5 565.0L795.0 570.0L795.0 574.0L804.5 569.0Z" fill="#073C2C" stroke="#06170F" stroke-width=".7"/>
+<path d="M795.0 560.0L804.5 565.0L795.0 570.0L785.5 565.0Z" fill="#27A979" stroke="#86F9CD" stroke-width=".65"/>
 </g>
 <text x="28" y="663" class="micro">JAN → DEC 2026  /  NOVEMBER FOCUS  /  NEXT TWO MONTHS RESERVED AS FLAT LAND</text>
 <text x="1172" y="663" text-anchor="end" class="micro">50 COMMITS = TALLEST BUILDING · HOVER FOR EXACT COUNTS</text>
