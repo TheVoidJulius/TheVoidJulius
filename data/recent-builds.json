@@ -2,26 +2,38 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-08T07:56:44.901685+00:00",
+  "updated_at_utc": "2026-11-08T10:11:26.480018+00:00",
   "repositories": [
-    {
-      "name": "igris-voice-platform",
-      "url": "https://github.com/TheVoidJulius/igris-voice-platform",
-      "description": "IGRIS Voice Platform: streaming AI chat and voice workspace",
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "pushed_at": "2026-11-08T07:51:13Z",
-      "stars": 1,
-      "forks": 0
-    },
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-08T02:45:59Z",
+      "pushed_at": "2026-11-08T09:33:13Z",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "Versus",
+      "url": "https://github.com/TheVoidJulius/Versus",
+      "description": "A workspace for comparing AI model responses side by side",
+      "language": {
+        "name": "CSS",
+        "color": "#663399"
+      },
+      "pushed_at": "2026-11-08T09:00:20Z",
+      "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "BreakDSA",
+      "url": "https://github.com/TheVoidJulius/BreakDSA",
+      "description": "A retrieval-grounded assistant for learning data structures and algorithms",
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "pushed_at": "2026-11-08T08:32:36Z",
       "stars": 1,
       "forks": 0
     },
@@ -33,19 +45,7 @@
         "name": "HTML",
         "color": "#e34c26"
       },
-      "pushed_at": "2026-11-07T21:01:52Z",
-      "stars": 1,
-      "forks": 0
-    },
-    {
-      "name": "awesome-github-utils",
-      "url": "https://github.com/TheVoidJulius/awesome-github-utils",
-      "description": "A collection of handy utility scripts for developers \ud83d\udee0\ufe0f",
-      "language": {
-        "name": "Python",
-        "color": "#3572A5"
-      },
-      "pushed_at": "2026-11-04T14:01:50Z",
+      "pushed_at": "2026-11-08T08:05:47Z",
       "stars": 1,
       "forks": 0
     }
