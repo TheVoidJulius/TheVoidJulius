@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="city-title city-desc">
 <title id="city-title">TheVoidJulius commit city</title>
-<desc id="city-desc">A tilted isometric city grid for January through December 2026. November is highlighted; the next two months are reserved as flat land. Building height scales with daily commits through 2026-11-08, with 50 commits reaching the skyline cap.</desc>
+<desc id="city-desc">A tilted isometric city grid for January through December 2026. November is highlighted; the next two months are reserved as flat land. Building height scales with daily commits through 2026-11-09, with 50 commits reaching the skyline cap.</desc>
 <defs><linearGradient id="city-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081711"/><stop offset=".52" stop-color="#06110C"/><stop offset="1" stop-color="#07130D"/></linearGradient><radialGradient id="city-halo"><stop stop-color="#1B9B70" stop-opacity=".2"/><stop offset="1" stop-color="#0A1710" stop-opacity="0"/></radialGradient><linearGradient id="plane-face" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#123B29"/><stop offset="1" stop-color="#07180F"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E2117"/><stop offset="1" stop-color="#09170F"/></linearGradient></defs>
 <rect x="2" y="2" width="1196" height="676" rx="20" fill="url(#city-bg)" stroke="#244A35" stroke-width="2"/>
 <ellipse cx="604" cy="404" rx="430" ry="240" fill="url(#city-halo)"/>
@@ -10,7 +10,7 @@
 <text x="28" y="30" class="eyebrow">THE VOID / LIVE BUILD LOG</text>
 <text x="28" y="63" class="title">THE CITY I BUILT THIS YEAR</text>
 <text x="1172" y="30" text-anchor="end" class="label">2026-01-01  →  2026-12-31</text>
-<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-11-08 10:11 UTC  ·  LIVE COMMIT DATA</text>
+<text x="1172" y="61" text-anchor="end" class="label">UPDATED 2026-11-09 02:08 UTC  ·  LIVE COMMIT DATA</text>
 <g opacity=".82"><rect x="28" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="37" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">JAN</text><text x="108" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="37" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="123" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="132" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">FEB</text><text x="203" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="132" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
 <g opacity=".82"><rect x="218" y="104" width="88" height="38" rx="8" fill="#0A1B12" stroke="#1D402D"/><text x="227" y="119" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="9" font-weight="700">MAR</text><text x="298" y="119" text-anchor="end" fill="#9AB5A3" font-family="Consolas,'Courier New',monospace" font-size="7" letter-spacing=".5">BUILT</text><rect x="227" y="127" width="70" height="3" rx="1.5" fill="#1D402D" opacity=".5"/></g>
@@ -369,9 +369,9 @@
 <g><title>2026-11-05 · 0 commits</title><path d="M821.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
 <g><title>2026-11-06 · 3 commits</title><path d="M808.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
 <g><title>2026-11-07 · 3 commits</title><path d="M795.0 562.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0D3826" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
-<g><title>2026-11-08 · 15 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
-<circle cx="886.0" cy="534.0" r="2.2" fill="#FFE49A"/>
-<g><title>2026-11-09 · upcoming flat land · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
+<g><title>2026-11-08 · 15 commits</title><path d="M886.0 527.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#10452F" stroke="#64E6B6" stroke-width="1.2" opacity="1"/></g>
+<g><title>2026-11-09 · 0 commits</title><path d="M873.0 534.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#FFE49A" stroke-width="1.8" opacity="1"/></g>
+<circle cx="873.0" cy="541.0" r="2.2" fill="#FFE49A"/>
 <g><title>2026-11-10 · upcoming flat land · 0 commits</title><path d="M860.0 541.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
 <g><title>2026-11-11 · upcoming flat land · 0 commits</title><path d="M847.0 548.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
 <g><title>2026-11-12 · upcoming flat land · 0 commits</title><path d="M834.0 555.0l13.0 7.0l-13.0 7.0l-13.0 -7.0Z" fill="#0A2015" stroke="#1D4B33" stroke-width="1.05" opacity=".34"/></g>
