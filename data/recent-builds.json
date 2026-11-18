@@ -2,8 +2,17 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-17T18:30:12.843948+00:00",
+  "updated_at_utc": "2026-11-18T01:17:58.378999+00:00",
   "repositories": [
+    {
+      "name": "broke",
+      "url": "https://github.com/TheVoidJulius/broke",
+      "description": null,
+      "language": null,
+      "pushed_at": "2026-11-17T21:58:10Z",
+      "stars": 1,
+      "forks": 0
+    },
     {
       "name": "webdev3-assignment",
       "url": "https://github.com/TheVoidJulius/webdev3-assignment",
@@ -13,15 +22,6 @@
         "color": "#f1e05a"
       },
       "pushed_at": "2026-11-17T18:08:11Z",
-      "stars": 1,
-      "forks": 0
-    },
-    {
-      "name": "broke",
-      "url": "https://github.com/TheVoidJulius/broke",
-      "description": null,
-      "language": null,
-      "pushed_at": "2026-11-17T13:54:40Z",
       "stars": 1,
       "forks": 0
     },
