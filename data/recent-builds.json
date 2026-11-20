@@ -2,15 +2,27 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-20T02:42:14.467492+00:00",
+  "updated_at_utc": "2026-11-20T10:29:10.089256+00:00",
   "repositories": [
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-20T00:54:16Z",
+      "pushed_at": "2026-11-20T07:54:54Z",
       "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "pushkar_portfolio",
+      "url": "https://github.com/TheVoidJulius/pushkar_portfolio",
+      "description": null,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "pushed_at": "2026-11-20T04:02:26Z",
+      "stars": 2,
       "forks": 0
     },
     {
@@ -34,18 +46,6 @@
         "color": "#663399"
       },
       "pushed_at": "2026-11-08T09:00:20Z",
-      "stars": 1,
-      "forks": 0
-    },
-    {
-      "name": "BreakDSA",
-      "url": "https://github.com/TheVoidJulius/BreakDSA",
-      "description": "A retrieval-grounded assistant for learning data structures and algorithms",
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "pushed_at": "2026-11-08T08:32:36Z",
       "stars": 1,
       "forks": 0
     }
