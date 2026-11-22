@@ -2,7 +2,7 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-22T15:39:50.379990+00:00",
+  "updated_at_utc": "2026-11-22T21:14:29.977849+00:00",
   "repositories": [
     {
       "name": "pushkar_portfolio",
@@ -12,8 +12,8 @@
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "pushed_at": "2026-11-22T12:33:40Z",
-      "stars": 3,
+      "pushed_at": "2026-11-22T18:46:46Z",
+      "stars": 5,
       "forks": 0
     },
     {
@@ -21,7 +21,7 @@
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-22T11:38:18Z",
+      "pushed_at": "2026-11-22T18:38:23Z",
       "stars": 1,
       "forks": 0
     },
