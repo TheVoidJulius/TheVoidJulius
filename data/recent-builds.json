@@ -2,17 +2,8 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-22T07:37:38.373212+00:00",
+  "updated_at_utc": "2026-11-22T11:09:26.277796+00:00",
   "repositories": [
-    {
-      "name": "broke",
-      "url": "https://github.com/TheVoidJulius/broke",
-      "description": null,
-      "language": null,
-      "pushed_at": "2026-11-22T03:17:06Z",
-      "stars": 1,
-      "forks": 0
-    },
     {
       "name": "pushkar_portfolio",
       "url": "https://github.com/TheVoidJulius/pushkar_portfolio",
@@ -21,8 +12,17 @@
         "name": "TypeScript",
         "color": "#3178c6"
       },
-      "pushed_at": "2026-11-21T22:03:43Z",
+      "pushed_at": "2026-11-22T10:55:17Z",
       "stars": 3,
+      "forks": 0
+    },
+    {
+      "name": "broke",
+      "url": "https://github.com/TheVoidJulius/broke",
+      "description": null,
+      "language": null,
+      "pushed_at": "2026-11-22T03:17:06Z",
+      "stars": 1,
       "forks": 0
     },
     {
