@@ -2,15 +2,27 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-25T00:55:20.492405+00:00",
+  "updated_at_utc": "2026-11-25T09:19:29.276846+00:00",
   "repositories": [
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-24T21:30:38Z",
+      "pushed_at": "2026-11-25T04:31:42Z",
       "stars": 1,
+      "forks": 0
+    },
+    {
+      "name": "DAA_capstone_project",
+      "url": "https://github.com/TheVoidJulius/DAA_capstone_project",
+      "description": null,
+      "language": {
+        "name": "HTML",
+        "color": "#e34c26"
+      },
+      "pushed_at": "2026-11-25T03:59:37Z",
+      "stars": 0,
       "forks": 0
     },
     {
@@ -34,18 +46,6 @@
         "color": "#f1e05a"
       },
       "pushed_at": "2026-11-17T18:08:11Z",
-      "stars": 1,
-      "forks": 0
-    },
-    {
-      "name": "Versus",
-      "url": "https://github.com/TheVoidJulius/Versus",
-      "description": "A workspace for comparing AI model responses side by side",
-      "language": {
-        "name": "CSS",
-        "color": "#663399"
-      },
-      "pushed_at": "2026-11-08T09:00:20Z",
       "stars": 1,
       "forks": 0
     }
