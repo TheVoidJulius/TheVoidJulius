@@ -2,14 +2,26 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-25T09:19:29.276846+00:00",
+  "updated_at_utc": "2026-11-25T19:27:41.434293+00:00",
   "repositories": [
+    {
+      "name": "ai-medical-records",
+      "url": "https://github.com/saxamsingh/ai-medical-records",
+      "description": "MedVault AI: AI-Assisted Medical Record Database (FastAPI, React, 13-table 3NF DB, Grounded AI)",
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "pushed_at": "2026-11-25T18:09:45Z",
+      "stars": 1,
+      "forks": 1
+    },
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-25T04:31:42Z",
+      "pushed_at": "2026-11-25T14:51:17Z",
       "stars": 1,
       "forks": 0
     },
@@ -35,18 +47,6 @@
       },
       "pushed_at": "2026-11-22T21:31:18Z",
       "stars": 5,
-      "forks": 0
-    },
-    {
-      "name": "webdev3-assignment",
-      "url": "https://github.com/TheVoidJulius/webdev3-assignment",
-      "description": null,
-      "language": {
-        "name": "JavaScript",
-        "color": "#f1e05a"
-      },
-      "pushed_at": "2026-11-17T18:08:11Z",
-      "stars": 1,
       "forks": 0
     }
   ]
