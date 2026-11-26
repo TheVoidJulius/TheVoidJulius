@@ -5,15 +5,15 @@
 <rect x="2" y="2" width="1096" height="282" rx="18" fill="url(#stats-bg)" stroke="#294734" stroke-width="2"/>
 <style>text{font-family:Consolas,"Courier New",monospace}.label{fill:#8FA99A;font-size:11px;letter-spacing:1px}.metric{fill:#F0F7F2;font-size:28px;font-weight:700}.sub{fill:#63E6BE;font-size:11px;letter-spacing:1px}.month{fill:#849B8D;font-size:10px}</style>
 <text x="28" y="30" class="sub">GITHUB SIGNAL / 365-DAY READOUT</text>
-<text x="1070" y="30" class="label" text-anchor="end">UPDATED 2026-11-25 01:36 UTC</text>
+<text x="1070" y="30" class="label" text-anchor="end">UPDATED 2026-11-26 01:10 UTC</text>
 <rect x="28" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>
-<text x="46" y="82" class="metric">2193</text>
+<text x="46" y="82" class="metric">2200</text>
 <text x="46" y="108" class="label">CONTRIBUTIONS / YEAR</text>
 <rect x="374" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>
-<text x="392" y="82" class="metric">365d</text>
+<text x="392" y="82" class="metric">364d</text>
 <text x="392" y="108" class="label">CURRENT STREAK</text>
 <rect x="720" y="46" width="328" height="80" rx="12" fill="#0D2016" stroke="#294734"/>
-<text x="738" y="82" class="metric">365d</text>
+<text x="738" y="82" class="metric">364d</text>
 <text x="738" y="108" class="label">LONGEST STREAK</text>
 <text x="28" y="160" class="sub">MONTHLY CONTRIBUTIONS / LAST 12 MONTHS</text>
 <rect x="258" y="239" width="34" height="10" rx="5" fill="url(#bar-fill)"/>
@@ -30,11 +30,11 @@
 <text x="610.0" y="269" class="month" text-anchor="middle">May</text>
 <rect x="660" y="238" width="34" height="11" rx="5" fill="url(#bar-fill)"/>
 <text x="677.0" y="269" class="month" text-anchor="middle">Jun</text>
-<rect x="727" y="238" width="34" height="11" rx="5" fill="url(#bar-fill)"/>
+<rect x="727" y="239" width="34" height="10" rx="5" fill="url(#bar-fill)"/>
 <text x="744.0" y="269" class="month" text-anchor="middle">Jul</text>
 <rect x="794" y="238" width="34" height="11" rx="5" fill="url(#bar-fill)"/>
 <text x="811.0" y="269" class="month" text-anchor="middle">Aug</text>
-<rect x="861" y="237" width="34" height="12" rx="5" fill="url(#bar-fill)"/>
+<rect x="861" y="238" width="34" height="11" rx="5" fill="url(#bar-fill)"/>
 <text x="878.0" y="269" class="month" text-anchor="middle">Sep</text>
 <rect x="928" y="231" width="34" height="18" rx="5" fill="url(#bar-fill)"/>
 <text x="945.0" y="269" class="month" text-anchor="middle">Oct</text>
