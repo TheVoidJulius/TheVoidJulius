@@ -2,6 +2,8 @@
 
 <img src="assets/holo-card.svg" width="860" alt="Pushkar Panwar · holo card"/>
 
+<img src="assets/trophies.svg" width="860" alt="Trophy case"/>
+
 ### ✦ The Collection ✦
 
 <table>

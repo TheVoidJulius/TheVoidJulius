@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="394" viewBox="0 0 860 394" role="img" aria-label="Trophy case">
+  <title>Trophy Case</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', Menlo, monospace; }
+  </style>
+  <defs>
+    <linearGradient id="foilT" x1="0" y1="0" x2="860" y2="394" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5d4"/>
+      <stop offset=".25" stop-color="#4cc9f0"/>
+      <stop offset=".5" stop-color="#c77dff"/>
+      <stop offset=".75" stop-color="#f15bb5"/>
+      <stop offset="1" stop-color="#00f5d4"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 430.0 197.0;360 430.0 197.0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shineT" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1.2;1" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-.2;2" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bgT" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121826"/>
+      <stop offset="1" stop-color="#0a0e17"/>
+    </linearGradient></defs>
+  <rect width="860" height="394" rx="22" fill="url(#bgT)"/>
+  <rect x="1" y="1" width="858" height="392" rx="21" fill="none" stroke="url(#foilT)" stroke-width="2"/>
+  <text x="24" y="40" class="mono" font-size="12" letter-spacing="3" fill="url(#foilT)">TROPHY CASE</text>
+  <text x="836" y="40" class="mono" font-size="10" letter-spacing="1.5" fill="#6b7689" text-anchor="end">C · B · A · AA · AAA · S · SS · SSS</text>
+  
+  <g transform="translate(20 64)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#ffd166" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#ffd166">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#ffd166" text-anchor="end">A</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Stars</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">39 stars earned</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="72.0" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(228 64)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#ffd166" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#ffd166">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#ffd166" text-anchor="end">AAA</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Commits</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">711 commits this year</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="67.5" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(436 64)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="url(#foilT)" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="url(#foilT)">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="url(#foilT)" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="url(#foilT)" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="url(#foilT)" text-anchor="end">S</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Contributions</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">2,239 in the last year</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="19.1" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(644 64)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="url(#foilT)" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="url(#foilT)">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="url(#foilT)" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="url(#foilT)" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="url(#foilT)" text-anchor="end">SSS</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Streak</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">370 longest day streak</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="160.0" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(20 226)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#ffd166" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#ffd166">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#ffd166" text-anchor="end">AA</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Repositories</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">24 public repos</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="64.0" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(228 226)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#c9d1dc" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#c9d1dc">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#c9d1dc" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#c9d1dc" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#c9d1dc" text-anchor="end">B</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Followers</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">8 followers</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="96.0" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(436 226)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#ffd166" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#ffd166">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#ffd166" text-anchor="end">A</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Pull Requests</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">24 pull requests</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="149.3" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <g transform="translate(644 226)">
+    <rect width="196" height="150" rx="14" fill="#121a29" stroke="#25304a"/>
+    <circle cx="98" cy="46" r="30" fill="#ffd166" opacity=".18"/>
+    <g transform="translate(72 18) scale(1.08)" fill="#ffd166">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="#ffd166" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="182" y="26" class="mono" font-size="15" font-weight="800" fill="#ffd166" text-anchor="end">AA</text>
+    <text x="98.0" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">Experience</text>
+    <text x="98.0" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">533 days on GitHub</text>
+    <rect x="18" y="130" width="160" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="73.6" height="4" rx="2" fill="url(#foilT)"/>
+  </g>
+  <rect width="860" height="394" rx="22" fill="url(#shineT)"/>
+</svg>

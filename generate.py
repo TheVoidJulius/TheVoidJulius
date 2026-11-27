@@ -29,10 +29,12 @@ query($login: String!) {
   user(login: $login) {
     login name bio location avatarUrl createdAt twitterUsername
     followers { totalCount }
+    pullRequests { totalCount }
+    issues { totalCount }
     pinnedItems(first: 6, types: REPOSITORY) {
       nodes { ... on Repository { name } }
     }
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false,
+    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC,
                  orderBy: {field: PUSHED_AT, direction: DESC}) {
       totalCount
       nodes {
@@ -44,6 +46,7 @@ query($login: String!) {
       }
     }
     contributionsCollection {
+      totalCommitContributions
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -280,6 +283,86 @@ def repo_svg(i, r):
 """
 
 
+RANKS = ["C", "B", "A", "AA", "AAA", "S", "SS", "SSS"]
+# Minimum value for each rank, C → SSS.
+TROPHIES = [
+    ("Stars", "stars earned", [1, 10, 30, 50, 100, 200, 500, 1000]),
+    ("Commits", "commits this year", [1, 50, 100, 200, 500, 1000, 2000, 4000]),
+    ("Contributions", "in the last year", [1, 100, 300, 600, 1000, 2000, 4000, 8000]),
+    ("Streak", "longest day streak", [3, 7, 14, 30, 60, 100, 200, 365]),
+    ("Repositories", "public repos", [1, 5, 10, 20, 30, 50, 80, 120]),
+    ("Followers", "followers", [1, 5, 10, 25, 50, 100, 200, 500]),
+    ("Pull Requests", "pull requests", [1, 5, 10, 25, 50, 100, 200, 500]),
+    ("Experience", "days on GitHub", [30, 90, 180, 365, 730, 1095, 1825, 3650]),
+]
+
+
+def rank_of(value, mins):
+    """Returns (rank or None, progress 0-1 toward the next rank)."""
+    idx = -1
+    for i, m in enumerate(mins):
+        if value >= m:
+            idx = i
+    if idx == len(mins) - 1:
+        return RANKS[idx], 1.0
+    lo = mins[idx] if idx >= 0 else 0
+    hi = mins[idx + 1]
+    return (RANKS[idx] if idx >= 0 else None), max(0.0, min(1.0, (value - lo) / (hi - lo)))
+
+
+def trophy_svg(values):
+    W, H, PAD, GAP, TW, TH = 860, 394, 20, 12, 196, 150
+    tiles = ""
+    for i, (title, unit, mins) in enumerate(TROPHIES):
+        value = values[title]
+        rank, prog = rank_of(value, mins)
+        x = PAD + (i % 4) * (TW + GAP)
+        y = 64 + (i // 4) * (TH + GAP)
+        if rank is None:
+            fill, rank_txt = "#3a4357", "—"
+        elif rank in ("S", "SS", "SSS"):
+            fill, rank_txt = "url(#foilT)", rank
+        elif rank.startswith("A"):
+            fill, rank_txt = "#ffd166", rank
+        elif rank == "B":
+            fill, rank_txt = "#c9d1dc", rank
+        else:
+            fill, rank_txt = "#d08b4a", rank
+        glow = f'<circle cx="98" cy="46" r="30" fill="{fill}" opacity=".18"/>' if rank else ""
+        tiles += f"""
+  <g transform="translate({x} {y})">
+    <rect width="{TW}" height="{TH}" rx="14" fill="#121a29" stroke="#25304a"/>
+    {glow}
+    <g transform="translate(72 18) scale(1.08)" fill="{fill}">
+      <path d="M8 0H40V14C40 26 32 32 24 32C16 32 8 26 8 14Z"/>
+      <path d="M8 4H2V10C2 16 6 19 10 19" fill="none" stroke="{fill}" stroke-width="3"/>
+      <path d="M40 4H46V10C46 16 42 19 38 19" fill="none" stroke="{fill}" stroke-width="3"/>
+      <rect x="21" y="31" width="6" height="9"/>
+      <rect x="13" y="40" width="22" height="6" rx="2"/>
+    </g>
+    <text x="{TW - 14}" y="26" class="mono" font-size="15" font-weight="800" fill="{fill}" text-anchor="end">{rank_txt}</text>
+    <text x="{TW / 2}" y="96" font-size="14" font-weight="700" fill="#f4f7fb" text-anchor="middle">{title}</text>
+    <text x="{TW / 2}" y="116" class="mono" font-size="11" fill="#8b95a7" text-anchor="middle">{value:,} {unit}</text>
+    <rect x="18" y="130" width="{TW - 36}" height="4" rx="2" fill="#25304a"/>
+    <rect x="18" y="130" width="{(TW - 36) * prog:.1f}" height="4" rx="2" fill="url(#foilT)"/>
+  </g>"""
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Trophy case">
+  <title>Trophy Case</title>
+  <style>
+    text {{ font-family: {FONT}; }}
+    .mono {{ font-family: {MONO}; }}
+  </style>
+  <defs>{foil_defs("T", W, H)}</defs>
+  <rect width="{W}" height="{H}" rx="22" fill="url(#bgT)"/>
+  <rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="21" fill="none" stroke="url(#foilT)" stroke-width="2"/>
+  <text x="{PAD + 4}" y="40" class="mono" font-size="12" letter-spacing="3" fill="url(#foilT)">TROPHY CASE</text>
+  <text x="{W - PAD - 4}" y="40" class="mono" font-size="10" letter-spacing="1.5" fill="#6b7689" text-anchor="end">C · B · A · AA · AAA · S · SS · SSS</text>
+  {tiles}
+  <rect width="{W}" height="{H}" rx="22" fill="url(#shineT)"/>
+</svg>
+"""
+
+
 def readme(u, cards):
     login = u["login"]
     rows = ""
@@ -294,6 +377,8 @@ def readme(u, cards):
     return f"""<div align="center">
 
 <img src="assets/holo-card.svg" width="860" alt="{escape(u['name'] or login)} · holo card"/>
+
+<img src="assets/trophies.svg" width="860" alt="Trophy case"/>
 
 ### ✦ The Collection ✦
 
@@ -328,6 +413,18 @@ def main():
     (assets / "holo-card.svg").write_text(
         hero_svg(u, avatar, top_languages(repos), stats, stars, u["repositories"]["totalCount"]),
         encoding="utf-8")
+    age = (dt.date.today() - dt.date.fromisoformat(u["createdAt"][:10])).days
+    trophy_values = {
+        "Stars": stars,
+        "Commits": u["contributionsCollection"]["totalCommitContributions"],
+        "Contributions": stats["total"],
+        "Streak": longest,
+        "Repositories": u["repositories"]["totalCount"],
+        "Followers": u["followers"]["totalCount"],
+        "Pull Requests": u["pullRequests"]["totalCount"],
+        "Experience": age,
+    }
+    (assets / "trophies.svg").write_text(trophy_svg(trophy_values), encoding="utf-8")
     cards = list(enumerate(featured, 1))
     for n, r in cards:
         (assets / f"card-{n:02d}.svg").write_text(repo_svg(n, r), encoding="utf-8")
