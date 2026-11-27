@@ -4,6 +4,8 @@
 
 <img src="assets/trophies.svg" width="860" alt="Trophy case"/>
 
+<img src="assets/pixel-room.svg" width="860" alt="Pixel art: late-night coding with a cat, coffee and a cyber city outside"/>
+
 ### ✦ The Collection ✦
 
 <table>

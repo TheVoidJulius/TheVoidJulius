@@ -17,6 +17,8 @@ import urllib.request
 from html import escape
 from pathlib import Path
 
+from pixel_room import pixel_room_svg
+
 USER = sys.argv[1] if len(sys.argv) > 1 else os.environ.get("GH_USER", "TheVoidJulius")
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 OUT = Path(__file__).resolve().parent
@@ -380,6 +382,8 @@ def readme(u, cards):
 
 <img src="assets/trophies.svg" width="860" alt="Trophy case"/>
 
+<img src="assets/pixel-room.svg" width="860" alt="Pixel art: late-night coding with a cat, coffee and a cyber city outside"/>
+
 ### ✦ The Collection ✦
 
 <table>
@@ -424,6 +428,7 @@ def main():
         "Pull Requests": u["pullRequests"]["totalCount"],
         "Experience": age,
     }
+    (assets / "pixel-room.svg").write_text(pixel_room_svg(), encoding="utf-8")
     (assets / "trophies.svg").write_text(trophy_svg(trophy_values), encoding="utf-8")
     cards = list(enumerate(featured, 1))
     for n, r in cards:
