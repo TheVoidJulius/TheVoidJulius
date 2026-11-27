@@ -2,14 +2,26 @@
   "user": "TheVoidJulius",
   "source": "GitHub GraphQL public repositories",
   "generated_by": "commit-city refresh",
-  "updated_at_utc": "2026-11-27T02:48:06.936167+00:00",
+  "updated_at_utc": "2026-11-27T11:29:40.783973+00:00",
   "repositories": [
+    {
+      "name": "nand2tetris-capstone",
+      "url": "https://github.com/TheVoidJulius/nand2tetris-capstone",
+      "description": null,
+      "language": {
+        "name": "Hack",
+        "color": "#878787"
+      },
+      "pushed_at": "2026-11-27T06:41:28Z",
+      "stars": 1,
+      "forks": 0
+    },
     {
       "name": "broke",
       "url": "https://github.com/TheVoidJulius/broke",
       "description": null,
       "language": null,
-      "pushed_at": "2026-11-26T23:54:28Z",
+      "pushed_at": "2026-11-27T05:58:12Z",
       "stars": 1,
       "forks": 0
     },
@@ -35,18 +47,6 @@
       },
       "pushed_at": "2026-11-25T03:59:37Z",
       "stars": 0,
-      "forks": 0
-    },
-    {
-      "name": "pushkar_portfolio",
-      "url": "https://github.com/TheVoidJulius/pushkar_portfolio",
-      "description": null,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "pushed_at": "2026-11-22T21:31:18Z",
-      "stars": 5,
       "forks": 0
     }
   ]
