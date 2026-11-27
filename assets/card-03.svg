@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="170" viewBox="0 0 420 170" role="img" aria-label="campus-energy-dashboard-Pushkar-Panwar">
+  <title>campus-energy-dashboard-Pushkar-Panwar</title>
+  <style>
+    text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', Menlo, monospace; }
+  </style>
+  <defs>
+    <linearGradient id="foilR3" x1="0" y1="0" x2="420" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5d4"/>
+      <stop offset=".25" stop-color="#4cc9f0"/>
+      <stop offset=".5" stop-color="#c77dff"/>
+      <stop offset=".75" stop-color="#f15bb5"/>
+      <stop offset="1" stop-color="#00f5d4"/>
+      <animateTransform attributeName="gradientTransform" type="rotate"
+        values="0 210.0 85.0;360 210.0 85.0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="shineR3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1.2;1" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="-.2;2" dur="4.5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bgR3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121826"/>
+      <stop offset="1" stop-color="#0a0e17"/>
+    </linearGradient></defs>
+  <rect x="2" y="2" width="416" height="166" rx="16" fill="url(#bgR3)" stroke="url(#foilR3)" stroke-width="2.5"/>
+  <text x="24" y="34" class="mono" font-size="10" letter-spacing="2.5" fill="url(#foilR3)">CARD 03</text>
+  <text x="396" y="34" class="mono" font-size="10" letter-spacing="2" fill="#9aa4b2" text-anchor="end">COMMON</text>
+  <text x="24" y="60" font-size="18" font-weight="700" fill="#f4f7fb">campus energy dashboard Pushkar Pan…</text>
+  <text x="24" y="86" font-size="13" fill="#aab4c5">A project in progress.</text>
+  <line x1="24" y1="132" x2="396" y2="132" stroke="#25304a"/>
+  <text x="24" y="152" class="mono" font-size="12" fill="#ffd166">★ 1</text>
+  <text x="76" y="152" class="mono" font-size="12" fill="#8b95a7">⑂ 0</text>
+  <circle cx="134" cy="148" r="5" fill="#3572A5"/>
+  <text x="145" y="152" class="mono" font-size="12" fill="#d7dde8">Python</text>
+  <rect x="2" y="2" width="416" height="166" rx="16" fill="url(#shineR3)"/>
+</svg>
